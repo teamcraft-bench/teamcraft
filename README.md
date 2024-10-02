@@ -1,2 +1,2 @@
 # teamcraft
-Offcial Repository for TeamCraft. 
+Official Repository for TeamCraft. 
