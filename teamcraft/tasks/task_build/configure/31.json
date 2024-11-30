@@ -1,0 +1,272 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode spectator');\n                    await bot3.chat('/tp @p 10 10 10');\n                    await bot1.chat('/forceload add 4281 1129');\n                    await bot4.chat('/setblock 4284 67 1126 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 4284 68 1126 -90 90');\n                await bot1.chat('/fill 4282 63 1124 4286 63 1128 minecraft:glowstone');await bot1.chat('/fill 4281 64 1123 4286 65 1128 minecraft:air');await bot1.chat('/setblock 4284 65 1127 minecraft:oak_planks');await bot1.chat('/setblock 4283 65 1127 minecraft:oak_fence');await bot1.chat('/setblock 4284 65 1126 minecraft:bricks');await bot1.chat('/setblock 4284 65 1125 minecraft:pumpkin');await bot1.chat('/setblock 4283 65 1125 minecraft:pumpkin');await bot1.chat('/setblock 4284 64 1127 minecraft:purple_wool');await bot1.chat('/setblock 4283 64 1127 minecraft:gold_ore');await bot1.chat('/setblock 4284 64 1126 minecraft:oak_planks');await bot1.chat('/setblock 4283 64 1126 minecraft:coal_ore');await bot1.chat('/setblock 4284 64 1125 minecraft:coal_ore');await bot1.chat('/setblock 4283 64 1125 minecraft:stone');await bot1.chat('/tp @p 4283.05 65 1118.97 163.55 -7.35 ');await bot1.chat('/give @p purple_wool 2');await bot1.chat('/give @p stone 2');await bot1.chat('/give @p oak_planks 7');await bot1.chat('/give @p pumpkin 8');await bot1.chat('/give @p bricks 4');await bot1.chat('/give @p coal_ore 5');await bot1.chat('/give @p oak_fence 2');await bot1.chat('/give @p gold_ore 1');await bot2.chat('/tp @p 4283.78 65 1119.72 61.85 -6.09 ');await bot2.chat('/give @p gold_ore 1');await bot2.chat('/give @p coal_ore 7');await bot2.chat('/give @p pumpkin 7');await bot2.chat('/give @p oak_fence 2');await bot2.chat('/give @p bricks 3');await bot2.chat('/give @p oak_planks 3');await bot2.chat('/give @p purple_wool 2');",
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 4278 63 1126 minecraft:barrier');\n                    await bot4.chat('/tp @p 4278 64 1126 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 4284 63 1132 minecraft:barrier');\n                    await bot4.chat('/tp @p 4284 64 1132 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 4284 68 1126 -90 90');\n                "
+        ],
+        [
+            "await bot1.chat('/fill 4281 64 1123 4286 65 1128 minecraft:air');"
+        ]
+    ],
+    "variant": 100031,
+    "actions": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        [
+            "oak_planks",
+            4284,
+            65,
+            1127
+        ],
+        [
+            "oak_fence",
+            4283,
+            65,
+            1127
+        ],
+        [
+            "bricks",
+            4284,
+            65,
+            1126
+        ],
+        [
+            "pumpkin",
+            4284,
+            65,
+            1125
+        ],
+        [
+            "pumpkin",
+            4283,
+            65,
+            1125
+        ],
+        [
+            "purple_wool",
+            4284,
+            64,
+            1127
+        ],
+        [
+            "gold_ore",
+            4283,
+            64,
+            1127
+        ],
+        [
+            "oak_planks",
+            4284,
+            64,
+            1126
+        ],
+        [
+            "coal_ore",
+            4283,
+            64,
+            1126
+        ],
+        [
+            "coal_ore",
+            4284,
+            64,
+            1125
+        ],
+        [
+            "stone",
+            4283,
+            64,
+            1125
+        ]
+    ],
+    "bot1": {
+        "location": [
+            4283.05,
+            65,
+            1118.97
+        ],
+        "rotation": [
+            163.55,
+            -7.35
+        ],
+        "inventory": {
+            "purple_wool": 2,
+            "stone": 2,
+            "oak_planks": 7,
+            "pumpkin": 8,
+            "bricks": 4,
+            "coal_ore": 5,
+            "oak_fence": 2,
+            "gold_ore": 1
+        }
+    },
+    "bot2": {
+        "location": [
+            4283.78,
+            65,
+            1119.72
+        ],
+        "rotation": [
+            61.85,
+            -6.09
+        ],
+        "inventory": {
+            "gold_ore": 1,
+            "coal_ore": 7,
+            "pumpkin": 7,
+            "oak_fence": 2,
+            "bricks": 3,
+            "oak_planks": 3,
+            "purple_wool": 2
+        }
+    },
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            2
+        ],
+        "background": [
+            "minecraft:glowstone"
+        ],
+        "playground_location": {
+            "name": "swamp",
+            "x": [
+                4282,
+                4286
+            ],
+            "z": [
+                1124,
+                1128
+            ],
+            "y": 64,
+            "bot_range": [
+                [
+                    4283,
+                    4286
+                ],
+                [
+                    1116,
+                    1122
+                ],
+                65
+            ],
+            "center": [
+                4284,
+                64,
+                1126
+            ]
+        },
+        "base_shape": [
+            [
+                2,
+                3,
+                2
+            ]
+        ],
+        "block_type": [
+            "oak_planks",
+            "oak_fence",
+            "bricks",
+            "pumpkin",
+            "pumpkin",
+            "purple_wool",
+            "gold_ore",
+            "oak_planks",
+            "coal_ore",
+            "coal_ore",
+            "stone"
+        ],
+        "placement_shape": [
+            [
+                1,
+                1,
+                2
+            ],
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                0,
+                2
+            ],
+            [
+                0,
+                0,
+                2
+            ],
+            [
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "block_count": 11,
+        "placement_shape_number": [
+            11,
+            10,
+            9,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+        ]
+    },
+    "bot_list": [
+        "bot1",
+        "bot2"
+    ],
+    "center_position": [
+        4284,
+        64,
+        1126
+    ]
+}

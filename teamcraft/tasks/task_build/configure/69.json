@@ -1,0 +1,226 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot1.chat('/forceload add 220 131');\n                    await bot4.chat('/setblock 223 73 128 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 223 74 128 -90 90');\n                await bot1.chat('/fill 221 69 126 225 69 130 minecraft:cyan_concrete');await bot1.chat('/fill 220 70 125 225 71 130 minecraft:air');await bot1.chat('/setblock 223 71 128 minecraft:clay');await bot1.chat('/setblock 222 71 128 minecraft:sponge');await bot1.chat('/setblock 222 71 127 minecraft:stone');await bot1.chat('/setblock 223 70 128 minecraft:stone');await bot1.chat('/setblock 222 70 128 minecraft:sea_lantern');await bot1.chat('/setblock 223 70 127 minecraft:oak_planks');await bot1.chat('/setblock 222 70 127 minecraft:oak_planks');await bot1.chat('/tp @p 226.19 72 126.27 236.21 5.16 ');await bot1.chat('/give @p stone 6');await bot1.chat('/give @p oak_planks 6');await bot1.chat('/give @p sea_lantern 3');await bot1.chat('/give @p sponge 2');await bot2.chat('/tp @p 228.55 72 129.17 198.95 -3.59 ');await bot2.chat('/give @p sea_lantern 3');await bot2.chat('/give @p sponge 2');await bot2.chat('/give @p oak_planks 1');await bot2.chat('/give @p stone 3');await bot3.chat('/tp @p 227.91 72 125.05 120.83 5.14 ');await bot3.chat('/give @p oak_planks 2');await bot3.chat('/give @p clay 5');",
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 217 69 128 minecraft:barrier');\n                    await bot4.chat('/tp @p 217 70 128 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 223 69 134 minecraft:barrier');\n                    await bot4.chat('/tp @p 223 70 134 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 223 74 128 -90 90');\n                "
+        ],
+        [
+            "await bot1.chat('/fill 220 70 125 225 71 130 minecraft:air');"
+        ]
+    ],
+    "variant": 100019,
+    "actions": [
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        [
+            "clay",
+            223,
+            71,
+            128
+        ],
+        [
+            "sponge",
+            222,
+            71,
+            128
+        ],
+        [
+            "stone",
+            222,
+            71,
+            127
+        ],
+        [
+            "stone",
+            223,
+            70,
+            128
+        ],
+        [
+            "sea_lantern",
+            222,
+            70,
+            128
+        ],
+        [
+            "oak_planks",
+            223,
+            70,
+            127
+        ],
+        [
+            "oak_planks",
+            222,
+            70,
+            127
+        ]
+    ],
+    "bot1": {
+        "location": [
+            226.19,
+            72,
+            126.27
+        ],
+        "rotation": [
+            236.21,
+            5.16
+        ],
+        "inventory": {
+            "stone": 6,
+            "oak_planks": 6,
+            "sea_lantern": 3,
+            "sponge": 2
+        }
+    },
+    "bot2": {
+        "location": [
+            228.55,
+            72,
+            129.17
+        ],
+        "rotation": [
+            198.95,
+            -3.59
+        ],
+        "inventory": {
+            "sea_lantern": 3,
+            "sponge": 2,
+            "oak_planks": 1,
+            "stone": 3
+        }
+    },
+    "bot3": {
+        "location": [
+            227.91,
+            72,
+            125.05
+        ],
+        "rotation": [
+            120.83,
+            5.14
+        ],
+        "inventory": {
+            "oak_planks": 2,
+            "clay": 5
+        }
+    },
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            3
+        ],
+        "background": [
+            "minecraft:cyan_concrete"
+        ],
+        "playground_location": {
+            "name": "villege",
+            "x": [
+                221,
+                225
+            ],
+            "z": [
+                126,
+                130
+            ],
+            "y": 70,
+            "bot_range": [
+                [
+                    226,
+                    229
+                ],
+                [
+                    125,
+                    131
+                ],
+                72
+            ],
+            "center": [
+                223,
+                70,
+                128
+            ]
+        },
+        "base_shape": [
+            [
+                2,
+                2,
+                2
+            ]
+        ],
+        "block_type": [
+            "clay",
+            "sponge",
+            "stone",
+            "stone",
+            "sea_lantern",
+            "oak_planks",
+            "oak_planks"
+        ],
+        "placement_shape": [
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "block_count": 7,
+        "placement_shape_number": [
+            7,
+            6,
+            4,
+            3,
+            2,
+            1,
+            0
+        ]
+    },
+    "bot_list": [
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        223,
+        70,
+        128
+    ]
+}

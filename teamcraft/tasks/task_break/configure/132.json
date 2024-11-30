@@ -1,0 +1,205 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode spectator');\n                    await bot3.chat('/tp @p 10 10 10');\n                    await bot1.chat('/tp @p 4264.52 75 157.05 168.1 1.52 ');await bot1.chat('/give @p stone_sword 1');await bot2.chat('/tp @p 4264.91 75 156.74 16.8 1.17 ');await bot2.chat('/give @p stone_axe 1');await bot1.chat('/forceload add 4258 164');\n                    await bot4.chat('/setblock 4261 77 161 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 4261 78 161 -90 90');\n                await bot1.chat('/fill 4258 73 158 4263 73 163 minecraft:glowstone');await bot1.chat('/fill 4258 74 158 4263 76 163 minecraft:air');await bot1.chat('/setblock 4260 74 162 minecraft:sandstone');await bot1.chat('/setblock 4261 74 161 minecraft:orange_concrete');await bot1.chat('/setblock 4260 74 161 minecraft:oak_log');await bot1.chat('/setblock 4260 74 160 minecraft:bookshelf');await bot1.chat('/setblock 4261 74 159 minecraft:birch_log');await bot1.chat('/setblock 4259 74 159 minecraft:coal_ore');",
+    "bot1": {
+        "location": [
+            4264.52,
+            75,
+            157.05
+        ],
+        "rotation": [
+            168.1,
+            1.52
+        ],
+        "inventory": {
+            "stone_sword": 1
+        }
+    },
+    "bot2": {
+        "location": [
+            4264.91,
+            75,
+            156.74
+        ],
+        "rotation": [
+            16.8,
+            1.17
+        ],
+        "inventory": {
+            "stone_axe": 1
+        }
+    },
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 4255 73 161 minecraft:barrier');\n                    await bot4.chat('/tp @p 4255 74 161 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 4261 73 167 minecraft:barrier');\n                    await bot4.chat('/tp @p 4261 74 167 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 4261 78 161 -90 90');\n                "
+        ],
+        [
+            ""
+        ]
+    ],
+    "variant": 100032,
+    "actions": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        "4259+74+159",
+        "4259+75+159",
+        "4259+76+159",
+        "4259+74+160",
+        "4259+75+160",
+        "4259+76+160",
+        "4259+74+161",
+        "4259+75+161",
+        "4259+76+161",
+        "4259+74+162",
+        "4259+75+162",
+        "4259+76+162",
+        "4260+74+159",
+        "4260+75+159",
+        "4260+76+159",
+        "4260+74+160",
+        "4260+75+160",
+        "4260+76+160",
+        "4260+74+161",
+        "4260+75+161",
+        "4260+76+161",
+        "4260+74+162",
+        "4260+75+162",
+        "4260+76+162",
+        "4261+74+159",
+        "4261+75+159",
+        "4261+76+159",
+        "4261+74+160",
+        "4261+75+160",
+        "4261+76+160",
+        "4261+74+161",
+        "4261+75+161",
+        "4261+76+161",
+        "4261+74+162",
+        "4261+75+162",
+        "4261+76+162",
+        "4262+74+159",
+        "4262+75+159",
+        "4262+76+159",
+        "4262+74+160",
+        "4262+75+160",
+        "4262+76+160",
+        "4262+74+161",
+        "4262+75+161",
+        "4262+76+161",
+        "4262+74+162",
+        "4262+75+162",
+        "4262+76+162"
+    ],
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            2
+        ],
+        "dimension": [
+            2
+        ],
+        "background": [
+            "minecraft:glowstone"
+        ],
+        "playground_location": {
+            "name": "desert_villege",
+            "x": [
+                4259,
+                4263
+            ],
+            "z": [
+                159,
+                163
+            ],
+            "y": 74,
+            "bot_range": [
+                [
+                    4263,
+                    4265
+                ],
+                [
+                    155,
+                    163
+                ],
+                75
+            ],
+            "center": [
+                4261,
+                74,
+                161
+            ]
+        },
+        "tool_use": {
+            "bot1": "stone_sword",
+            "bot2": "stone_axe"
+        },
+        "block_type": [
+            "oak_log",
+            "coal_ore",
+            "sandstone",
+            "orange_concrete",
+            "bookshelf",
+            "birch_log"
+        ],
+        "placement_shape": [
+            [
+                1,
+                0,
+                3
+            ],
+            [
+                2,
+                0,
+                2
+            ],
+            [
+                1,
+                0,
+                2
+            ],
+            [
+                1,
+                0,
+                1
+            ],
+            [
+                2,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "placement_shape_number": [
+            13,
+            10,
+            9,
+            5,
+            2,
+            0
+        ]
+    },
+    "bot_list": [
+        "bot1",
+        "bot2"
+    ],
+    "center_position": [
+        4261,
+        74,
+        161
+    ]
+}

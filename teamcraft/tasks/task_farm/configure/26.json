@@ -1,0 +1,364 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot1.chat('/forceload add 7364 5356');\n                    await bot4.chat('/setblock 7394 66 5326 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 7394 67 5326 -90 90');\n                await bot1.chat('/setblock 7396 62 5327 minecraft:glass');await bot1.chat('/setblock 7392 62 5325 minecraft:farmland[moisture=7]');await bot1.chat('/setblock 7392 63 5325 minecraft:air');await bot1.chat('/setblock 7393 62 5325 minecraft:farmland[moisture=7]');await bot1.chat('/setblock 7393 63 5325 minecraft:air');await bot1.chat('/setblock 7394 62 5325 minecraft:farmland[moisture=7]');await bot1.chat('/setblock 7394 63 5325 minecraft:air');await bot1.chat('/setblock 7395 62 5325 minecraft:farmland[moisture=7]');await bot1.chat('/setblock 7395 63 5325 minecraft:air');await bot1.chat('/setblock 7396 62 5325 minecraft:farmland[moisture=7]');await bot1.chat('/setblock 7396 63 5325 minecraft:air');await bot1.chat('/setblock 7392 62 5326 minecraft:farmland[moisture=7]');await bot1.chat('/setblock 7392 63 5326 minecraft:air');await bot1.chat('/setblock 7393 62 5326 minecraft:farmland[moisture=7]');await bot1.chat('/setblock 7393 63 5326 minecraft:air');await bot1.chat('/setblock 7394 62 5326 minecraft:farmland[moisture=7]');await bot1.chat('/setblock 7394 63 5326 minecraft:air');await bot1.chat('/setblock 7395 62 5326 minecraft:farmland[moisture=7]');await bot1.chat('/setblock 7395 63 5326 minecraft:air');await bot1.chat('/setblock 7396 62 5326 minecraft:farmland[moisture=7]');await bot1.chat('/setblock 7396 63 5326 minecraft:air');await bot1.chat('/setblock 7392 62 5327 minecraft:farmland[moisture=7]');await bot1.chat('/setblock 7392 63 5327 minecraft:air');await bot1.chat('/setblock 7393 62 5327 minecraft:farmland[moisture=7]');await bot1.chat('/setblock 7393 63 5327 minecraft:air');await bot1.chat('/setblock 7394 62 5327 minecraft:farmland[moisture=7]');await bot1.chat('/setblock 7394 63 5327 minecraft:air');await bot1.chat('/setblock 7395 62 5327 minecraft:farmland[moisture=7]');await bot1.chat('/setblock 7395 63 5327 minecraft:air');await bot1.chat('/kill @e[type=item]');await bot1.chat('/tp @p 7396.73 65 5320.56 -9.29 -2.47 ');await bot1.chat('/give @p minecraft:carrot 6');await bot1.chat('/give @p minecraft:potato 3');await bot1.chat('/give @p minecraft:beetroot 3');await bot1.chat('/give @p minecraft:wheat_seeds 2');await bot2.chat('/tp @p 7394.29 65 5322.29 4.54 -4.5 ');await bot2.chat('/give @p minecraft:carrot 4');await bot2.chat('/give @p minecraft:potato 1');await bot2.chat('/give @p minecraft:wheat_seeds 2');await bot3.chat('/tp @p 7394.42 65 5322.72 -5.29 1.34 ');await bot3.chat('/give @p minecraft:carrot 4');await bot3.chat('/give @p minecraft:beetroot 2');await bot3.chat('/give @p minecraft:wheat_seeds 3');",
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 7388 62 5326 minecraft:barrier');\n                    await bot4.chat('/tp @p 7388 63 5326 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 7394 62 5332 minecraft:barrier');\n                    await bot4.chat('/tp @p 7394 63 5332 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 7394 67 5326 -90 90');\n                "
+        ],
+        [
+            ""
+        ]
+    ],
+    "variant": 100026,
+    "actions": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        "carrot",
+        5
+    ],
+    "action_obs": [
+        [
+            "await bot1.chat('/setblock 7392 62 5325 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7393 62 5325 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7394 62 5325 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7395 62 5325 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7396 62 5325 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7392 62 5326 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7393 62 5326 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7394 62 5326 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7395 62 5326 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7396 62 5326 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7392 62 5327 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7393 62 5327 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7394 62 5327 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7395 62 5327 minecraft:farmland[moisture=7]');",
+            "await bot4.chat('/setblock 7393 63 5325 minecraft:carrots[age=7]');",
+            "await bot4.chat('/setblock 7392 63 5326 minecraft:carrots[age=3]');",
+            "await bot4.chat('/setblock 7393 63 5326 minecraft:carrots[age=5]');"
+        ],
+        [
+            "await bot1.chat('/setblock 7392 62 5325 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7393 62 5325 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7394 62 5325 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7395 62 5325 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7396 62 5325 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7392 62 5326 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7393 62 5326 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7394 62 5326 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7395 62 5326 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7396 62 5326 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7392 62 5327 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7393 62 5327 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7394 62 5327 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7395 62 5327 minecraft:farmland[moisture=7]');",
+            "await bot4.chat('/setblock 7394 63 5325 minecraft:carrots[age=7]');",
+            "await bot4.chat('/setblock 7395 63 5325 minecraft:carrots[age=5]');",
+            "await bot4.chat('/setblock 7392 63 5326 minecraft:carrots[age=7]');",
+            "await bot4.chat('/setblock 7393 63 5326 minecraft:carrots[age=7]');"
+        ],
+        [
+            "await bot1.chat('/setblock 7392 62 5325 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7393 62 5325 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7394 62 5325 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7395 62 5325 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7396 62 5325 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7392 62 5326 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7393 62 5326 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7394 62 5326 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7395 62 5326 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7396 62 5326 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7392 62 5327 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7393 62 5327 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7394 62 5327 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7395 62 5327 minecraft:farmland[moisture=7]');",
+            "await bot4.chat('/setblock 7395 63 5325 minecraft:carrots[age=7]');"
+        ],
+        [
+            "await bot1.chat('/setblock 7392 62 5325 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7393 62 5325 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7394 62 5325 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7395 62 5325 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7396 62 5325 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7392 62 5326 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7393 62 5326 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7394 62 5326 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7395 62 5326 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7396 62 5326 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7392 62 5327 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7393 62 5327 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7394 62 5327 minecraft:farmland[moisture=7]');",
+            "await bot1.chat('/setblock 7395 62 5327 minecraft:farmland[moisture=7]');"
+        ]
+    ],
+    "init_goal_inventory_count": 14,
+    "bot1": {
+        "location": [
+            7396.73,
+            65,
+            5320.56
+        ],
+        "rotation": [
+            -9.29,
+            -2.47
+        ],
+        "inventory": {
+            "minecraft:carrot": 6,
+            "minecraft:potato": 3,
+            "minecraft:beetroot": 3,
+            "minecraft:wheat_seeds": 2
+        }
+    },
+    "bot2": {
+        "location": [
+            7394.29,
+            65,
+            5322.29
+        ],
+        "rotation": [
+            4.54,
+            -4.5
+        ],
+        "inventory": {
+            "minecraft:carrot": 4,
+            "minecraft:potato": 1,
+            "minecraft:wheat_seeds": 2
+        }
+    },
+    "bot3": {
+        "location": [
+            7394.42,
+            65,
+            5322.72
+        ],
+        "rotation": [
+            -5.29,
+            1.34
+        ],
+        "inventory": {
+            "minecraft:carrot": 4,
+            "minecraft:beetroot": 2,
+            "minecraft:wheat_seeds": 3
+        }
+    },
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            3
+        ],
+        "playground_location": {
+            "name": "ice_on_water",
+            "x": 7394,
+            "z": 5326,
+            "y": 66,
+            "bot_range": [
+                [
+                    7391,
+                    7397
+                ],
+                [
+                    5320,
+                    5323
+                ],
+                65
+            ],
+            "bot_pitch": [
+                -10,
+                10
+            ],
+            "bot_yaw": [
+                -10,
+                10
+            ],
+            "spot": [
+                [
+                    7392,
+                    62,
+                    5325
+                ],
+                [
+                    7393,
+                    62,
+                    5325
+                ],
+                [
+                    7394,
+                    62,
+                    5325
+                ],
+                [
+                    7395,
+                    62,
+                    5325
+                ],
+                [
+                    7396,
+                    62,
+                    5325
+                ],
+                [
+                    7392,
+                    62,
+                    5326
+                ],
+                [
+                    7393,
+                    62,
+                    5326
+                ],
+                [
+                    7394,
+                    62,
+                    5326
+                ],
+                [
+                    7395,
+                    62,
+                    5326
+                ],
+                [
+                    7396,
+                    62,
+                    5326
+                ],
+                [
+                    7392,
+                    62,
+                    5327
+                ],
+                [
+                    7393,
+                    62,
+                    5327
+                ],
+                [
+                    7394,
+                    62,
+                    5327
+                ],
+                [
+                    7395,
+                    62,
+                    5327
+                ],
+                [
+                    7396,
+                    62,
+                    5327
+                ]
+            ],
+            "water": [],
+            "center": [
+                7394,
+                63,
+                5326
+            ]
+        },
+        "corp": [
+            "carrots"
+        ],
+        "goal_count": [
+            5
+        ],
+        "blocked_spots": [
+            [
+                7396,
+                62,
+                5327
+            ]
+        ],
+        "block_type": [
+            "minecraft:glass"
+        ],
+        "placement_shape": [
+            [
+                7392,
+                62,
+                5325
+            ],
+            [
+                7393,
+                62,
+                5325
+            ],
+            [
+                7394,
+                62,
+                5325
+            ],
+            [
+                7395,
+                62,
+                5325
+            ],
+            [
+                7396,
+                62,
+                5325
+            ],
+            [
+                7392,
+                62,
+                5326
+            ],
+            [
+                7393,
+                62,
+                5326
+            ],
+            [
+                7394,
+                62,
+                5326
+            ],
+            [
+                7395,
+                62,
+                5326
+            ],
+            [
+                7396,
+                62,
+                5326
+            ],
+            [
+                7392,
+                62,
+                5327
+            ],
+            [
+                7393,
+                62,
+                5327
+            ],
+            [
+                7394,
+                62,
+                5327
+            ],
+            [
+                7395,
+                62,
+                5327
+            ]
+        ]
+    },
+    "bot_list": [
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        7394,
+        63,
+        5326
+    ]
+}

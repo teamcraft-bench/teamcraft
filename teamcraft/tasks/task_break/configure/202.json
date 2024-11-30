@@ -1,0 +1,249 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot0.chat('/gamemode survival');\n                    await bot0.chat('/tp @p 7387.27 65 5319.15 20.46 8.07 ');await bot0.chat('/give @p stone_pickaxe 1');await bot1.chat('/tp @p 7388.31 65 5320.35 101.8 6.31 ');await bot1.chat('/give @p stone_axe 1');await bot2.chat('/tp @p 7389.02 65 5318.34 161.87 1.37 ');await bot2.chat('/give @p stone_axe 1');await bot3.chat('/tp @p 7389.55 65 5318.58 258.16 9.26 ');await bot3.chat('/give @p stone_pickaxe 1');await bot1.chat('/forceload add 7390 5328');\n                    await bot4.chat('/setblock 7393 66 5325 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 7393 67 5325 -90 90');\n                await bot1.chat('/fill 7390 62 5322 7395 62 5327 minecraft:glass');await bot1.chat('/fill 7390 63 5322 7395 65 5327 minecraft:air');await bot1.chat('/setblock 7393 64 5323 minecraft:grass_block');await bot1.chat('/setblock 7394 63 5326 minecraft:anvil');await bot1.chat('/setblock 7394 63 5325 minecraft:stone');await bot1.chat('/setblock 7392 63 5325 minecraft:crafting_table');await bot1.chat('/setblock 7394 63 5324 minecraft:acacia_fence');await bot1.chat('/setblock 7393 63 5324 minecraft:oak_log');await bot1.chat('/setblock 7393 63 5323 minecraft:oak_log');await bot1.chat('/setblock 7392 63 5323 minecraft:oak_log');",
+    "bot0": {
+        "location": [
+            7387.27,
+            65,
+            5319.15
+        ],
+        "rotation": [
+            20.46,
+            8.07
+        ],
+        "inventory": {
+            "stone_pickaxe": 1
+        }
+    },
+    "bot1": {
+        "location": [
+            7388.31,
+            65,
+            5320.35
+        ],
+        "rotation": [
+            101.8,
+            6.31
+        ],
+        "inventory": {
+            "stone_axe": 1
+        }
+    },
+    "bot2": {
+        "location": [
+            7389.02,
+            65,
+            5318.34
+        ],
+        "rotation": [
+            161.87,
+            1.37
+        ],
+        "inventory": {
+            "stone_axe": 1
+        }
+    },
+    "bot3": {
+        "location": [
+            7389.55,
+            65,
+            5318.58
+        ],
+        "rotation": [
+            258.16,
+            9.26
+        ],
+        "inventory": {
+            "stone_pickaxe": 1
+        }
+    },
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 7387 62 5325 minecraft:barrier');\n                    await bot4.chat('/tp @p 7387 63 5325 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 7393 62 5331 minecraft:barrier');\n                    await bot4.chat('/tp @p 7393 63 5331 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 7393 67 5325 -90 90');\n                "
+        ],
+        [
+            ""
+        ]
+    ],
+    "variant": 100002,
+    "actions": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        "7391+63+5323",
+        "7391+64+5323",
+        "7391+65+5323",
+        "7391+63+5324",
+        "7391+64+5324",
+        "7391+65+5324",
+        "7391+63+5325",
+        "7391+64+5325",
+        "7391+65+5325",
+        "7391+63+5326",
+        "7391+64+5326",
+        "7391+65+5326",
+        "7392+63+5323",
+        "7392+64+5323",
+        "7392+65+5323",
+        "7392+63+5324",
+        "7392+64+5324",
+        "7392+65+5324",
+        "7392+63+5325",
+        "7392+64+5325",
+        "7392+65+5325",
+        "7392+63+5326",
+        "7392+64+5326",
+        "7392+65+5326",
+        "7393+63+5323",
+        "7393+64+5323",
+        "7393+65+5323",
+        "7393+63+5324",
+        "7393+64+5324",
+        "7393+65+5324",
+        "7393+63+5325",
+        "7393+64+5325",
+        "7393+65+5325",
+        "7393+63+5326",
+        "7393+64+5326",
+        "7393+65+5326",
+        "7394+63+5323",
+        "7394+64+5323",
+        "7394+65+5323",
+        "7394+63+5324",
+        "7394+64+5324",
+        "7394+65+5324",
+        "7394+63+5325",
+        "7394+64+5325",
+        "7394+65+5325",
+        "7394+63+5326",
+        "7394+64+5326",
+        "7394+65+5326"
+    ],
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            4
+        ],
+        "dimension": [
+            3
+        ],
+        "background": [
+            "minecraft:glass"
+        ],
+        "playground_location": {
+            "name": "ice_on_water",
+            "x": [
+                7391,
+                7395
+            ],
+            "z": [
+                5323,
+                5327
+            ],
+            "y": 63,
+            "bot_range": [
+                [
+                    7387,
+                    7392
+                ],
+                [
+                    5318,
+                    5321
+                ],
+                65
+            ],
+            "center": [
+                7393,
+                63,
+                5325
+            ]
+        },
+        "tool_use": {
+            "bot0": "stone_pickaxe",
+            "bot1": "stone_axe",
+            "bot2": "stone_axe",
+            "bot3": "stone_pickaxe"
+        },
+        "block_type": [
+            "grass_block",
+            "oak_log",
+            "crafting_table",
+            "acacia_fence",
+            "oak_log",
+            "oak_log",
+            "anvil",
+            "stone"
+        ],
+        "placement_shape": [
+            [
+                2,
+                1,
+                0
+            ],
+            [
+                3,
+                0,
+                3
+            ],
+            [
+                3,
+                0,
+                2
+            ],
+            [
+                1,
+                0,
+                2
+            ],
+            [
+                3,
+                0,
+                1
+            ],
+            [
+                2,
+                0,
+                1
+            ],
+            [
+                2,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0
+            ]
+        ],
+        "placement_shape_number": [
+            18,
+            15,
+            11,
+            9,
+            7,
+            6,
+            2,
+            1
+        ]
+    },
+    "bot_list": [
+        "bot0",
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        7393,
+        63,
+        5325
+    ]
+}

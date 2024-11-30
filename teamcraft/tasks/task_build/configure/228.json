@@ -1,0 +1,274 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot0.chat('/gamemode survival');\n                    await bot1.chat('/forceload add 7390 5328');\n                    await bot4.chat('/setblock 7393 66 5325 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 7393 67 5325 -90 90');\n                await bot1.chat('/fill 7391 62 5323 7395 62 5327 minecraft:pink_wool');await bot1.chat('/fill 7390 63 5322 7395 64 5327 minecraft:air');await bot1.chat('/setblock 7393 64 5326 minecraft:dirt');await bot1.chat('/setblock 7392 64 5326 minecraft:sponge');await bot1.chat('/setblock 7392 64 5325 minecraft:dirt');await bot1.chat('/setblock 7393 63 5326 minecraft:dirt');await bot1.chat('/setblock 7392 63 5326 minecraft:sponge');await bot1.chat('/setblock 7393 63 5325 minecraft:emerald_block');await bot1.chat('/setblock 7392 63 5325 minecraft:sea_lantern');await bot1.chat('/setblock 7393 63 5324 minecraft:pumpkin');await bot1.chat('/setblock 7392 63 5324 minecraft:pumpkin');await bot0.chat('/tp @p 7391.68 65 5319.19 32.86 4.65 ');await bot0.chat('/give @p dirt 12');await bot0.chat('/give @p pumpkin 3');await bot0.chat('/give @p sea_lantern 2');await bot0.chat('/give @p sponge 5');await bot0.chat('/give @p emerald_block 2');await bot1.chat('/tp @p 7387.64 65 5319.21 271.32 1.98 ');await bot1.chat('/give @p sponge 4');await bot1.chat('/give @p pumpkin 4');await bot1.chat('/give @p dirt 7');await bot1.chat('/give @p sea_lantern 2');await bot2.chat('/tp @p 7391.81 65 5320.88 242.59 -9.86 ');await bot2.chat('/give @p emerald_block 5');await bot2.chat('/give @p dirt 6');await bot2.chat('/give @p sea_lantern 3');await bot2.chat('/give @p pumpkin 3');await bot2.chat('/give @p sponge 5');await bot3.chat('/tp @p 7388.11 65 5319.36 66.39 -9.12 ');await bot3.chat('/give @p sea_lantern 3');await bot3.chat('/give @p sponge 1');await bot3.chat('/give @p pumpkin 2');await bot3.chat('/give @p dirt 2');",
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 7387 62 5325 minecraft:barrier');\n                    await bot4.chat('/tp @p 7387 63 5325 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 7393 62 5331 minecraft:barrier');\n                    await bot4.chat('/tp @p 7393 63 5331 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 7393 67 5325 -90 90');\n                "
+        ],
+        [
+            "await bot1.chat('/fill 7390 63 5322 7395 64 5327 minecraft:air');"
+        ]
+    ],
+    "variant": 100028,
+    "actions": [
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        [
+            "dirt",
+            7393,
+            64,
+            5326
+        ],
+        [
+            "sponge",
+            7392,
+            64,
+            5326
+        ],
+        [
+            "dirt",
+            7392,
+            64,
+            5325
+        ],
+        [
+            "dirt",
+            7393,
+            63,
+            5326
+        ],
+        [
+            "sponge",
+            7392,
+            63,
+            5326
+        ],
+        [
+            "emerald_block",
+            7393,
+            63,
+            5325
+        ],
+        [
+            "sea_lantern",
+            7392,
+            63,
+            5325
+        ],
+        [
+            "pumpkin",
+            7393,
+            63,
+            5324
+        ],
+        [
+            "pumpkin",
+            7392,
+            63,
+            5324
+        ]
+    ],
+    "bot0": {
+        "location": [
+            7391.68,
+            65,
+            5319.19
+        ],
+        "rotation": [
+            32.86,
+            4.65
+        ],
+        "inventory": {
+            "dirt": 12,
+            "pumpkin": 3,
+            "sea_lantern": 2,
+            "sponge": 5,
+            "emerald_block": 2
+        }
+    },
+    "bot1": {
+        "location": [
+            7387.64,
+            65,
+            5319.21
+        ],
+        "rotation": [
+            271.32,
+            1.98
+        ],
+        "inventory": {
+            "sponge": 4,
+            "pumpkin": 4,
+            "dirt": 7,
+            "sea_lantern": 2
+        }
+    },
+    "bot2": {
+        "location": [
+            7391.81,
+            65,
+            5320.88
+        ],
+        "rotation": [
+            242.59,
+            -9.86
+        ],
+        "inventory": {
+            "emerald_block": 5,
+            "dirt": 6,
+            "sea_lantern": 3,
+            "pumpkin": 3,
+            "sponge": 5
+        }
+    },
+    "bot3": {
+        "location": [
+            7388.11,
+            65,
+            5319.36
+        ],
+        "rotation": [
+            66.39,
+            -9.12
+        ],
+        "inventory": {
+            "sea_lantern": 3,
+            "sponge": 1,
+            "pumpkin": 2,
+            "dirt": 2
+        }
+    },
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            4
+        ],
+        "background": [
+            "minecraft:pink_wool"
+        ],
+        "playground_location": {
+            "name": "ice_on_water",
+            "x": [
+                7391,
+                7395
+            ],
+            "z": [
+                5323,
+                5327
+            ],
+            "y": 63,
+            "bot_range": [
+                [
+                    7387,
+                    7392
+                ],
+                [
+                    5318,
+                    5321
+                ],
+                65
+            ],
+            "center": [
+                7393,
+                63,
+                5325
+            ]
+        },
+        "base_shape": [
+            [
+                2,
+                3,
+                2
+            ]
+        ],
+        "block_type": [
+            "dirt",
+            "sponge",
+            "dirt",
+            "dirt",
+            "sponge",
+            "emerald_block",
+            "sea_lantern",
+            "pumpkin",
+            "pumpkin"
+        ],
+        "placement_shape": [
+            [
+                1,
+                1,
+                2
+            ],
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                0,
+                1,
+                1
+            ],
+            [
+                1,
+                0,
+                2
+            ],
+            [
+                0,
+                0,
+                2
+            ],
+            [
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "block_count": 9,
+        "placement_shape_number": [
+            11,
+            10,
+            8,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+        ]
+    },
+    "bot_list": [
+        "bot0",
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        7393,
+        63,
+        5325
+    ]
+}

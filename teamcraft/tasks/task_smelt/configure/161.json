@@ -1,0 +1,290 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot1.chat('/tp @p 14147.77 69 10170.76 312.46 -2.74 ');await bot1.chat('/give @p rabbit 1');await bot1.chat('/give @p rabbit 1');await bot1.chat('/give @p iron_shovel 1');await bot1.chat('/give @p iron_sword 1');await bot2.chat('/tp @p 14146.38 69 10169.05 143.98 -5.8 ');await bot2.chat('/give @p iron_sword 1');await bot2.chat('/give @p iron_shovel 1');await bot3.chat('/tp @p 14147.86 69 10173.04 327.9 -9.41 ');await bot3.chat('/give @p spruce_planks 1');await bot3.chat('/give @p iron_pickaxe 1');await bot3.chat('/give @p iron_pickaxe 1');await bot1.chat('/forceload add 14137 10174');\n                    await bot4.chat('/setblock 14140 70 10171 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 14140 71 10171 -90 90');\n                await bot1.chat('/fill 14137 66 10168 14142 66 10173 minecraft:stone');await bot1.chat('/fill 14137 67 10168 14142 69 10173 minecraft:air');await bot1.chat('/kill @e[type=!player,distance=..30]');await bot1.chat('/kill @e[type=item]');await bot1.chat('/setblock 14141 67 10168 minecraft:spruce_planks');await bot1.chat('/summon rabbit 14137 67 10170 {NoAI:1}');await bot1.chat('/summon rabbit 14137 67 10171 {NoAI:1}');await bot1.chat('/setblock 14139 67 10173 minecraft:spruce_planks');await bot1.chat('/setblock 14140 67 10173 minecraft:spruce_planks');await bot1.chat('/summon rabbit 14138 67 10173 {NoAI:1}');await bot1.chat('/setblock 14137 67 10173 minecraft:spruce_planks');await bot1.chat('/setblock 14140 67 10171 minecraft:furnace');await bot1.chat('/setblock 14140 67 10170 minecraft:furnace');",
+    "bot1": {
+        "location": [
+            14147.77,
+            69,
+            10170.76
+        ],
+        "rotation": [
+            312.46,
+            -2.74
+        ],
+        "inventory": {
+            "rabbit": 2,
+            "iron_shovel": 1,
+            "iron_sword": 1
+        }
+    },
+    "bot2": {
+        "location": [
+            14146.38,
+            69,
+            10169.05
+        ],
+        "rotation": [
+            143.98,
+            -5.8
+        ],
+        "inventory": {
+            "iron_sword": 1,
+            "iron_shovel": 1
+        }
+    },
+    "bot3": {
+        "location": [
+            14147.86,
+            69,
+            10173.04
+        ],
+        "rotation": [
+            327.9,
+            -9.41
+        ],
+        "inventory": {
+            "spruce_planks": 1,
+            "iron_pickaxe": 2
+        }
+    },
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 14134 66 10171 minecraft:barrier');\n                    await bot4.chat('/tp @p 14134 67 10171 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 14140 66 10177 minecraft:barrier');\n                    await bot4.chat('/tp @p 14140 67 10177 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 14140 71 10171 -90 90');\n                "
+        ],
+        [
+            ""
+        ]
+    ],
+    "variant": 100011,
+    "actions": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        "cooked_rabbit",
+        4
+    ],
+    "variants_config": {
+        "agent_counts": 3,
+        "playground_location": {
+            "name": "forest",
+            "x": [
+                14138,
+                14142
+            ],
+            "z": [
+                10169,
+                10173
+            ],
+            "y": 67,
+            "bot_range": [
+                [
+                    14145,
+                    14148
+                ],
+                [
+                    10168,
+                    10174
+                ],
+                69
+            ],
+            "center": [
+                14140,
+                67,
+                10171
+            ],
+            "furance": [
+                [
+                    14140,
+                    67,
+                    10171
+                ],
+                [
+                    14140,
+                    67,
+                    10170
+                ],
+                [
+                    14140,
+                    67,
+                    10172
+                ]
+            ]
+        },
+        "background": [
+            "minecraft:stone"
+        ],
+        "furance_count": 2,
+        "furance_pos": [
+            [
+                14140,
+                67,
+                10171
+            ],
+            [
+                14140,
+                67,
+                10170
+            ]
+        ],
+        "fuel": "spruce_planks",
+        "goal_type": "food",
+        "goal_item": "cooked_rabbit",
+        "goal_count": 4,
+        "tool_use": [
+            [
+                "iron_shovel",
+                "iron_sword"
+            ],
+            [
+                "iron_sword",
+                "iron_shovel"
+            ],
+            [
+                "iron_pickaxe",
+                "iron_pickaxe"
+            ]
+        ],
+        "placement_shape": [
+            [
+                14137,
+                67,
+                10168
+            ],
+            [
+                14138,
+                67,
+                10168
+            ],
+            [
+                14139,
+                67,
+                10168
+            ],
+            [
+                14140,
+                67,
+                10168
+            ],
+            [
+                14141,
+                67,
+                10168
+            ],
+            [
+                14142,
+                67,
+                10168
+            ],
+            [
+                14142,
+                67,
+                10169
+            ],
+            [
+                14142,
+                67,
+                10170
+            ],
+            [
+                14142,
+                67,
+                10171
+            ],
+            [
+                14142,
+                67,
+                10172
+            ],
+            [
+                14142,
+                67,
+                10173
+            ],
+            [
+                14141,
+                67,
+                10173
+            ],
+            [
+                14140,
+                67,
+                10173
+            ],
+            [
+                14139,
+                67,
+                10173
+            ],
+            [
+                14138,
+                67,
+                10173
+            ],
+            [
+                14137,
+                67,
+                10173
+            ],
+            [
+                14137,
+                67,
+                10172
+            ],
+            [
+                14137,
+                67,
+                10171
+            ],
+            [
+                14137,
+                67,
+                10170
+            ],
+            [
+                14137,
+                67,
+                10169
+            ]
+        ],
+        "inventory": [
+            [
+                "rabbit",
+                "rabbit"
+            ],
+            [],
+            [
+                "spruce_planks"
+            ]
+        ],
+        "placement_shape_all": {
+            "4": "spruce_planks",
+            "18": "rabbit",
+            "17": "rabbit",
+            "13": "spruce_planks",
+            "12": "spruce_planks",
+            "14": "rabbit",
+            "15": "spruce_planks"
+        }
+    },
+    "bot_list": [
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        14140,
+        67,
+        10171
+    ]
+}

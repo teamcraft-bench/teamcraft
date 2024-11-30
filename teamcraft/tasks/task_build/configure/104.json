@@ -1,0 +1,211 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot1.chat('/forceload add 220 131');\n                    await bot4.chat('/setblock 223 73 128 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 223 74 128 -90 90');\n                await bot1.chat('/fill 221 69 126 225 69 130 minecraft:cyan_concrete');await bot1.chat('/fill 220 70 125 225 71 130 minecraft:air');await bot1.chat('/setblock 222 71 128 minecraft:oak_log');await bot1.chat('/setblock 223 71 127 minecraft:sea_lantern');await bot1.chat('/setblock 223 70 128 minecraft:purple_wool');await bot1.chat('/setblock 222 70 128 minecraft:acacia_fence');await bot1.chat('/setblock 223 70 127 minecraft:bricks');await bot1.chat('/setblock 222 70 127 minecraft:end_stone');await bot1.chat('/tp @p 226.94 72 130.8 291.16 8.78 ');await bot1.chat('/give @p purple_wool 2');await bot1.chat('/give @p end_stone 3');await bot1.chat('/give @p acacia_fence 3');await bot1.chat('/give @p bricks 1');await bot1.chat('/give @p sea_lantern 3');await bot2.chat('/tp @p 226.13 72 126.66 179.87 -7.38 ');await bot2.chat('/give @p acacia_fence 2');await bot2.chat('/give @p sea_lantern 5');await bot3.chat('/tp @p 227.31 72 129.01 197.49 -7.0 ');await bot3.chat('/give @p bricks 3');await bot3.chat('/give @p oak_log 3');",
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 217 69 128 minecraft:barrier');\n                    await bot4.chat('/tp @p 217 70 128 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 223 69 134 minecraft:barrier');\n                    await bot4.chat('/tp @p 223 70 134 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 223 74 128 -90 90');\n                "
+        ],
+        [
+            "await bot1.chat('/fill 220 70 125 225 71 130 minecraft:air');"
+        ]
+    ],
+    "variant": 100004,
+    "actions": [
+        [],
+        []
+    ],
+    "done_input": [
+        [
+            "oak_log",
+            222,
+            71,
+            128
+        ],
+        [
+            "sea_lantern",
+            223,
+            71,
+            127
+        ],
+        [
+            "purple_wool",
+            223,
+            70,
+            128
+        ],
+        [
+            "acacia_fence",
+            222,
+            70,
+            128
+        ],
+        [
+            "bricks",
+            223,
+            70,
+            127
+        ],
+        [
+            "end_stone",
+            222,
+            70,
+            127
+        ]
+    ],
+    "bot1": {
+        "location": [
+            226.94,
+            72,
+            130.8
+        ],
+        "rotation": [
+            291.16,
+            8.78
+        ],
+        "inventory": {
+            "purple_wool": 2,
+            "end_stone": 3,
+            "acacia_fence": 3,
+            "bricks": 1,
+            "sea_lantern": 3
+        }
+    },
+    "bot2": {
+        "location": [
+            226.13,
+            72,
+            126.66
+        ],
+        "rotation": [
+            179.87,
+            -7.38
+        ],
+        "inventory": {
+            "acacia_fence": 2,
+            "sea_lantern": 5
+        }
+    },
+    "bot3": {
+        "location": [
+            227.31,
+            72,
+            129.01
+        ],
+        "rotation": [
+            197.49,
+            -7.0
+        ],
+        "inventory": {
+            "bricks": 3,
+            "oak_log": 3
+        }
+    },
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            3
+        ],
+        "background": [
+            "minecraft:cyan_concrete"
+        ],
+        "playground_location": {
+            "name": "villege",
+            "x": [
+                221,
+                225
+            ],
+            "z": [
+                126,
+                130
+            ],
+            "y": 70,
+            "bot_range": [
+                [
+                    226,
+                    229
+                ],
+                [
+                    125,
+                    131
+                ],
+                72
+            ],
+            "center": [
+                223,
+                70,
+                128
+            ]
+        },
+        "base_shape": [
+            [
+                2,
+                2,
+                2
+            ]
+        ],
+        "block_type": [
+            "oak_log",
+            "sea_lantern",
+            "purple_wool",
+            "acacia_fence",
+            "bricks",
+            "end_stone"
+        ],
+        "placement_shape": [
+            [
+                0,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                0
+            ],
+            [
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "block_count": 6,
+        "placement_shape_number": [
+            6,
+            5,
+            3,
+            2,
+            1,
+            0
+        ]
+    },
+    "bot_list": [
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        223,
+        70,
+        128
+    ]
+}

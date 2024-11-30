@@ -1,0 +1,260 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode spectator');\n                    await bot3.chat('/tp @p 10 10 10');\n                    await bot1.chat('/tp @p 14146.93 69 10173.46 265.34 -7.88 ');await bot1.chat('/give @p iron_sword 1');await bot1.chat('/give @p iron_shovel 1');await bot1.chat('/give @p iron_pickaxe 1');await bot2.chat('/tp @p 14146.2 69 10172.24 302.29 -2.36 ');await bot2.chat('/give @p spruce_planks 1');await bot2.chat('/give @p iron_shovel 1');await bot2.chat('/give @p iron_pickaxe 1');await bot2.chat('/give @p iron_pickaxe 1');await bot1.chat('/forceload add 14137 10174');\n                    await bot4.chat('/setblock 14140 70 10171 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 14140 71 10171 -90 90');\n                await bot1.chat('/fill 14137 66 10168 14142 66 10173 minecraft:gold_block');await bot1.chat('/fill 14137 67 10168 14142 69 10173 minecraft:air');await bot1.chat('/kill @e[type=!player,distance=..30]');await bot1.chat('/kill @e[type=item]');await bot1.chat('/setblock 14142 67 10170 minecraft:cobblestone');await bot1.chat('/setblock 14138 67 10173 minecraft:cobblestone');await bot1.chat('/setblock 14140 67 10168 minecraft:cobblestone');await bot1.chat('/setblock 14142 67 10168 minecraft:spruce_planks');await bot1.chat('/setblock 14141 67 10168 minecraft:spruce_planks');await bot1.chat('/setblock 14140 67 10172 minecraft:furnace');",
+    "bot1": {
+        "location": [
+            14146.93,
+            69,
+            10173.46
+        ],
+        "rotation": [
+            265.34,
+            -7.88
+        ],
+        "inventory": {
+            "iron_sword": 1,
+            "iron_shovel": 1,
+            "iron_pickaxe": 1
+        }
+    },
+    "bot2": {
+        "location": [
+            14146.2,
+            69,
+            10172.24
+        ],
+        "rotation": [
+            302.29,
+            -2.36
+        ],
+        "inventory": {
+            "spruce_planks": 1,
+            "iron_shovel": 1,
+            "iron_pickaxe": 2
+        }
+    },
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 14134 66 10171 minecraft:barrier');\n                    await bot4.chat('/tp @p 14134 67 10171 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 14140 66 10177 minecraft:barrier');\n                    await bot4.chat('/tp @p 14140 67 10177 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 14140 71 10171 -90 90');\n                "
+        ],
+        [
+            ""
+        ]
+    ],
+    "variant": 100000,
+    "actions": [
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        "stone",
+        2
+    ],
+    "variants_config": {
+        "agent_counts": 2,
+        "playground_location": {
+            "name": "forest",
+            "x": [
+                14138,
+                14142
+            ],
+            "z": [
+                10169,
+                10173
+            ],
+            "y": 67,
+            "bot_range": [
+                [
+                    14145,
+                    14148
+                ],
+                [
+                    10168,
+                    10174
+                ],
+                69
+            ],
+            "center": [
+                14140,
+                67,
+                10171
+            ],
+            "furance": [
+                [
+                    14140,
+                    67,
+                    10171
+                ],
+                [
+                    14140,
+                    67,
+                    10170
+                ],
+                [
+                    14140,
+                    67,
+                    10172
+                ]
+            ]
+        },
+        "background": [
+            "minecraft:gold_block"
+        ],
+        "furance_count": 1,
+        "furance_pos": [
+            [
+                14140,
+                67,
+                10172
+            ]
+        ],
+        "fuel": "spruce_planks",
+        "goal_type": "item",
+        "goal_item": "stone",
+        "goal_count": 2,
+        "tool_use": [
+            [
+                "iron_sword",
+                "iron_shovel",
+                "iron_pickaxe"
+            ],
+            [
+                "iron_shovel",
+                "iron_pickaxe",
+                "iron_pickaxe"
+            ]
+        ],
+        "placement_shape": [
+            [
+                14137,
+                67,
+                10168
+            ],
+            [
+                14138,
+                67,
+                10168
+            ],
+            [
+                14139,
+                67,
+                10168
+            ],
+            [
+                14140,
+                67,
+                10168
+            ],
+            [
+                14141,
+                67,
+                10168
+            ],
+            [
+                14142,
+                67,
+                10168
+            ],
+            [
+                14142,
+                67,
+                10169
+            ],
+            [
+                14142,
+                67,
+                10170
+            ],
+            [
+                14142,
+                67,
+                10171
+            ],
+            [
+                14142,
+                67,
+                10172
+            ],
+            [
+                14142,
+                67,
+                10173
+            ],
+            [
+                14141,
+                67,
+                10173
+            ],
+            [
+                14140,
+                67,
+                10173
+            ],
+            [
+                14139,
+                67,
+                10173
+            ],
+            [
+                14138,
+                67,
+                10173
+            ],
+            [
+                14137,
+                67,
+                10173
+            ],
+            [
+                14137,
+                67,
+                10172
+            ],
+            [
+                14137,
+                67,
+                10171
+            ],
+            [
+                14137,
+                67,
+                10170
+            ],
+            [
+                14137,
+                67,
+                10169
+            ]
+        ],
+        "inventory": [
+            [],
+            [
+                "spruce_planks"
+            ]
+        ],
+        "placement_shape_all": {
+            "7": "cobblestone",
+            "14": "cobblestone",
+            "3": "cobblestone",
+            "5": "spruce_planks",
+            "4": "spruce_planks"
+        }
+    },
+    "bot_list": [
+        "bot1",
+        "bot2"
+    ],
+    "center_position": [
+        14140,
+        67,
+        10171
+    ]
+}

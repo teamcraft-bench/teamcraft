@@ -1,0 +1,276 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot1.chat('/forceload add 4299 214');\n                    await bot4.chat('/setblock 4302 100 211 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 4302 101 211 -90 90');\n                await bot1.chat('/fill 4300 96 209 4304 96 213 minecraft:glowstone');await bot1.chat('/fill 4299 97 208 4304 98 213 minecraft:air');await bot1.chat('/setblock 4302 98 212 minecraft:gold_ore');await bot1.chat('/setblock 4301 98 212 minecraft:sponge');await bot1.chat('/setblock 4302 98 211 minecraft:emerald_block');await bot1.chat('/setblock 4301 98 210 minecraft:stone');await bot1.chat('/setblock 4302 97 212 minecraft:stone');await bot1.chat('/setblock 4301 97 212 minecraft:dirt');await bot1.chat('/setblock 4302 97 211 minecraft:sandstone');await bot1.chat('/setblock 4301 97 211 minecraft:sea_lantern');await bot1.chat('/setblock 4302 97 210 minecraft:coal_ore');await bot1.chat('/setblock 4301 97 210 minecraft:sponge');await bot1.chat('/tp @p 4305.55 98 210.15 286.11 3.92 ');await bot1.chat('/give @p stone 9');await bot1.chat('/give @p sponge 6');await bot1.chat('/give @p gold_ore 6');await bot1.chat('/give @p sea_lantern 3');await bot1.chat('/give @p coal_ore 1');await bot1.chat('/give @p emerald_block 3');await bot1.chat('/give @p dirt 3');await bot1.chat('/give @p sandstone 2');await bot2.chat('/tp @p 4305.04 98 210.91 119.83 -8.21 ');await bot2.chat('/give @p dirt 2');await bot2.chat('/give @p coal_ore 5');await bot2.chat('/give @p sponge 2');await bot2.chat('/give @p stone 1');await bot2.chat('/give @p gold_ore 3');await bot2.chat('/give @p emerald_block 1');await bot3.chat('/tp @p 4306.44 98 209.87 173.39 4.2 ');await bot3.chat('/give @p sandstone 2');await bot3.chat('/give @p sea_lantern 6');await bot3.chat('/give @p emerald_block 5');await bot3.chat('/give @p stone 6');await bot3.chat('/give @p sponge 3');await bot3.chat('/give @p coal_ore 3');",
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 4296 96 211 minecraft:barrier');\n                    await bot4.chat('/tp @p 4296 97 211 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 4302 96 217 minecraft:barrier');\n                    await bot4.chat('/tp @p 4302 97 217 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 4302 101 211 -90 90');\n                "
+        ],
+        [
+            "await bot1.chat('/fill 4299 97 208 4304 98 213 minecraft:air');"
+        ]
+    ],
+    "variant": 100005,
+    "actions": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        [
+            "gold_ore",
+            4302,
+            98,
+            212
+        ],
+        [
+            "sponge",
+            4301,
+            98,
+            212
+        ],
+        [
+            "emerald_block",
+            4302,
+            98,
+            211
+        ],
+        [
+            "stone",
+            4301,
+            98,
+            210
+        ],
+        [
+            "stone",
+            4302,
+            97,
+            212
+        ],
+        [
+            "dirt",
+            4301,
+            97,
+            212
+        ],
+        [
+            "sandstone",
+            4302,
+            97,
+            211
+        ],
+        [
+            "sea_lantern",
+            4301,
+            97,
+            211
+        ],
+        [
+            "coal_ore",
+            4302,
+            97,
+            210
+        ],
+        [
+            "sponge",
+            4301,
+            97,
+            210
+        ]
+    ],
+    "bot1": {
+        "location": [
+            4305.55,
+            98,
+            210.15
+        ],
+        "rotation": [
+            286.11,
+            3.92
+        ],
+        "inventory": {
+            "stone": 9,
+            "sponge": 6,
+            "gold_ore": 6,
+            "sea_lantern": 3,
+            "coal_ore": 1,
+            "emerald_block": 3,
+            "dirt": 3,
+            "sandstone": 2
+        }
+    },
+    "bot2": {
+        "location": [
+            4305.04,
+            98,
+            210.91
+        ],
+        "rotation": [
+            119.83,
+            -8.21
+        ],
+        "inventory": {
+            "dirt": 2,
+            "coal_ore": 5,
+            "sponge": 2,
+            "stone": 1,
+            "gold_ore": 3,
+            "emerald_block": 1
+        }
+    },
+    "bot3": {
+        "location": [
+            4306.44,
+            98,
+            209.87
+        ],
+        "rotation": [
+            173.39,
+            4.2
+        ],
+        "inventory": {
+            "sandstone": 2,
+            "sea_lantern": 6,
+            "emerald_block": 5,
+            "stone": 6,
+            "sponge": 3,
+            "coal_ore": 3
+        }
+    },
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            3
+        ],
+        "background": [
+            "minecraft:glowstone"
+        ],
+        "playground_location": {
+            "name": "mountain_half",
+            "x": [
+                4300,
+                4304
+            ],
+            "z": [
+                209,
+                213
+            ],
+            "y": 97,
+            "bot_range": [
+                [
+                    4305,
+                    4307
+                ],
+                [
+                    209,
+                    211
+                ],
+                98
+            ],
+            "center": [
+                4302,
+                97,
+                211
+            ]
+        },
+        "base_shape": [
+            [
+                2,
+                3,
+                2
+            ]
+        ],
+        "block_type": [
+            "gold_ore",
+            "sponge",
+            "emerald_block",
+            "stone",
+            "stone",
+            "dirt",
+            "sandstone",
+            "sea_lantern",
+            "coal_ore",
+            "sponge"
+        ],
+        "placement_shape": [
+            [
+                1,
+                1,
+                2
+            ],
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                0,
+                2
+            ],
+            [
+                0,
+                0,
+                2
+            ],
+            [
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "block_count": 10,
+        "placement_shape_number": [
+            11,
+            10,
+            9,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+        ]
+    },
+    "bot_list": [
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        4302,
+        97,
+        211
+    ]
+}

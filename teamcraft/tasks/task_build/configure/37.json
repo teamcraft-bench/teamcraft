@@ -1,0 +1,271 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot1.chat('/forceload add 4281 1129');\n                    await bot4.chat('/setblock 4284 67 1126 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 4284 68 1126 -90 90');\n                await bot1.chat('/fill 4282 63 1124 4286 63 1128 minecraft:glowstone');await bot1.chat('/fill 4281 64 1123 4286 65 1128 minecraft:air');await bot1.chat('/setblock 4284 65 1127 minecraft:end_stone');await bot1.chat('/setblock 4283 65 1127 minecraft:sponge');await bot1.chat('/setblock 4284 65 1126 minecraft:bricks');await bot1.chat('/setblock 4283 65 1125 minecraft:end_stone');await bot1.chat('/setblock 4284 64 1127 minecraft:sandstone');await bot1.chat('/setblock 4283 64 1127 minecraft:oak_fence');await bot1.chat('/setblock 4284 64 1126 minecraft:emerald_block');await bot1.chat('/setblock 4283 64 1126 minecraft:emerald_block');await bot1.chat('/setblock 4284 64 1125 minecraft:orange_concrete');await bot1.chat('/setblock 4283 64 1125 minecraft:gold_ore');await bot1.chat('/tp @p 4283.3 65 1120.56 111.91 -7.05 ');await bot1.chat('/give @p sandstone 2');await bot1.chat('/give @p gold_ore 5');await bot1.chat('/give @p end_stone 5');await bot1.chat('/give @p emerald_block 1');await bot1.chat('/give @p orange_concrete 3');await bot1.chat('/give @p sponge 3');await bot2.chat('/tp @p 4284.0 65 1119.74 84.84 1.38 ');await bot2.chat('/give @p oak_fence 6');await bot2.chat('/give @p orange_concrete 3');await bot2.chat('/give @p sponge 2');await bot3.chat('/tp @p 4284.07 65 1118.57 321.61 -8.56 ');await bot3.chat('/give @p emerald_block 5');await bot3.chat('/give @p bricks 3');await bot3.chat('/give @p sandstone 2');await bot3.chat('/give @p end_stone 2');await bot3.chat('/give @p oak_fence 1');await bot3.chat('/give @p gold_ore 3');",
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 4278 63 1126 minecraft:barrier');\n                    await bot4.chat('/tp @p 4278 64 1126 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 4284 63 1132 minecraft:barrier');\n                    await bot4.chat('/tp @p 4284 64 1132 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 4284 68 1126 -90 90');\n                "
+        ],
+        [
+            "await bot1.chat('/fill 4281 64 1123 4286 65 1128 minecraft:air');"
+        ]
+    ],
+    "variant": 100037,
+    "actions": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        [
+            "end_stone",
+            4284,
+            65,
+            1127
+        ],
+        [
+            "sponge",
+            4283,
+            65,
+            1127
+        ],
+        [
+            "bricks",
+            4284,
+            65,
+            1126
+        ],
+        [
+            "end_stone",
+            4283,
+            65,
+            1125
+        ],
+        [
+            "sandstone",
+            4284,
+            64,
+            1127
+        ],
+        [
+            "oak_fence",
+            4283,
+            64,
+            1127
+        ],
+        [
+            "emerald_block",
+            4284,
+            64,
+            1126
+        ],
+        [
+            "emerald_block",
+            4283,
+            64,
+            1126
+        ],
+        [
+            "orange_concrete",
+            4284,
+            64,
+            1125
+        ],
+        [
+            "gold_ore",
+            4283,
+            64,
+            1125
+        ]
+    ],
+    "bot1": {
+        "location": [
+            4283.3,
+            65,
+            1120.56
+        ],
+        "rotation": [
+            111.91,
+            -7.05
+        ],
+        "inventory": {
+            "sandstone": 2,
+            "gold_ore": 5,
+            "end_stone": 5,
+            "emerald_block": 1,
+            "orange_concrete": 3,
+            "sponge": 3
+        }
+    },
+    "bot2": {
+        "location": [
+            4284.0,
+            65,
+            1119.74
+        ],
+        "rotation": [
+            84.84,
+            1.38
+        ],
+        "inventory": {
+            "oak_fence": 6,
+            "orange_concrete": 3,
+            "sponge": 2
+        }
+    },
+    "bot3": {
+        "location": [
+            4284.07,
+            65,
+            1118.57
+        ],
+        "rotation": [
+            321.61,
+            -8.56
+        ],
+        "inventory": {
+            "emerald_block": 5,
+            "bricks": 3,
+            "sandstone": 2,
+            "end_stone": 2,
+            "oak_fence": 1,
+            "gold_ore": 3
+        }
+    },
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            3
+        ],
+        "background": [
+            "minecraft:glowstone"
+        ],
+        "playground_location": {
+            "name": "swamp",
+            "x": [
+                4282,
+                4286
+            ],
+            "z": [
+                1124,
+                1128
+            ],
+            "y": 64,
+            "bot_range": [
+                [
+                    4283,
+                    4286
+                ],
+                [
+                    1116,
+                    1122
+                ],
+                65
+            ],
+            "center": [
+                4284,
+                64,
+                1126
+            ]
+        },
+        "base_shape": [
+            [
+                2,
+                3,
+                2
+            ]
+        ],
+        "block_type": [
+            "end_stone",
+            "sponge",
+            "bricks",
+            "end_stone",
+            "sandstone",
+            "oak_fence",
+            "emerald_block",
+            "emerald_block",
+            "orange_concrete",
+            "gold_ore"
+        ],
+        "placement_shape": [
+            [
+                1,
+                1,
+                2
+            ],
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                0,
+                2
+            ],
+            [
+                0,
+                0,
+                2
+            ],
+            [
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "block_count": 10,
+        "placement_shape_number": [
+            11,
+            10,
+            9,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+        ]
+    },
+    "bot_list": [
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        4284,
+        64,
+        1126
+    ]
+}

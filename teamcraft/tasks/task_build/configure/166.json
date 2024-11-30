@@ -1,0 +1,230 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot1.chat('/forceload add 14137 10174');\n                    await bot4.chat('/setblock 14140 70 10171 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 14140 71 10171 -90 90');\n                await bot1.chat('/fill 14138 66 10169 14142 66 10173 minecraft:podzol');await bot1.chat('/fill 14137 67 10168 14142 68 10173 minecraft:air');await bot1.chat('/setblock 14140 68 10171 minecraft:sandstone');await bot1.chat('/setblock 14140 68 10170 minecraft:pumpkin');await bot1.chat('/setblock 14139 68 10170 minecraft:purple_wool');await bot1.chat('/setblock 14140 67 10171 minecraft:iron_ore');await bot1.chat('/setblock 14139 67 10171 minecraft:sea_lantern');await bot1.chat('/setblock 14140 67 10170 minecraft:dirt');await bot1.chat('/setblock 14139 67 10170 minecraft:sea_lantern');await bot1.chat('/tp @p 14147.08 69 10171.18 217.36 -5.03 ');await bot1.chat('/give @p iron_ore 4');await bot1.chat('/give @p sea_lantern 1');await bot1.chat('/give @p purple_wool 4');await bot1.chat('/give @p sandstone 3');await bot1.chat('/give @p pumpkin 1');await bot2.chat('/tp @p 14146.67 69 10169.81 354.56 4.35 ');await bot2.chat('/give @p sea_lantern 7');await bot2.chat('/give @p pumpkin 1');await bot2.chat('/give @p purple_wool 3');await bot2.chat('/give @p dirt 1');await bot2.chat('/give @p sandstone 3');await bot2.chat('/give @p iron_ore 2');await bot3.chat('/tp @p 14147.73 69 10172.04 243.48 1.5 ');await bot3.chat('/give @p dirt 4');await bot3.chat('/give @p sandstone 2');await bot3.chat('/give @p sea_lantern 2');",
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 14134 66 10171 minecraft:barrier');\n                    await bot4.chat('/tp @p 14134 67 10171 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 14140 66 10177 minecraft:barrier');\n                    await bot4.chat('/tp @p 14140 67 10177 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 14140 71 10171 -90 90');\n                "
+        ],
+        [
+            "await bot1.chat('/fill 14137 67 10168 14142 68 10173 minecraft:air');"
+        ]
+    ],
+    "variant": 100016,
+    "actions": [
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        [
+            "sandstone",
+            14140,
+            68,
+            10171
+        ],
+        [
+            "pumpkin",
+            14140,
+            68,
+            10170
+        ],
+        [
+            "purple_wool",
+            14139,
+            68,
+            10170
+        ],
+        [
+            "iron_ore",
+            14140,
+            67,
+            10171
+        ],
+        [
+            "sea_lantern",
+            14139,
+            67,
+            10171
+        ],
+        [
+            "dirt",
+            14140,
+            67,
+            10170
+        ],
+        [
+            "sea_lantern",
+            14139,
+            67,
+            10170
+        ]
+    ],
+    "bot1": {
+        "location": [
+            14147.08,
+            69,
+            10171.18
+        ],
+        "rotation": [
+            217.36,
+            -5.03
+        ],
+        "inventory": {
+            "iron_ore": 4,
+            "sea_lantern": 1,
+            "purple_wool": 4,
+            "sandstone": 3,
+            "pumpkin": 1
+        }
+    },
+    "bot2": {
+        "location": [
+            14146.67,
+            69,
+            10169.81
+        ],
+        "rotation": [
+            354.56,
+            4.35
+        ],
+        "inventory": {
+            "sea_lantern": 7,
+            "pumpkin": 1,
+            "purple_wool": 3,
+            "dirt": 1,
+            "sandstone": 3,
+            "iron_ore": 2
+        }
+    },
+    "bot3": {
+        "location": [
+            14147.73,
+            69,
+            10172.04
+        ],
+        "rotation": [
+            243.48,
+            1.5
+        ],
+        "inventory": {
+            "dirt": 4,
+            "sandstone": 2,
+            "sea_lantern": 2
+        }
+    },
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            3
+        ],
+        "background": [
+            "minecraft:podzol"
+        ],
+        "playground_location": {
+            "name": "forest",
+            "x": [
+                14138,
+                14142
+            ],
+            "z": [
+                10169,
+                10173
+            ],
+            "y": 67,
+            "bot_range": [
+                [
+                    14145,
+                    14148
+                ],
+                [
+                    10168,
+                    10174
+                ],
+                69
+            ],
+            "center": [
+                14140,
+                67,
+                10171
+            ]
+        },
+        "base_shape": [
+            [
+                2,
+                2,
+                2
+            ]
+        ],
+        "block_type": [
+            "sandstone",
+            "pumpkin",
+            "purple_wool",
+            "iron_ore",
+            "sea_lantern",
+            "dirt",
+            "sea_lantern"
+        ],
+        "placement_shape": [
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "block_count": 7,
+        "placement_shape_number": [
+            7,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+        ]
+    },
+    "bot_list": [
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        14140,
+        67,
+        10171
+    ]
+}

@@ -1,0 +1,306 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot0.chat('/gamemode survival');\n                    await bot0.chat('/tp @p 7388.1 65 5320.5 305.71 0.53 ');await bot0.chat('/give @p mutton 1');await bot0.chat('/give @p iron_pickaxe 1');await bot0.chat('/give @p iron_pickaxe 1');await bot1.chat('/tp @p 7388.95 65 5318.42 276.96 -9.52 ');await bot1.chat('/give @p iron_axe 1');await bot1.chat('/give @p iron_sword 1');await bot2.chat('/tp @p 7389.15 65 5318.89 202.21 -1.01 ');await bot2.chat('/give @p mutton 1');await bot2.chat('/give @p iron_pickaxe 1');await bot2.chat('/give @p iron_sword 1');await bot3.chat('/tp @p 7389.8 65 5318.53 202.98 6.24 ');await bot3.chat('/give @p birch_planks 1');await bot3.chat('/give @p iron_axe 1');await bot3.chat('/give @p iron_axe 1');await bot1.chat('/forceload add 7390 5328');\n                    await bot4.chat('/setblock 7393 66 5325 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 7393 67 5325 -90 90');\n                await bot1.chat('/fill 7390 62 5322 7395 62 5327 minecraft:oak_wood');await bot1.chat('/fill 7390 63 5322 7395 65 5327 minecraft:air');await bot1.chat('/kill @e[type=!player,distance=..30]');await bot1.chat('/kill @e[type=item]');await bot1.chat('/setblock 7393 63 5322 minecraft:birch_planks');await bot1.chat('/setblock 7391 63 5327 minecraft:birch_planks');await bot1.chat('/summon sheep 7390 63 5323 {NoAI:1}');await bot1.chat('/summon sheep 7391 63 5322 {NoAI:1}');await bot1.chat('/setblock 7392 63 5322 minecraft:birch_planks');await bot1.chat('/setblock 7394 63 5327 minecraft:birch_planks');await bot1.chat('/summon sheep 7395 63 5323 {NoAI:1}');await bot1.chat('/summon sheep 7390 63 5322 {NoAI:1}');await bot1.chat('/setblock 7393 63 5324 minecraft:furnace');",
+    "bot0": {
+        "location": [
+            7388.1,
+            65,
+            5320.5
+        ],
+        "rotation": [
+            305.71,
+            0.53
+        ],
+        "inventory": {
+            "mutton": 1,
+            "iron_pickaxe": 2
+        }
+    },
+    "bot1": {
+        "location": [
+            7388.95,
+            65,
+            5318.42
+        ],
+        "rotation": [
+            276.96,
+            -9.52
+        ],
+        "inventory": {
+            "iron_axe": 1,
+            "iron_sword": 1
+        }
+    },
+    "bot2": {
+        "location": [
+            7389.15,
+            65,
+            5318.89
+        ],
+        "rotation": [
+            202.21,
+            -1.01
+        ],
+        "inventory": {
+            "mutton": 1,
+            "iron_pickaxe": 1,
+            "iron_sword": 1
+        }
+    },
+    "bot3": {
+        "location": [
+            7389.8,
+            65,
+            5318.53
+        ],
+        "rotation": [
+            202.98,
+            6.24
+        ],
+        "inventory": {
+            "birch_planks": 1,
+            "iron_axe": 2
+        }
+    },
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 7387 62 5325 minecraft:barrier');\n                    await bot4.chat('/tp @p 7387 63 5325 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 7393 62 5331 minecraft:barrier');\n                    await bot4.chat('/tp @p 7393 63 5331 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 7393 67 5325 -90 90');\n                "
+        ],
+        [
+            ""
+        ]
+    ],
+    "variant": 100039,
+    "actions": [
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        "cooked_mutton",
+        4
+    ],
+    "variants_config": {
+        "agent_counts": 4,
+        "playground_location": {
+            "name": "ice_on_water",
+            "x": [
+                7391,
+                7395
+            ],
+            "z": [
+                5323,
+                5327
+            ],
+            "y": 63,
+            "bot_range": [
+                [
+                    7387,
+                    7392
+                ],
+                [
+                    5318,
+                    5321
+                ],
+                65
+            ],
+            "center": [
+                7393,
+                63,
+                5325
+            ],
+            "furance": [
+                [
+                    7393,
+                    63,
+                    5325
+                ],
+                [
+                    7393,
+                    63,
+                    5324
+                ],
+                [
+                    7393,
+                    63,
+                    5326
+                ]
+            ]
+        },
+        "background": [
+            "minecraft:oak_wood"
+        ],
+        "furance_count": 1,
+        "furance_pos": [
+            [
+                7393,
+                63,
+                5324
+            ]
+        ],
+        "fuel": "birch_planks",
+        "goal_type": "food",
+        "goal_item": "cooked_mutton",
+        "goal_count": 4,
+        "tool_use": [
+            [
+                "iron_pickaxe",
+                "iron_pickaxe"
+            ],
+            [
+                "iron_axe",
+                "iron_sword"
+            ],
+            [
+                "iron_pickaxe",
+                "iron_sword"
+            ],
+            [
+                "iron_axe",
+                "iron_axe"
+            ]
+        ],
+        "placement_shape": [
+            [
+                7390,
+                63,
+                5322
+            ],
+            [
+                7391,
+                63,
+                5322
+            ],
+            [
+                7392,
+                63,
+                5322
+            ],
+            [
+                7393,
+                63,
+                5322
+            ],
+            [
+                7394,
+                63,
+                5322
+            ],
+            [
+                7395,
+                63,
+                5322
+            ],
+            [
+                7395,
+                63,
+                5323
+            ],
+            [
+                7395,
+                63,
+                5324
+            ],
+            [
+                7395,
+                63,
+                5325
+            ],
+            [
+                7395,
+                63,
+                5326
+            ],
+            [
+                7395,
+                63,
+                5327
+            ],
+            [
+                7394,
+                63,
+                5327
+            ],
+            [
+                7393,
+                63,
+                5327
+            ],
+            [
+                7392,
+                63,
+                5327
+            ],
+            [
+                7391,
+                63,
+                5327
+            ],
+            [
+                7390,
+                63,
+                5327
+            ],
+            [
+                7390,
+                63,
+                5326
+            ],
+            [
+                7390,
+                63,
+                5325
+            ],
+            [
+                7390,
+                63,
+                5324
+            ],
+            [
+                7390,
+                63,
+                5323
+            ]
+        ],
+        "inventory": [
+            [
+                "mutton"
+            ],
+            [],
+            [
+                "mutton"
+            ],
+            [
+                "birch_planks"
+            ]
+        ],
+        "placement_shape_all": {
+            "3": "birch_planks",
+            "14": "birch_planks",
+            "19": "sheep",
+            "1": "sheep",
+            "2": "birch_planks",
+            "11": "birch_planks",
+            "6": "sheep",
+            "0": "sheep"
+        }
+    },
+    "bot_list": [
+        "bot0",
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        7393,
+        63,
+        5325
+    ]
+}

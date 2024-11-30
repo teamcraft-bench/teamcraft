@@ -1,0 +1,9 @@
+javascript
+setuptools
+openai
+requests
+gymnasium
+psutil
+minecraft_launcher_lib
+pillow
+scikit-image

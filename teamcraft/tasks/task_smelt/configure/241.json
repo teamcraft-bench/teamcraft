@@ -1,0 +1,317 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot0.chat('/gamemode survival');\n                    await bot0.chat('/tp @p 4263.64 75 161.35 252.38 8.85 ');await bot0.chat('/give @p cobblestone 1');await bot0.chat('/give @p iron_pickaxe 1');await bot0.chat('/give @p iron_sword 1');await bot0.chat('/give @p iron_pickaxe 1');await bot1.chat('/tp @p 4263.99 75 155.95 202.88 3.07 ');await bot1.chat('/give @p iron_axe 1');await bot1.chat('/give @p iron_sword 1');await bot1.chat('/give @p iron_pickaxe 1');await bot2.chat('/tp @p 4263.93 75 158.7 343.01 -7.8 ');await bot2.chat('/give @p acacia_log 1');await bot2.chat('/give @p iron_sword 1');await bot2.chat('/give @p iron_shovel 1');await bot2.chat('/give @p iron_pickaxe 1');await bot3.chat('/tp @p 4263.78 75 161.06 332.29 -2.8 ');await bot3.chat('/give @p acacia_log 1');await bot3.chat('/give @p acacia_log 1');await bot3.chat('/give @p cobblestone 1');await bot3.chat('/give @p iron_sword 1');await bot3.chat('/give @p iron_pickaxe 1');await bot1.chat('/forceload add 4258 164');\n                    await bot4.chat('/setblock 4261 77 161 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 4261 78 161 -90 90');\n                await bot1.chat('/fill 4258 73 158 4263 73 163 minecraft:glowstone');await bot1.chat('/fill 4258 74 158 4263 76 163 minecraft:air');await bot1.chat('/kill @e[type=!player,distance=..30]');await bot1.chat('/kill @e[type=item]');await bot1.chat('/setblock 4258 74 160 minecraft:acacia_log');await bot1.chat('/setblock 4260 74 158 minecraft:acacia_log');await bot1.chat('/setblock 4262 74 158 minecraft:cobblestone');await bot1.chat('/setblock 4259 74 158 minecraft:cobblestone');await bot1.chat('/setblock 4263 74 162 minecraft:cobblestone');await bot1.chat('/setblock 4259 74 163 minecraft:cobblestone');await bot1.chat('/setblock 4258 74 158 minecraft:cobblestone');await bot1.chat('/setblock 4263 74 163 minecraft:acacia_log');await bot1.chat('/setblock 4261 74 160 minecraft:furnace');",
+    "bot0": {
+        "location": [
+            4263.64,
+            75,
+            161.35
+        ],
+        "rotation": [
+            252.38,
+            8.85
+        ],
+        "inventory": {
+            "cobblestone": 1,
+            "iron_pickaxe": 2,
+            "iron_sword": 1
+        }
+    },
+    "bot1": {
+        "location": [
+            4263.99,
+            75,
+            155.95
+        ],
+        "rotation": [
+            202.88,
+            3.07
+        ],
+        "inventory": {
+            "iron_axe": 1,
+            "iron_sword": 1,
+            "iron_pickaxe": 1
+        }
+    },
+    "bot2": {
+        "location": [
+            4263.93,
+            75,
+            158.7
+        ],
+        "rotation": [
+            343.01,
+            -7.8
+        ],
+        "inventory": {
+            "acacia_log": 1,
+            "iron_sword": 1,
+            "iron_shovel": 1,
+            "iron_pickaxe": 1
+        }
+    },
+    "bot3": {
+        "location": [
+            4263.78,
+            75,
+            161.06
+        ],
+        "rotation": [
+            332.29,
+            -2.8
+        ],
+        "inventory": {
+            "acacia_log": 2,
+            "cobblestone": 1,
+            "iron_sword": 1,
+            "iron_pickaxe": 1
+        }
+    },
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 4255 73 161 minecraft:barrier');\n                    await bot4.chat('/tp @p 4255 74 161 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 4261 73 167 minecraft:barrier');\n                    await bot4.chat('/tp @p 4261 74 167 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 4261 78 161 -90 90');\n                "
+        ],
+        [
+            ""
+        ]
+    ],
+    "variant": 100041,
+    "actions": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        "stone",
+        5
+    ],
+    "variants_config": {
+        "agent_counts": 4,
+        "playground_location": {
+            "name": "desert_villege",
+            "x": [
+                4259,
+                4263
+            ],
+            "z": [
+                159,
+                163
+            ],
+            "y": 74,
+            "bot_range": [
+                [
+                    4263,
+                    4265
+                ],
+                [
+                    155,
+                    163
+                ],
+                75
+            ],
+            "center": [
+                4261,
+                74,
+                161
+            ],
+            "furance": [
+                [
+                    4261,
+                    74,
+                    161
+                ],
+                [
+                    4261,
+                    74,
+                    160
+                ],
+                [
+                    4261,
+                    74,
+                    162
+                ]
+            ]
+        },
+        "background": [
+            "minecraft:glowstone"
+        ],
+        "furance_count": 1,
+        "furance_pos": [
+            [
+                4261,
+                74,
+                160
+            ]
+        ],
+        "fuel": "acacia_log",
+        "goal_type": "item",
+        "goal_item": "stone",
+        "goal_count": 5,
+        "tool_use": [
+            [
+                "iron_pickaxe",
+                "iron_sword",
+                "iron_pickaxe"
+            ],
+            [
+                "iron_axe",
+                "iron_sword",
+                "iron_pickaxe"
+            ],
+            [
+                "iron_sword",
+                "iron_shovel",
+                "iron_pickaxe"
+            ],
+            [
+                "iron_sword",
+                "iron_pickaxe"
+            ]
+        ],
+        "placement_shape": [
+            [
+                4258,
+                74,
+                158
+            ],
+            [
+                4259,
+                74,
+                158
+            ],
+            [
+                4260,
+                74,
+                158
+            ],
+            [
+                4261,
+                74,
+                158
+            ],
+            [
+                4262,
+                74,
+                158
+            ],
+            [
+                4263,
+                74,
+                158
+            ],
+            [
+                4263,
+                74,
+                159
+            ],
+            [
+                4263,
+                74,
+                160
+            ],
+            [
+                4263,
+                74,
+                161
+            ],
+            [
+                4263,
+                74,
+                162
+            ],
+            [
+                4263,
+                74,
+                163
+            ],
+            [
+                4262,
+                74,
+                163
+            ],
+            [
+                4261,
+                74,
+                163
+            ],
+            [
+                4260,
+                74,
+                163
+            ],
+            [
+                4259,
+                74,
+                163
+            ],
+            [
+                4258,
+                74,
+                163
+            ],
+            [
+                4258,
+                74,
+                162
+            ],
+            [
+                4258,
+                74,
+                161
+            ],
+            [
+                4258,
+                74,
+                160
+            ],
+            [
+                4258,
+                74,
+                159
+            ]
+        ],
+        "inventory": [
+            [
+                "cobblestone"
+            ],
+            [],
+            [
+                "acacia_log"
+            ],
+            [
+                "acacia_log",
+                "acacia_log",
+                "cobblestone"
+            ]
+        ],
+        "placement_shape_all": {
+            "18": "acacia_log",
+            "2": "acacia_log",
+            "4": "cobblestone",
+            "1": "cobblestone",
+            "9": "cobblestone",
+            "14": "cobblestone",
+            "0": "cobblestone",
+            "10": "acacia_log"
+        }
+    },
+    "bot_list": [
+        "bot0",
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        4261,
+        74,
+        161
+    ]
+}

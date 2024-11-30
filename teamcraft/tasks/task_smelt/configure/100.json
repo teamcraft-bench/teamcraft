@@ -1,0 +1,274 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode spectator');\n                    await bot3.chat('/tp @p 10 10 10');\n                    await bot1.chat('/tp @p 226.5 72 128.58 97.24 3.21 ');await bot1.chat('/give @p red_sand 1');await bot1.chat('/give @p spruce_planks 1');await bot1.chat('/give @p iron_axe 1');await bot1.chat('/give @p iron_shovel 1');await bot2.chat('/tp @p 228.33 72 130.03 161.9 8.16 ');await bot2.chat('/give @p spruce_planks 1');await bot2.chat('/give @p spruce_planks 1');await bot2.chat('/give @p iron_shovel 1');await bot2.chat('/give @p iron_axe 1');await bot1.chat('/forceload add 220 131');\n                    await bot4.chat('/setblock 223 73 128 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 223 74 128 -90 90');\n                await bot1.chat('/fill 220 69 125 225 69 130 minecraft:gold_block');await bot1.chat('/fill 220 70 125 225 72 130 minecraft:air');await bot1.chat('/kill @e[type=!player,distance=..30]');await bot1.chat('/kill @e[type=item]');await bot1.chat('/setblock 225 70 125 minecraft:red_sand');await bot1.chat('/setblock 224 70 125 minecraft:red_sand');await bot1.chat('/setblock 225 70 127 minecraft:red_sand');await bot1.chat('/setblock 220 70 127 minecraft:red_sand');await bot1.chat('/setblock 223 70 129 minecraft:furnace');await bot1.chat('/setblock 223 70 127 minecraft:furnace');await bot1.chat('/setblock 223 70 128 minecraft:furnace');",
+    "bot1": {
+        "location": [
+            226.5,
+            72,
+            128.58
+        ],
+        "rotation": [
+            97.24,
+            3.21
+        ],
+        "inventory": {
+            "red_sand": 1,
+            "spruce_planks": 1,
+            "iron_axe": 1,
+            "iron_shovel": 1
+        }
+    },
+    "bot2": {
+        "location": [
+            228.33,
+            72,
+            130.03
+        ],
+        "rotation": [
+            161.9,
+            8.16
+        ],
+        "inventory": {
+            "spruce_planks": 2,
+            "iron_shovel": 1,
+            "iron_axe": 1
+        }
+    },
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 217 69 128 minecraft:barrier');\n                    await bot4.chat('/tp @p 217 70 128 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 223 69 134 minecraft:barrier');\n                    await bot4.chat('/tp @p 223 70 134 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 223 74 128 -90 90');\n                "
+        ],
+        [
+            ""
+        ]
+    ],
+    "variant": 100000,
+    "actions": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        "glass",
+        3
+    ],
+    "variants_config": {
+        "agent_counts": 2,
+        "playground_location": {
+            "name": "villege",
+            "x": [
+                221,
+                225
+            ],
+            "z": [
+                126,
+                130
+            ],
+            "y": 70,
+            "bot_range": [
+                [
+                    226,
+                    229
+                ],
+                [
+                    125,
+                    131
+                ],
+                72
+            ],
+            "center": [
+                223,
+                70,
+                128
+            ],
+            "furance": [
+                [
+                    223,
+                    70,
+                    128
+                ],
+                [
+                    223,
+                    70,
+                    127
+                ],
+                [
+                    223,
+                    70,
+                    129
+                ]
+            ]
+        },
+        "background": [
+            "minecraft:gold_block"
+        ],
+        "furance_count": 3,
+        "furance_pos": [
+            [
+                223,
+                70,
+                129
+            ],
+            [
+                223,
+                70,
+                127
+            ],
+            [
+                223,
+                70,
+                128
+            ]
+        ],
+        "fuel": "spruce_planks",
+        "goal_type": "item",
+        "goal_item": "glass",
+        "goal_count": 3,
+        "tool_use": [
+            [
+                "iron_axe",
+                "iron_shovel"
+            ],
+            [
+                "iron_shovel",
+                "iron_axe"
+            ]
+        ],
+        "placement_shape": [
+            [
+                220,
+                70,
+                125
+            ],
+            [
+                221,
+                70,
+                125
+            ],
+            [
+                222,
+                70,
+                125
+            ],
+            [
+                223,
+                70,
+                125
+            ],
+            [
+                224,
+                70,
+                125
+            ],
+            [
+                225,
+                70,
+                125
+            ],
+            [
+                225,
+                70,
+                126
+            ],
+            [
+                225,
+                70,
+                127
+            ],
+            [
+                225,
+                70,
+                128
+            ],
+            [
+                225,
+                70,
+                129
+            ],
+            [
+                225,
+                70,
+                130
+            ],
+            [
+                224,
+                70,
+                130
+            ],
+            [
+                223,
+                70,
+                130
+            ],
+            [
+                222,
+                70,
+                130
+            ],
+            [
+                221,
+                70,
+                130
+            ],
+            [
+                220,
+                70,
+                130
+            ],
+            [
+                220,
+                70,
+                129
+            ],
+            [
+                220,
+                70,
+                128
+            ],
+            [
+                220,
+                70,
+                127
+            ],
+            [
+                220,
+                70,
+                126
+            ]
+        ],
+        "inventory": [
+            [
+                "red_sand",
+                "spruce_planks"
+            ],
+            [
+                "spruce_planks",
+                "spruce_planks"
+            ]
+        ],
+        "placement_shape_all": {
+            "5": "red_sand",
+            "4": "red_sand",
+            "7": "red_sand",
+            "18": "red_sand"
+        }
+    },
+    "bot_list": [
+        "bot1",
+        "bot2"
+    ],
+    "center_position": [
+        223,
+        70,
+        128
+    ]
+}

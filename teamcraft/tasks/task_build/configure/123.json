@@ -1,0 +1,272 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot1.chat('/forceload add 220 131');\n                    await bot4.chat('/setblock 223 73 128 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 223 74 128 -90 90');\n                await bot1.chat('/fill 221 69 126 225 69 130 minecraft:stone');await bot1.chat('/fill 220 70 125 225 71 130 minecraft:air');await bot1.chat('/setblock 223 71 129 minecraft:sea_lantern');await bot1.chat('/setblock 222 71 129 minecraft:sponge');await bot1.chat('/setblock 222 71 128 minecraft:bricks');await bot1.chat('/setblock 222 71 127 minecraft:iron_ore');await bot1.chat('/setblock 223 70 129 minecraft:stone');await bot1.chat('/setblock 222 70 129 minecraft:clay');await bot1.chat('/setblock 223 70 128 minecraft:bookshelf');await bot1.chat('/setblock 222 70 128 minecraft:coal_ore');await bot1.chat('/setblock 223 70 127 minecraft:purple_wool');await bot1.chat('/setblock 222 70 127 minecraft:iron_ore');await bot1.chat('/tp @p 228.27 72 130.8 299.59 -9.17 ');await bot1.chat('/give @p stone 5');await bot1.chat('/give @p iron_ore 4');await bot1.chat('/give @p sea_lantern 6');await bot1.chat('/give @p sponge 1');await bot1.chat('/give @p bricks 3');await bot1.chat('/give @p coal_ore 1');await bot2.chat('/tp @p 226.58 72 128.13 183.31 -7.4 ');await bot2.chat('/give @p clay 4');await bot2.chat('/give @p purple_wool 1');await bot2.chat('/give @p sponge 2');await bot2.chat('/give @p sea_lantern 3');await bot2.chat('/give @p iron_ore 1');await bot3.chat('/tp @p 227.12 72 130.02 86.7 -8.77 ');await bot3.chat('/give @p bookshelf 1');await bot3.chat('/give @p coal_ore 2');await bot3.chat('/give @p bricks 2');await bot3.chat('/give @p sponge 1');await bot3.chat('/give @p clay 1');",
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 217 69 128 minecraft:barrier');\n                    await bot4.chat('/tp @p 217 70 128 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 223 69 134 minecraft:barrier');\n                    await bot4.chat('/tp @p 223 70 134 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 223 74 128 -90 90');\n                "
+        ],
+        [
+            "await bot1.chat('/fill 220 70 125 225 71 130 minecraft:air');"
+        ]
+    ],
+    "variant": 100023,
+    "actions": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        [
+            "sea_lantern",
+            223,
+            71,
+            129
+        ],
+        [
+            "sponge",
+            222,
+            71,
+            129
+        ],
+        [
+            "bricks",
+            222,
+            71,
+            128
+        ],
+        [
+            "iron_ore",
+            222,
+            71,
+            127
+        ],
+        [
+            "stone",
+            223,
+            70,
+            129
+        ],
+        [
+            "clay",
+            222,
+            70,
+            129
+        ],
+        [
+            "bookshelf",
+            223,
+            70,
+            128
+        ],
+        [
+            "coal_ore",
+            222,
+            70,
+            128
+        ],
+        [
+            "purple_wool",
+            223,
+            70,
+            127
+        ],
+        [
+            "iron_ore",
+            222,
+            70,
+            127
+        ]
+    ],
+    "bot1": {
+        "location": [
+            228.27,
+            72,
+            130.8
+        ],
+        "rotation": [
+            299.59,
+            -9.17
+        ],
+        "inventory": {
+            "stone": 5,
+            "iron_ore": 4,
+            "sea_lantern": 6,
+            "sponge": 1,
+            "bricks": 3,
+            "coal_ore": 1
+        }
+    },
+    "bot2": {
+        "location": [
+            226.58,
+            72,
+            128.13
+        ],
+        "rotation": [
+            183.31,
+            -7.4
+        ],
+        "inventory": {
+            "clay": 4,
+            "purple_wool": 1,
+            "sponge": 2,
+            "sea_lantern": 3,
+            "iron_ore": 1
+        }
+    },
+    "bot3": {
+        "location": [
+            227.12,
+            72,
+            130.02
+        ],
+        "rotation": [
+            86.7,
+            -8.77
+        ],
+        "inventory": {
+            "bookshelf": 1,
+            "coal_ore": 2,
+            "bricks": 2,
+            "sponge": 1,
+            "clay": 1
+        }
+    },
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            3
+        ],
+        "background": [
+            "minecraft:stone"
+        ],
+        "playground_location": {
+            "name": "villege",
+            "x": [
+                221,
+                225
+            ],
+            "z": [
+                126,
+                130
+            ],
+            "y": 70,
+            "bot_range": [
+                [
+                    226,
+                    229
+                ],
+                [
+                    125,
+                    131
+                ],
+                72
+            ],
+            "center": [
+                223,
+                70,
+                128
+            ]
+        },
+        "base_shape": [
+            [
+                2,
+                3,
+                2
+            ]
+        ],
+        "block_type": [
+            "sea_lantern",
+            "sponge",
+            "bricks",
+            "iron_ore",
+            "stone",
+            "clay",
+            "bookshelf",
+            "coal_ore",
+            "purple_wool",
+            "iron_ore"
+        ],
+        "placement_shape": [
+            [
+                1,
+                1,
+                2
+            ],
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                0,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                0,
+                2
+            ],
+            [
+                0,
+                0,
+                2
+            ],
+            [
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "block_count": 10,
+        "placement_shape_number": [
+            11,
+            10,
+            8,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+        ]
+    },
+    "bot_list": [
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        223,
+        70,
+        128
+    ]
+}

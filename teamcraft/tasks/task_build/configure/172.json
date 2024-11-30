@@ -1,0 +1,273 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot1.chat('/forceload add 14137 10174');\n                    await bot4.chat('/setblock 14140 70 10171 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 14140 71 10171 -90 90');\n                await bot1.chat('/fill 14138 66 10169 14142 66 10173 minecraft:podzol');await bot1.chat('/fill 14137 67 10168 14142 68 10173 minecraft:air');await bot1.chat('/setblock 14139 68 10172 minecraft:oak_planks');await bot1.chat('/setblock 14139 68 10171 minecraft:purple_wool');await bot1.chat('/setblock 14140 68 10170 minecraft:grass_block');await bot1.chat('/setblock 14139 68 10170 minecraft:bricks');await bot1.chat('/setblock 14140 67 10172 minecraft:dirt');await bot1.chat('/setblock 14139 67 10172 minecraft:bricks');await bot1.chat('/setblock 14140 67 10171 minecraft:oak_fence');await bot1.chat('/setblock 14139 67 10171 minecraft:stone');await bot1.chat('/setblock 14140 67 10170 minecraft:coal_ore');await bot1.chat('/setblock 14139 67 10170 minecraft:sandstone');await bot1.chat('/tp @p 14146.44 69 10169.16 47.44 6.65 ');await bot1.chat('/give @p dirt 2');await bot1.chat('/give @p sandstone 2');await bot1.chat('/give @p oak_planks 3');await bot1.chat('/give @p bricks 3');await bot2.chat('/tp @p 14147.53 69 10168.08 118.15 7.25 ');await bot2.chat('/give @p bricks 2');await bot2.chat('/give @p coal_ore 3');await bot2.chat('/give @p purple_wool 6');await bot2.chat('/give @p oak_fence 3');await bot3.chat('/tp @p 14145.69 69 10169.47 201.34 -9.94 ');await bot3.chat('/give @p oak_fence 3');await bot3.chat('/give @p stone 3');await bot3.chat('/give @p grass_block 2');await bot3.chat('/give @p bricks 3');await bot3.chat('/give @p dirt 3');await bot3.chat('/give @p purple_wool 2');await bot3.chat('/give @p coal_ore 3');await bot3.chat('/give @p oak_planks 3');await bot3.chat('/give @p sandstone 1');",
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 14134 66 10171 minecraft:barrier');\n                    await bot4.chat('/tp @p 14134 67 10171 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 14140 66 10177 minecraft:barrier');\n                    await bot4.chat('/tp @p 14140 67 10177 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 14140 71 10171 -90 90');\n                "
+        ],
+        [
+            "await bot1.chat('/fill 14137 67 10168 14142 68 10173 minecraft:air');"
+        ]
+    ],
+    "variant": 100022,
+    "actions": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        [
+            "oak_planks",
+            14139,
+            68,
+            10172
+        ],
+        [
+            "purple_wool",
+            14139,
+            68,
+            10171
+        ],
+        [
+            "grass_block",
+            14140,
+            68,
+            10170
+        ],
+        [
+            "bricks",
+            14139,
+            68,
+            10170
+        ],
+        [
+            "dirt",
+            14140,
+            67,
+            10172
+        ],
+        [
+            "bricks",
+            14139,
+            67,
+            10172
+        ],
+        [
+            "oak_fence",
+            14140,
+            67,
+            10171
+        ],
+        [
+            "stone",
+            14139,
+            67,
+            10171
+        ],
+        [
+            "coal_ore",
+            14140,
+            67,
+            10170
+        ],
+        [
+            "sandstone",
+            14139,
+            67,
+            10170
+        ]
+    ],
+    "bot1": {
+        "location": [
+            14146.44,
+            69,
+            10169.16
+        ],
+        "rotation": [
+            47.44,
+            6.65
+        ],
+        "inventory": {
+            "dirt": 2,
+            "sandstone": 2,
+            "oak_planks": 3,
+            "bricks": 3
+        }
+    },
+    "bot2": {
+        "location": [
+            14147.53,
+            69,
+            10168.08
+        ],
+        "rotation": [
+            118.15,
+            7.25
+        ],
+        "inventory": {
+            "bricks": 2,
+            "coal_ore": 3,
+            "purple_wool": 6,
+            "oak_fence": 3
+        }
+    },
+    "bot3": {
+        "location": [
+            14145.69,
+            69,
+            10169.47
+        ],
+        "rotation": [
+            201.34,
+            -9.94
+        ],
+        "inventory": {
+            "oak_fence": 3,
+            "stone": 3,
+            "grass_block": 2,
+            "bricks": 3,
+            "dirt": 3,
+            "purple_wool": 2,
+            "coal_ore": 3,
+            "oak_planks": 3,
+            "sandstone": 1
+        }
+    },
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            3
+        ],
+        "background": [
+            "minecraft:podzol"
+        ],
+        "playground_location": {
+            "name": "forest",
+            "x": [
+                14138,
+                14142
+            ],
+            "z": [
+                10169,
+                10173
+            ],
+            "y": 67,
+            "bot_range": [
+                [
+                    14145,
+                    14148
+                ],
+                [
+                    10168,
+                    10174
+                ],
+                69
+            ],
+            "center": [
+                14140,
+                67,
+                10171
+            ]
+        },
+        "base_shape": [
+            [
+                2,
+                3,
+                2
+            ]
+        ],
+        "block_type": [
+            "oak_planks",
+            "purple_wool",
+            "grass_block",
+            "bricks",
+            "dirt",
+            "bricks",
+            "oak_fence",
+            "stone",
+            "coal_ore",
+            "sandstone"
+        ],
+        "placement_shape": [
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                0,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                0,
+                2
+            ],
+            [
+                0,
+                0,
+                2
+            ],
+            [
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "block_count": 10,
+        "placement_shape_number": [
+            10,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+        ]
+    },
+    "bot_list": [
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        14140,
+        67,
+        10171
+    ]
+}

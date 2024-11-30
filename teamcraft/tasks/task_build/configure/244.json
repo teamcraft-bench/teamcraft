@@ -1,0 +1,303 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot0.chat('/gamemode survival');\n                    await bot1.chat('/forceload add 11668 8491');\n                    await bot4.chat('/setblock 11671 109 8488 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 11671 110 8488 -90 90');\n                await bot1.chat('/fill 11669 105 8486 11673 105 8490 minecraft:obsidian');await bot1.chat('/fill 11668 106 8485 11673 107 8490 minecraft:air');await bot1.chat('/setblock 11671 107 8489 minecraft:oak_fence');await bot1.chat('/setblock 11671 107 8488 minecraft:pumpkin');await bot1.chat('/setblock 11670 107 8488 minecraft:bricks');await bot1.chat('/setblock 11671 107 8487 minecraft:oak_fence');await bot1.chat('/setblock 11670 107 8487 minecraft:birch_log');await bot1.chat('/setblock 11671 106 8489 minecraft:iron_ore');await bot1.chat('/setblock 11670 106 8489 minecraft:birch_log');await bot1.chat('/setblock 11671 106 8488 minecraft:iron_ore');await bot1.chat('/setblock 11670 106 8488 minecraft:oak_fence');await bot1.chat('/setblock 11671 106 8487 minecraft:grass_block');await bot1.chat('/setblock 11670 106 8487 minecraft:purple_wool');await bot0.chat('/tp @p 11668.43 108 8495.5 134.97 2.24 ');await bot0.chat('/give @p iron_ore 3');await bot0.chat('/give @p purple_wool 4');await bot0.chat('/give @p oak_fence 8');await bot0.chat('/give @p grass_block 3');await bot0.chat('/give @p pumpkin 2');await bot0.chat('/give @p birch_log 6');await bot1.chat('/tp @p 11669.98 108 8494.14 147.41 3.35 ');await bot1.chat('/give @p birch_log 4');await bot1.chat('/give @p grass_block 3');await bot1.chat('/give @p oak_fence 2');await bot1.chat('/give @p pumpkin 3');await bot2.chat('/tp @p 11670.85 108 8494.97 8.8 -3.05 ');await bot2.chat('/give @p iron_ore 2');await bot2.chat('/give @p bricks 2');await bot2.chat('/give @p oak_fence 5');await bot2.chat('/give @p birch_log 2');await bot2.chat('/give @p purple_wool 2');await bot2.chat('/give @p grass_block 3');await bot3.chat('/tp @p 11668.72 108 8494.39 311.95 0.11 ');await bot3.chat('/give @p oak_fence 7');await bot3.chat('/give @p pumpkin 3');await bot3.chat('/give @p purple_wool 1');await bot3.chat('/give @p grass_block 1');await bot3.chat('/give @p iron_ore 3');",
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 11665 105 8488 minecraft:barrier');\n                    await bot4.chat('/tp @p 11665 106 8488 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 11671 105 8494 minecraft:barrier');\n                    await bot4.chat('/tp @p 11671 106 8494 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 11671 110 8488 -90 90');\n                "
+        ],
+        [
+            "await bot1.chat('/fill 11668 106 8485 11673 107 8490 minecraft:air');"
+        ]
+    ],
+    "variant": 100044,
+    "actions": [
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        [
+            "oak_fence",
+            11671,
+            107,
+            8489
+        ],
+        [
+            "pumpkin",
+            11671,
+            107,
+            8488
+        ],
+        [
+            "bricks",
+            11670,
+            107,
+            8488
+        ],
+        [
+            "oak_fence",
+            11671,
+            107,
+            8487
+        ],
+        [
+            "birch_log",
+            11670,
+            107,
+            8487
+        ],
+        [
+            "iron_ore",
+            11671,
+            106,
+            8489
+        ],
+        [
+            "birch_log",
+            11670,
+            106,
+            8489
+        ],
+        [
+            "iron_ore",
+            11671,
+            106,
+            8488
+        ],
+        [
+            "oak_fence",
+            11670,
+            106,
+            8488
+        ],
+        [
+            "grass_block",
+            11671,
+            106,
+            8487
+        ],
+        [
+            "purple_wool",
+            11670,
+            106,
+            8487
+        ]
+    ],
+    "bot0": {
+        "location": [
+            11668.43,
+            108,
+            8495.5
+        ],
+        "rotation": [
+            134.97,
+            2.24
+        ],
+        "inventory": {
+            "iron_ore": 3,
+            "purple_wool": 4,
+            "oak_fence": 8,
+            "grass_block": 3,
+            "pumpkin": 2,
+            "birch_log": 6
+        }
+    },
+    "bot1": {
+        "location": [
+            11669.98,
+            108,
+            8494.14
+        ],
+        "rotation": [
+            147.41,
+            3.35
+        ],
+        "inventory": {
+            "birch_log": 4,
+            "grass_block": 3,
+            "oak_fence": 2,
+            "pumpkin": 3
+        }
+    },
+    "bot2": {
+        "location": [
+            11670.85,
+            108,
+            8494.97
+        ],
+        "rotation": [
+            8.8,
+            -3.05
+        ],
+        "inventory": {
+            "iron_ore": 2,
+            "bricks": 2,
+            "oak_fence": 5,
+            "birch_log": 2,
+            "purple_wool": 2,
+            "grass_block": 3
+        }
+    },
+    "bot3": {
+        "location": [
+            11668.72,
+            108,
+            8494.39
+        ],
+        "rotation": [
+            311.95,
+            0.11
+        ],
+        "inventory": {
+            "oak_fence": 7,
+            "pumpkin": 3,
+            "purple_wool": 1,
+            "grass_block": 1,
+            "iron_ore": 3
+        }
+    },
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            4
+        ],
+        "background": [
+            "minecraft:obsidian"
+        ],
+        "playground_location": {
+            "name": "snow_mountain",
+            "x": [
+                11669,
+                11673
+            ],
+            "z": [
+                8486,
+                8490
+            ],
+            "y": 106,
+            "bot_range": [
+                [
+                    11668,
+                    11673
+                ],
+                [
+                    8494,
+                    8496
+                ],
+                108
+            ],
+            "center": [
+                11671,
+                106,
+                8488
+            ]
+        },
+        "base_shape": [
+            [
+                2,
+                3,
+                2
+            ]
+        ],
+        "block_type": [
+            "oak_fence",
+            "pumpkin",
+            "bricks",
+            "oak_fence",
+            "birch_log",
+            "iron_ore",
+            "birch_log",
+            "iron_ore",
+            "oak_fence",
+            "grass_block",
+            "purple_wool"
+        ],
+        "placement_shape": [
+            [
+                1,
+                1,
+                2
+            ],
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                0,
+                2
+            ],
+            [
+                0,
+                0,
+                2
+            ],
+            [
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "block_count": 11,
+        "placement_shape_number": [
+            11,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+        ]
+    },
+    "bot_list": [
+        "bot0",
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        11671,
+        106,
+        8488
+    ]
+}

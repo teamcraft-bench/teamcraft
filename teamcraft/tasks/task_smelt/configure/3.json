@@ -1,0 +1,276 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot1.chat('/tp @p 4285.26 65 1117.36 259.69 -3.56 ');await bot1.chat('/give @p iron_axe 1');await bot1.chat('/give @p iron_shovel 1');await bot2.chat('/tp @p 4284.85 65 1117.96 205.24 -0.99 ');await bot2.chat('/give @p lava_bucket 1');await bot2.chat('/give @p lava_bucket 1');await bot2.chat('/give @p iron_pickaxe 1');await bot2.chat('/give @p iron_shovel 1');await bot3.chat('/tp @p 4283.96 65 1116.3 191.45 3.35 ');await bot3.chat('/give @p mutton 1');await bot3.chat('/give @p iron_shovel 1');await bot3.chat('/give @p iron_shovel 1');await bot1.chat('/forceload add 4281 1129');\n                    await bot4.chat('/setblock 4284 67 1126 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 4284 68 1126 -90 90');\n                await bot1.chat('/fill 4281 63 1123 4286 63 1128 minecraft:smooth_quartz');await bot1.chat('/fill 4281 64 1123 4286 66 1128 minecraft:air');await bot1.chat('/kill @e[type=!player,distance=..30]');await bot1.chat('/kill @e[type=item]');await bot1.chat('/summon sheep 4281 64 1125 {NoAI:1}');await bot1.chat('/summon sheep 4283 64 1123 {NoAI:1}');await bot1.chat('/setblock 4284 64 1126 minecraft:furnace');",
+    "bot1": {
+        "location": [
+            4285.26,
+            65,
+            1117.36
+        ],
+        "rotation": [
+            259.69,
+            -3.56
+        ],
+        "inventory": {
+            "iron_axe": 1,
+            "iron_shovel": 1
+        }
+    },
+    "bot2": {
+        "location": [
+            4284.85,
+            65,
+            1117.96
+        ],
+        "rotation": [
+            205.24,
+            -0.99
+        ],
+        "inventory": {
+            "lava_bucket": 2,
+            "iron_pickaxe": 1,
+            "iron_shovel": 1
+        }
+    },
+    "bot3": {
+        "location": [
+            4283.96,
+            65,
+            1116.3
+        ],
+        "rotation": [
+            191.45,
+            3.35
+        ],
+        "inventory": {
+            "mutton": 1,
+            "iron_shovel": 2
+        }
+    },
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 4278 63 1126 minecraft:barrier');\n                    await bot4.chat('/tp @p 4278 64 1126 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 4284 63 1132 minecraft:barrier');\n                    await bot4.chat('/tp @p 4284 64 1132 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 4284 68 1126 -90 90');\n                "
+        ],
+        [
+            ""
+        ]
+    ],
+    "variant": 100003,
+    "actions": [
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        "cooked_mutton",
+        2
+    ],
+    "variants_config": {
+        "agent_counts": 3,
+        "playground_location": {
+            "name": "swamp",
+            "x": [
+                4282,
+                4286
+            ],
+            "z": [
+                1124,
+                1128
+            ],
+            "y": 64,
+            "bot_range": [
+                [
+                    4283,
+                    4286
+                ],
+                [
+                    1116,
+                    1122
+                ],
+                65
+            ],
+            "center": [
+                4284,
+                64,
+                1126
+            ],
+            "furance": [
+                [
+                    4284,
+                    64,
+                    1126
+                ],
+                [
+                    4284,
+                    64,
+                    1125
+                ],
+                [
+                    4284,
+                    64,
+                    1127
+                ]
+            ]
+        },
+        "background": [
+            "minecraft:smooth_quartz"
+        ],
+        "furance_count": 1,
+        "furance_pos": [
+            [
+                4284,
+                64,
+                1126
+            ]
+        ],
+        "fuel": "lava_bucket",
+        "goal_type": "food",
+        "goal_item": "cooked_mutton",
+        "goal_count": 2,
+        "tool_use": [
+            [
+                "iron_axe",
+                "iron_shovel"
+            ],
+            [
+                "iron_pickaxe",
+                "iron_shovel"
+            ],
+            [
+                "iron_shovel",
+                "iron_shovel"
+            ]
+        ],
+        "placement_shape": [
+            [
+                4281,
+                64,
+                1123
+            ],
+            [
+                4282,
+                64,
+                1123
+            ],
+            [
+                4283,
+                64,
+                1123
+            ],
+            [
+                4284,
+                64,
+                1123
+            ],
+            [
+                4285,
+                64,
+                1123
+            ],
+            [
+                4286,
+                64,
+                1123
+            ],
+            [
+                4286,
+                64,
+                1124
+            ],
+            [
+                4286,
+                64,
+                1125
+            ],
+            [
+                4286,
+                64,
+                1126
+            ],
+            [
+                4286,
+                64,
+                1127
+            ],
+            [
+                4286,
+                64,
+                1128
+            ],
+            [
+                4285,
+                64,
+                1128
+            ],
+            [
+                4284,
+                64,
+                1128
+            ],
+            [
+                4283,
+                64,
+                1128
+            ],
+            [
+                4282,
+                64,
+                1128
+            ],
+            [
+                4281,
+                64,
+                1128
+            ],
+            [
+                4281,
+                64,
+                1127
+            ],
+            [
+                4281,
+                64,
+                1126
+            ],
+            [
+                4281,
+                64,
+                1125
+            ],
+            [
+                4281,
+                64,
+                1124
+            ]
+        ],
+        "inventory": [
+            [],
+            [
+                "lava_bucket",
+                "lava_bucket"
+            ],
+            [
+                "mutton"
+            ]
+        ],
+        "placement_shape_all": {
+            "18": "sheep",
+            "2": "sheep"
+        }
+    },
+    "bot_list": [
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        4284,
+        64,
+        1126
+    ]
+}

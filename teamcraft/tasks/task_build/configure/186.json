@@ -1,0 +1,241 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot1.chat('/forceload add 14137 10174');\n                    await bot4.chat('/setblock 14140 70 10171 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 14140 71 10171 -90 90');\n                await bot1.chat('/fill 14138 66 10169 14142 66 10173 minecraft:podzol');await bot1.chat('/fill 14137 67 10168 14142 68 10173 minecraft:air');await bot1.chat('/setblock 14139 68 10172 minecraft:clay');await bot1.chat('/setblock 14140 68 10170 minecraft:oak_planks');await bot1.chat('/setblock 14140 67 10172 minecraft:coal_ore');await bot1.chat('/setblock 14139 67 10172 minecraft:grass_block');await bot1.chat('/setblock 14140 67 10171 minecraft:sponge');await bot1.chat('/setblock 14139 67 10171 minecraft:oak_fence');await bot1.chat('/setblock 14140 67 10170 minecraft:bricks');await bot1.chat('/setblock 14139 67 10170 minecraft:grass_block');await bot1.chat('/tp @p 14145.35 69 10168.59 5.5 -4.0 ');await bot1.chat('/give @p coal_ore 3');await bot1.chat('/give @p grass_block 3');await bot1.chat('/give @p clay 1');await bot1.chat('/give @p bricks 3');await bot1.chat('/give @p oak_planks 2');await bot2.chat('/tp @p 14146.35 69 10170.23 128.27 0.62 ');await bot2.chat('/give @p grass_block 3');await bot2.chat('/give @p bricks 2');await bot2.chat('/give @p oak_planks 1');await bot2.chat('/give @p clay 3');await bot2.chat('/give @p sponge 2');await bot3.chat('/tp @p 14146.57 69 10170.37 337.54 -2.69 ');await bot3.chat('/give @p sponge 3');await bot3.chat('/give @p oak_fence 3');",
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 14134 66 10171 minecraft:barrier');\n                    await bot4.chat('/tp @p 14134 67 10171 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 14140 66 10177 minecraft:barrier');\n                    await bot4.chat('/tp @p 14140 67 10177 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 14140 71 10171 -90 90');\n                "
+        ],
+        [
+            "await bot1.chat('/fill 14137 67 10168 14142 68 10173 minecraft:air');"
+        ]
+    ],
+    "variant": 100036,
+    "actions": [
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        [
+            "clay",
+            14139,
+            68,
+            10172
+        ],
+        [
+            "oak_planks",
+            14140,
+            68,
+            10170
+        ],
+        [
+            "coal_ore",
+            14140,
+            67,
+            10172
+        ],
+        [
+            "grass_block",
+            14139,
+            67,
+            10172
+        ],
+        [
+            "sponge",
+            14140,
+            67,
+            10171
+        ],
+        [
+            "oak_fence",
+            14139,
+            67,
+            10171
+        ],
+        [
+            "bricks",
+            14140,
+            67,
+            10170
+        ],
+        [
+            "grass_block",
+            14139,
+            67,
+            10170
+        ]
+    ],
+    "bot1": {
+        "location": [
+            14145.35,
+            69,
+            10168.59
+        ],
+        "rotation": [
+            5.5,
+            -4.0
+        ],
+        "inventory": {
+            "coal_ore": 3,
+            "grass_block": 3,
+            "clay": 1,
+            "bricks": 3,
+            "oak_planks": 2
+        }
+    },
+    "bot2": {
+        "location": [
+            14146.35,
+            69,
+            10170.23
+        ],
+        "rotation": [
+            128.27,
+            0.62
+        ],
+        "inventory": {
+            "grass_block": 3,
+            "bricks": 2,
+            "oak_planks": 1,
+            "clay": 3,
+            "sponge": 2
+        }
+    },
+    "bot3": {
+        "location": [
+            14146.57,
+            69,
+            10170.37
+        ],
+        "rotation": [
+            337.54,
+            -2.69
+        ],
+        "inventory": {
+            "sponge": 3,
+            "oak_fence": 3
+        }
+    },
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            3
+        ],
+        "background": [
+            "minecraft:podzol"
+        ],
+        "playground_location": {
+            "name": "forest",
+            "x": [
+                14138,
+                14142
+            ],
+            "z": [
+                10169,
+                10173
+            ],
+            "y": 67,
+            "bot_range": [
+                [
+                    14145,
+                    14148
+                ],
+                [
+                    10168,
+                    10174
+                ],
+                69
+            ],
+            "center": [
+                14140,
+                67,
+                10171
+            ]
+        },
+        "base_shape": [
+            [
+                2,
+                3,
+                2
+            ]
+        ],
+        "block_type": [
+            "clay",
+            "oak_planks",
+            "coal_ore",
+            "grass_block",
+            "sponge",
+            "oak_fence",
+            "bricks",
+            "grass_block"
+        ],
+        "placement_shape": [
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                1,
+                1,
+                0
+            ],
+            [
+                1,
+                0,
+                2
+            ],
+            [
+                0,
+                0,
+                2
+            ],
+            [
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "block_count": 8,
+        "placement_shape_number": [
+            10,
+            7,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+        ]
+    },
+    "bot_list": [
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        14140,
+        67,
+        10171
+    ]
+}

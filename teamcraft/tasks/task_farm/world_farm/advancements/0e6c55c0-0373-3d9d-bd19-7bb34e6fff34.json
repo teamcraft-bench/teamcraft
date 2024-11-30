@@ -1,0 +1,13 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:mountains": "2024-05-18 01:22:28 -0700",
+      "minecraft:wooded_mountains": "2024-05-16 19:24:47 -0700",
+      "minecraft:swamp": "2024-05-17 15:55:49 -0700",
+      "minecraft:savanna": "2024-05-19 04:12:25 -0700",
+      "minecraft:plains": "2024-04-24 20:15:30 -0700"
+    },
+    "done": false
+  },
+  "DataVersion": 2584
+}

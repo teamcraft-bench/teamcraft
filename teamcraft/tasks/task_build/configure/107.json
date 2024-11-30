@@ -1,0 +1,184 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode spectator');\n                    await bot3.chat('/tp @p 10 10 10');\n                    await bot1.chat('/forceload add 220 131');\n                    await bot4.chat('/setblock 223 73 128 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 223 74 128 -90 90');\n                await bot1.chat('/fill 221 69 126 225 69 130 minecraft:stone');await bot1.chat('/fill 220 70 125 225 71 130 minecraft:air');await bot1.chat('/setblock 224 71 127 minecraft:birch_log');await bot1.chat('/setblock 223 71 127 minecraft:sponge');await bot1.chat('/setblock 224 70 127 minecraft:acacia_fence');await bot1.chat('/setblock 223 70 127 minecraft:emerald_block');await bot1.chat('/setblock 222 70 127 minecraft:stone');await bot1.chat('/tp @p 228.16 72 127.41 118.51 -8.42 ');await bot1.chat('/give @p acacia_fence 4');await bot1.chat('/give @p stone 4');await bot1.chat('/give @p birch_log 4');await bot1.chat('/give @p emerald_block 3');await bot1.chat('/give @p sponge 2');await bot2.chat('/tp @p 228.93 72 128.72 299.51 -5.84 ');await bot2.chat('/give @p emerald_block 2');await bot2.chat('/give @p sponge 1');await bot2.chat('/give @p acacia_fence 2');",
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 217 69 128 minecraft:barrier');\n                    await bot4.chat('/tp @p 217 70 128 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 223 69 134 minecraft:barrier');\n                    await bot4.chat('/tp @p 223 70 134 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 223 74 128 -90 90');\n                "
+        ],
+        [
+            "await bot1.chat('/fill 220 70 125 225 71 130 minecraft:air');"
+        ]
+    ],
+    "variant": 100007,
+    "actions": [
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        [
+            "birch_log",
+            224,
+            71,
+            127
+        ],
+        [
+            "sponge",
+            223,
+            71,
+            127
+        ],
+        [
+            "acacia_fence",
+            224,
+            70,
+            127
+        ],
+        [
+            "emerald_block",
+            223,
+            70,
+            127
+        ],
+        [
+            "stone",
+            222,
+            70,
+            127
+        ]
+    ],
+    "bot1": {
+        "location": [
+            228.16,
+            72,
+            127.41
+        ],
+        "rotation": [
+            118.51,
+            -8.42
+        ],
+        "inventory": {
+            "acacia_fence": 4,
+            "stone": 4,
+            "birch_log": 4,
+            "emerald_block": 3,
+            "sponge": 2
+        }
+    },
+    "bot2": {
+        "location": [
+            228.93,
+            72,
+            128.72
+        ],
+        "rotation": [
+            299.51,
+            -5.84
+        ],
+        "inventory": {
+            "emerald_block": 2,
+            "sponge": 1,
+            "acacia_fence": 2
+        }
+    },
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            2
+        ],
+        "background": [
+            "minecraft:stone"
+        ],
+        "playground_location": {
+            "name": "villege",
+            "x": [
+                221,
+                225
+            ],
+            "z": [
+                126,
+                130
+            ],
+            "y": 70,
+            "bot_range": [
+                [
+                    226,
+                    229
+                ],
+                [
+                    125,
+                    131
+                ],
+                72
+            ],
+            "center": [
+                223,
+                70,
+                128
+            ]
+        },
+        "base_shape": [
+            [
+                3,
+                1,
+                2
+            ]
+        ],
+        "block_type": [
+            "birch_log",
+            "sponge",
+            "acacia_fence",
+            "emerald_block",
+            "stone"
+        ],
+        "placement_shape": [
+            [
+                2,
+                1,
+                0
+            ],
+            [
+                1,
+                1,
+                0
+            ],
+            [
+                2,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "block_count": 5,
+        "placement_shape_number": [
+            5,
+            4,
+            2,
+            1,
+            0
+        ]
+    },
+    "bot_list": [
+        "bot1",
+        "bot2"
+    ],
+    "center_position": [
+        223,
+        70,
+        128
+    ]
+}

@@ -1,0 +1,191 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode spectator');\n                    await bot3.chat('/tp @p 10 10 10');\n                    await bot1.chat('/tp @p 7391.47 65 5319.33 64.3 0.7 ');await bot1.chat('/give @p stone_axe 1');await bot2.chat('/tp @p 7388.29 65 5320.41 344.69 0.54 ');await bot2.chat('/give @p stone_axe 1');await bot1.chat('/forceload add 7390 5328');\n                    await bot4.chat('/setblock 7393 66 5325 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 7393 67 5325 -90 90');\n                await bot1.chat('/fill 7390 62 5322 7395 62 5327 minecraft:oak_wood');await bot1.chat('/fill 7390 63 5322 7395 65 5327 minecraft:air');await bot1.chat('/setblock 7394 63 5326 minecraft:stone');await bot1.chat('/setblock 7392 63 5326 minecraft:orange_concrete');await bot1.chat('/setblock 7394 63 5323 minecraft:bricks');await bot1.chat('/setblock 7391 63 5323 minecraft:stone');",
+    "bot1": {
+        "location": [
+            7391.47,
+            65,
+            5319.33
+        ],
+        "rotation": [
+            64.3,
+            0.7
+        ],
+        "inventory": {
+            "stone_axe": 1
+        }
+    },
+    "bot2": {
+        "location": [
+            7388.29,
+            65,
+            5320.41
+        ],
+        "rotation": [
+            344.69,
+            0.54
+        ],
+        "inventory": {
+            "stone_axe": 1
+        }
+    },
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 7387 62 5325 minecraft:barrier');\n                    await bot4.chat('/tp @p 7387 63 5325 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 7393 62 5331 minecraft:barrier');\n                    await bot4.chat('/tp @p 7393 63 5331 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 7393 67 5325 -90 90');\n                "
+        ],
+        [
+            ""
+        ]
+    ],
+    "variant": 100039,
+    "actions": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        "7391+63+5323",
+        "7391+64+5323",
+        "7391+65+5323",
+        "7391+63+5324",
+        "7391+64+5324",
+        "7391+65+5324",
+        "7391+63+5325",
+        "7391+64+5325",
+        "7391+65+5325",
+        "7391+63+5326",
+        "7391+64+5326",
+        "7391+65+5326",
+        "7392+63+5323",
+        "7392+64+5323",
+        "7392+65+5323",
+        "7392+63+5324",
+        "7392+64+5324",
+        "7392+65+5324",
+        "7392+63+5325",
+        "7392+64+5325",
+        "7392+65+5325",
+        "7392+63+5326",
+        "7392+64+5326",
+        "7392+65+5326",
+        "7393+63+5323",
+        "7393+64+5323",
+        "7393+65+5323",
+        "7393+63+5324",
+        "7393+64+5324",
+        "7393+65+5324",
+        "7393+63+5325",
+        "7393+64+5325",
+        "7393+65+5325",
+        "7393+63+5326",
+        "7393+64+5326",
+        "7393+65+5326",
+        "7394+63+5323",
+        "7394+64+5323",
+        "7394+65+5323",
+        "7394+63+5324",
+        "7394+64+5324",
+        "7394+65+5324",
+        "7394+63+5325",
+        "7394+64+5325",
+        "7394+65+5325",
+        "7394+63+5326",
+        "7394+64+5326",
+        "7394+65+5326"
+    ],
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            2
+        ],
+        "dimension": [
+            3
+        ],
+        "background": [
+            "minecraft:oak_wood"
+        ],
+        "playground_location": {
+            "name": "ice_on_water",
+            "x": [
+                7391,
+                7395
+            ],
+            "z": [
+                5323,
+                5327
+            ],
+            "y": 63,
+            "bot_range": [
+                [
+                    7387,
+                    7392
+                ],
+                [
+                    5318,
+                    5321
+                ],
+                65
+            ],
+            "center": [
+                7393,
+                63,
+                5325
+            ]
+        },
+        "tool_use": {
+            "bot1": "stone_axe",
+            "bot2": "stone_axe"
+        },
+        "block_type": [
+            "bricks",
+            "stone",
+            "stone",
+            "orange_concrete"
+        ],
+        "placement_shape": [
+            [
+                3,
+                0,
+                3
+            ],
+            [
+                1,
+                0,
+                3
+            ],
+            [
+                3,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "placement_shape_number": [
+            15,
+            13,
+            3,
+            0
+        ]
+    },
+    "bot_list": [
+        "bot1",
+        "bot2"
+    ],
+    "center_position": [
+        7393,
+        63,
+        5325
+    ]
+}

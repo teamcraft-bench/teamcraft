@@ -1,0 +1,198 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode spectator');\n                    await bot3.chat('/tp @p 10 10 10');\n                    await bot1.chat('/tp @p 11670.2 108 8495.86 212.59 -8.49 ');await bot1.chat('/give @p stone_axe 1');await bot2.chat('/tp @p 11672.14 108 8494.94 300.65 3.04 ');await bot2.chat('/give @p stone_sword 1');await bot1.chat('/forceload add 11668 8491');\n                    await bot4.chat('/setblock 11671 109 8488 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 11671 110 8488 -90 90');\n                await bot1.chat('/fill 11668 105 8485 11673 105 8490 minecraft:cyan_concrete');await bot1.chat('/fill 11668 106 8485 11673 108 8490 minecraft:air');await bot1.chat('/setblock 11670 107 8489 minecraft:coal_ore');await bot1.chat('/setblock 11671 107 8488 minecraft:anvil');await bot1.chat('/setblock 11670 106 8489 minecraft:clay');await bot1.chat('/setblock 11672 106 8488 minecraft:oak_fence');await bot1.chat('/setblock 11671 106 8488 minecraft:clay');",
+    "bot1": {
+        "location": [
+            11670.2,
+            108,
+            8495.86
+        ],
+        "rotation": [
+            212.59,
+            -8.49
+        ],
+        "inventory": {
+            "stone_axe": 1
+        }
+    },
+    "bot2": {
+        "location": [
+            11672.14,
+            108,
+            8494.94
+        ],
+        "rotation": [
+            300.65,
+            3.04
+        ],
+        "inventory": {
+            "stone_sword": 1
+        }
+    },
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 11665 105 8488 minecraft:barrier');\n                    await bot4.chat('/tp @p 11665 106 8488 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 11671 105 8494 minecraft:barrier');\n                    await bot4.chat('/tp @p 11671 106 8494 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 11671 110 8488 -90 90');\n                "
+        ],
+        [
+            ""
+        ]
+    ],
+    "variant": 100009,
+    "actions": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        "11669+106+8486",
+        "11669+107+8486",
+        "11669+108+8486",
+        "11669+106+8487",
+        "11669+107+8487",
+        "11669+108+8487",
+        "11669+106+8488",
+        "11669+107+8488",
+        "11669+108+8488",
+        "11669+106+8489",
+        "11669+107+8489",
+        "11669+108+8489",
+        "11670+106+8486",
+        "11670+107+8486",
+        "11670+108+8486",
+        "11670+106+8487",
+        "11670+107+8487",
+        "11670+108+8487",
+        "11670+106+8488",
+        "11670+107+8488",
+        "11670+108+8488",
+        "11670+106+8489",
+        "11670+107+8489",
+        "11670+108+8489",
+        "11671+106+8486",
+        "11671+107+8486",
+        "11671+108+8486",
+        "11671+106+8487",
+        "11671+107+8487",
+        "11671+108+8487",
+        "11671+106+8488",
+        "11671+107+8488",
+        "11671+108+8488",
+        "11671+106+8489",
+        "11671+107+8489",
+        "11671+108+8489",
+        "11672+106+8486",
+        "11672+107+8486",
+        "11672+108+8486",
+        "11672+106+8487",
+        "11672+107+8487",
+        "11672+108+8487",
+        "11672+106+8488",
+        "11672+107+8488",
+        "11672+108+8488",
+        "11672+106+8489",
+        "11672+107+8489",
+        "11672+108+8489"
+    ],
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            2
+        ],
+        "dimension": [
+            2
+        ],
+        "background": [
+            "minecraft:cyan_concrete"
+        ],
+        "playground_location": {
+            "name": "snow_mountain",
+            "x": [
+                11669,
+                11673
+            ],
+            "z": [
+                8486,
+                8490
+            ],
+            "y": 106,
+            "bot_range": [
+                [
+                    11668,
+                    11673
+                ],
+                [
+                    8494,
+                    8496
+                ],
+                108
+            ],
+            "center": [
+                11671,
+                106,
+                8488
+            ]
+        },
+        "tool_use": {
+            "bot1": "stone_axe",
+            "bot2": "stone_sword"
+        },
+        "block_type": [
+            "clay",
+            "oak_fence",
+            "clay",
+            "coal_ore",
+            "anvil"
+        ],
+        "placement_shape": [
+            [
+                1,
+                1,
+                3
+            ],
+            [
+                2,
+                1,
+                2
+            ],
+            [
+                1,
+                0,
+                3
+            ],
+            [
+                3,
+                0,
+                2
+            ],
+            [
+                2,
+                0,
+                2
+            ]
+        ],
+        "placement_shape_number": [
+            29,
+            26,
+            13,
+            11,
+            10
+        ]
+    },
+    "bot_list": [
+        "bot1",
+        "bot2"
+    ],
+    "center_position": [
+        11671,
+        106,
+        8488
+    ]
+}

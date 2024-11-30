@@ -1,0 +1,313 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot0.chat('/gamemode survival');\n                    await bot0.chat('/tp @p 4283.88 65 1117.55 128.14 5.75 ');await bot0.chat('/give @p iron_ore 1');await bot0.chat('/give @p iron_ore 1');await bot0.chat('/give @p iron_shovel 1');await bot0.chat('/give @p iron_axe 1');await bot1.chat('/tp @p 4285.63 65 1118.15 23.86 -5.44 ');await bot1.chat('/give @p iron_pickaxe 1');await bot1.chat('/give @p iron_sword 1');await bot2.chat('/tp @p 4284.71 65 1118.42 293.19 0.34 ');await bot2.chat('/give @p iron_ore 1');await bot2.chat('/give @p iron_pickaxe 1');await bot2.chat('/give @p iron_shovel 1');await bot3.chat('/tp @p 4284.88 65 1121.73 128.97 -3.07 ');await bot3.chat('/give @p acacia_log 1');await bot3.chat('/give @p iron_sword 1');await bot3.chat('/give @p iron_sword 1');await bot3.chat('/give @p iron_pickaxe 1');await bot1.chat('/forceload add 4281 1129');\n                    await bot4.chat('/setblock 4284 67 1126 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 4284 68 1126 -90 90');\n                await bot1.chat('/fill 4281 63 1123 4286 63 1128 minecraft:pink_wool');await bot1.chat('/fill 4281 64 1123 4286 66 1128 minecraft:air');await bot1.chat('/kill @e[type=!player,distance=..30]');await bot1.chat('/kill @e[type=item]');await bot1.chat('/setblock 4281 64 1127 minecraft:acacia_log');await bot1.chat('/setblock 4286 64 1126 minecraft:acacia_log');await bot1.chat('/setblock 4281 64 1128 minecraft:iron_ore');await bot1.chat('/setblock 4281 64 1125 minecraft:acacia_log');await bot1.chat('/setblock 4284 64 1123 minecraft:acacia_log');await bot1.chat('/setblock 4284 64 1126 minecraft:furnace');await bot1.chat('/setblock 4284 64 1127 minecraft:furnace');",
+    "bot0": {
+        "location": [
+            4283.88,
+            65,
+            1117.55
+        ],
+        "rotation": [
+            128.14,
+            5.75
+        ],
+        "inventory": {
+            "iron_ore": 2,
+            "iron_shovel": 1,
+            "iron_axe": 1
+        }
+    },
+    "bot1": {
+        "location": [
+            4285.63,
+            65,
+            1118.15
+        ],
+        "rotation": [
+            23.86,
+            -5.44
+        ],
+        "inventory": {
+            "iron_pickaxe": 1,
+            "iron_sword": 1
+        }
+    },
+    "bot2": {
+        "location": [
+            4284.71,
+            65,
+            1118.42
+        ],
+        "rotation": [
+            293.19,
+            0.34
+        ],
+        "inventory": {
+            "iron_ore": 1,
+            "iron_pickaxe": 1,
+            "iron_shovel": 1
+        }
+    },
+    "bot3": {
+        "location": [
+            4284.88,
+            65,
+            1121.73
+        ],
+        "rotation": [
+            128.97,
+            -3.07
+        ],
+        "inventory": {
+            "acacia_log": 1,
+            "iron_sword": 2,
+            "iron_pickaxe": 1
+        }
+    },
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 4278 63 1126 minecraft:barrier');\n                    await bot4.chat('/tp @p 4278 64 1126 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 4284 63 1132 minecraft:barrier');\n                    await bot4.chat('/tp @p 4284 64 1132 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 4284 68 1126 -90 90');\n                "
+        ],
+        [
+            ""
+        ]
+    ],
+    "variant": 100025,
+    "actions": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        "iron_ingot",
+        4
+    ],
+    "variants_config": {
+        "agent_counts": 4,
+        "playground_location": {
+            "name": "swamp",
+            "x": [
+                4282,
+                4286
+            ],
+            "z": [
+                1124,
+                1128
+            ],
+            "y": 64,
+            "bot_range": [
+                [
+                    4283,
+                    4286
+                ],
+                [
+                    1116,
+                    1122
+                ],
+                65
+            ],
+            "center": [
+                4284,
+                64,
+                1126
+            ],
+            "furance": [
+                [
+                    4284,
+                    64,
+                    1126
+                ],
+                [
+                    4284,
+                    64,
+                    1125
+                ],
+                [
+                    4284,
+                    64,
+                    1127
+                ]
+            ]
+        },
+        "background": [
+            "minecraft:pink_wool"
+        ],
+        "furance_count": 2,
+        "furance_pos": [
+            [
+                4284,
+                64,
+                1126
+            ],
+            [
+                4284,
+                64,
+                1127
+            ]
+        ],
+        "fuel": "acacia_log",
+        "goal_type": "item",
+        "goal_item": "iron_ingot",
+        "goal_count": 4,
+        "tool_use": [
+            [
+                "iron_shovel",
+                "iron_axe"
+            ],
+            [
+                "iron_pickaxe",
+                "iron_sword"
+            ],
+            [
+                "iron_pickaxe",
+                "iron_shovel"
+            ],
+            [
+                "iron_sword",
+                "iron_sword",
+                "iron_pickaxe"
+            ]
+        ],
+        "placement_shape": [
+            [
+                4281,
+                64,
+                1123
+            ],
+            [
+                4282,
+                64,
+                1123
+            ],
+            [
+                4283,
+                64,
+                1123
+            ],
+            [
+                4284,
+                64,
+                1123
+            ],
+            [
+                4285,
+                64,
+                1123
+            ],
+            [
+                4286,
+                64,
+                1123
+            ],
+            [
+                4286,
+                64,
+                1124
+            ],
+            [
+                4286,
+                64,
+                1125
+            ],
+            [
+                4286,
+                64,
+                1126
+            ],
+            [
+                4286,
+                64,
+                1127
+            ],
+            [
+                4286,
+                64,
+                1128
+            ],
+            [
+                4285,
+                64,
+                1128
+            ],
+            [
+                4284,
+                64,
+                1128
+            ],
+            [
+                4283,
+                64,
+                1128
+            ],
+            [
+                4282,
+                64,
+                1128
+            ],
+            [
+                4281,
+                64,
+                1128
+            ],
+            [
+                4281,
+                64,
+                1127
+            ],
+            [
+                4281,
+                64,
+                1126
+            ],
+            [
+                4281,
+                64,
+                1125
+            ],
+            [
+                4281,
+                64,
+                1124
+            ]
+        ],
+        "inventory": [
+            [
+                "iron_ore",
+                "iron_ore"
+            ],
+            [],
+            [
+                "iron_ore"
+            ],
+            [
+                "acacia_log"
+            ]
+        ],
+        "placement_shape_all": {
+            "16": "acacia_log",
+            "8": "acacia_log",
+            "15": "iron_ore",
+            "18": "acacia_log",
+            "3": "acacia_log"
+        }
+    },
+    "bot_list": [
+        "bot0",
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        4284,
+        64,
+        1126
+    ]
+}

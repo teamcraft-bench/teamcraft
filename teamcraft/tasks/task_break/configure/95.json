@@ -1,0 +1,242 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot1.chat('/tp @p 4284.14 65 1119.7 160.39 7.41 ');await bot1.chat('/give @p stone_sword 1');await bot2.chat('/tp @p 4285.96 65 1119.27 240.32 -0.91 ');await bot2.chat('/give @p stone_shovel 1');await bot3.chat('/tp @p 4283.93 65 1117.86 25.64 6.61 ');await bot3.chat('/give @p stone_axe 1');await bot1.chat('/forceload add 4281 1129');\n                    await bot4.chat('/setblock 4284 67 1126 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 4284 68 1126 -90 90');\n                await bot1.chat('/fill 4281 63 1123 4286 63 1128 minecraft:glass');await bot1.chat('/fill 4281 64 1123 4286 66 1128 minecraft:air');await bot1.chat('/setblock 4285 65 1127 minecraft:coal_ore');await bot1.chat('/setblock 4282 65 1124 minecraft:coal_ore');await bot1.chat('/setblock 4285 64 1127 minecraft:stone');await bot1.chat('/setblock 4283 64 1126 minecraft:anvil');await bot1.chat('/setblock 4282 64 1126 minecraft:oak_log');await bot1.chat('/setblock 4285 64 1125 minecraft:oak_log');await bot1.chat('/setblock 4283 64 1125 minecraft:oak_log');await bot1.chat('/setblock 4285 64 1124 minecraft:birch_log');await bot1.chat('/setblock 4282 64 1124 minecraft:acacia_fence');",
+    "bot1": {
+        "location": [
+            4284.14,
+            65,
+            1119.7
+        ],
+        "rotation": [
+            160.39,
+            7.41
+        ],
+        "inventory": {
+            "stone_sword": 1
+        }
+    },
+    "bot2": {
+        "location": [
+            4285.96,
+            65,
+            1119.27
+        ],
+        "rotation": [
+            240.32,
+            -0.91
+        ],
+        "inventory": {
+            "stone_shovel": 1
+        }
+    },
+    "bot3": {
+        "location": [
+            4283.93,
+            65,
+            1117.86
+        ],
+        "rotation": [
+            25.64,
+            6.61
+        ],
+        "inventory": {
+            "stone_axe": 1
+        }
+    },
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 4278 63 1126 minecraft:barrier');\n                    await bot4.chat('/tp @p 4278 64 1126 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 4284 63 1132 minecraft:barrier');\n                    await bot4.chat('/tp @p 4284 64 1132 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 4284 68 1126 -90 90');\n                "
+        ],
+        [
+            ""
+        ]
+    ],
+    "variant": 100045,
+    "actions": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        "4282+64+1124",
+        "4282+65+1124",
+        "4282+66+1124",
+        "4282+64+1125",
+        "4282+65+1125",
+        "4282+66+1125",
+        "4282+64+1126",
+        "4282+65+1126",
+        "4282+66+1126",
+        "4282+64+1127",
+        "4282+65+1127",
+        "4282+66+1127",
+        "4283+64+1124",
+        "4283+65+1124",
+        "4283+66+1124",
+        "4283+64+1125",
+        "4283+65+1125",
+        "4283+66+1125",
+        "4283+64+1126",
+        "4283+65+1126",
+        "4283+66+1126",
+        "4283+64+1127",
+        "4283+65+1127",
+        "4283+66+1127",
+        "4284+64+1124",
+        "4284+65+1124",
+        "4284+66+1124",
+        "4284+64+1125",
+        "4284+65+1125",
+        "4284+66+1125",
+        "4284+64+1126",
+        "4284+65+1126",
+        "4284+66+1126",
+        "4284+64+1127",
+        "4284+65+1127",
+        "4284+66+1127",
+        "4285+64+1124",
+        "4285+65+1124",
+        "4285+66+1124",
+        "4285+64+1125",
+        "4285+65+1125",
+        "4285+66+1125",
+        "4285+64+1126",
+        "4285+65+1126",
+        "4285+66+1126",
+        "4285+64+1127",
+        "4285+65+1127",
+        "4285+66+1127"
+    ],
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            3
+        ],
+        "dimension": [
+            3
+        ],
+        "background": [
+            "minecraft:glass"
+        ],
+        "playground_location": {
+            "name": "swamp",
+            "x": [
+                4282,
+                4286
+            ],
+            "z": [
+                1124,
+                1128
+            ],
+            "y": 64,
+            "bot_range": [
+                [
+                    4283,
+                    4286
+                ],
+                [
+                    1116,
+                    1122
+                ],
+                65
+            ],
+            "center": [
+                4284,
+                64,
+                1126
+            ]
+        },
+        "tool_use": {
+            "bot1": "stone_sword",
+            "bot2": "stone_shovel",
+            "bot3": "stone_axe"
+        },
+        "block_type": [
+            "oak_log",
+            "oak_log",
+            "stone",
+            "oak_log",
+            "anvil",
+            "birch_log",
+            "coal_ore",
+            "acacia_fence",
+            "coal_ore"
+        ],
+        "placement_shape": [
+            [
+                3,
+                1,
+                3
+            ],
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                3,
+                0,
+                3
+            ],
+            [
+                1,
+                0,
+                2
+            ],
+            [
+                0,
+                0,
+                2
+            ],
+            [
+                3,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                1
+            ],
+            [
+                3,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "placement_shape_number": [
+            31,
+            16,
+            15,
+            9,
+            8,
+            7,
+            5,
+            3,
+            0
+        ]
+    },
+    "bot_list": [
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        4284,
+        64,
+        1126
+    ]
+}

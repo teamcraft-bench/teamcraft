@@ -1,0 +1,285 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode spectator');\n                    await bot3.chat('/tp @p 10 10 10');\n                    await bot1.chat('/forceload add 4281 1129');\n                    await bot4.chat('/setblock 4284 67 1126 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 4284 68 1126 -90 90');\n                await bot1.chat('/fill 4282 63 1124 4286 63 1128 minecraft:glowstone');await bot1.chat('/fill 4281 64 1123 4286 65 1128 minecraft:air');await bot1.chat('/setblock 4284 65 1127 minecraft:clay');await bot1.chat('/setblock 4283 65 1127 minecraft:bricks');await bot1.chat('/setblock 4284 65 1126 minecraft:end_stone');await bot1.chat('/setblock 4283 65 1126 minecraft:end_stone');await bot1.chat('/setblock 4284 65 1125 minecraft:pumpkin');await bot1.chat('/setblock 4283 65 1125 minecraft:end_stone');await bot1.chat('/setblock 4284 64 1127 minecraft:oak_fence');await bot1.chat('/setblock 4283 64 1127 minecraft:bricks');await bot1.chat('/setblock 4284 64 1126 minecraft:oak_fence');await bot1.chat('/setblock 4283 64 1126 minecraft:emerald_block');await bot1.chat('/setblock 4284 64 1125 minecraft:sandstone');await bot1.chat('/setblock 4283 64 1125 minecraft:purple_wool');await bot1.chat('/tp @p 4283.63 65 1119.01 292.62 6.0 ');await bot1.chat('/give @p oak_fence 11');await bot1.chat('/give @p purple_wool 2');await bot1.chat('/give @p end_stone 6');await bot1.chat('/give @p clay 5');await bot1.chat('/give @p pumpkin 3');await bot1.chat('/give @p emerald_block 1');await bot1.chat('/give @p bricks 1');await bot2.chat('/tp @p 4283.44 65 1116.85 180.94 2.56 ');await bot2.chat('/give @p bricks 7');await bot2.chat('/give @p sandstone 2');await bot2.chat('/give @p emerald_block 3');await bot2.chat('/give @p pumpkin 3');await bot2.chat('/give @p end_stone 7');await bot2.chat('/give @p oak_fence 5');await bot2.chat('/give @p purple_wool 3');await bot2.chat('/give @p clay 2');",
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 4278 63 1126 minecraft:barrier');\n                    await bot4.chat('/tp @p 4278 64 1126 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 4284 63 1132 minecraft:barrier');\n                    await bot4.chat('/tp @p 4284 64 1132 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 4284 68 1126 -90 90');\n                "
+        ],
+        [
+            "await bot1.chat('/fill 4281 64 1123 4286 65 1128 minecraft:air');"
+        ]
+    ],
+    "variant": 100003,
+    "actions": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        [
+            "clay",
+            4284,
+            65,
+            1127
+        ],
+        [
+            "bricks",
+            4283,
+            65,
+            1127
+        ],
+        [
+            "end_stone",
+            4284,
+            65,
+            1126
+        ],
+        [
+            "end_stone",
+            4283,
+            65,
+            1126
+        ],
+        [
+            "pumpkin",
+            4284,
+            65,
+            1125
+        ],
+        [
+            "end_stone",
+            4283,
+            65,
+            1125
+        ],
+        [
+            "oak_fence",
+            4284,
+            64,
+            1127
+        ],
+        [
+            "bricks",
+            4283,
+            64,
+            1127
+        ],
+        [
+            "oak_fence",
+            4284,
+            64,
+            1126
+        ],
+        [
+            "emerald_block",
+            4283,
+            64,
+            1126
+        ],
+        [
+            "sandstone",
+            4284,
+            64,
+            1125
+        ],
+        [
+            "purple_wool",
+            4283,
+            64,
+            1125
+        ]
+    ],
+    "bot1": {
+        "location": [
+            4283.63,
+            65,
+            1119.01
+        ],
+        "rotation": [
+            292.62,
+            6.0
+        ],
+        "inventory": {
+            "oak_fence": 11,
+            "purple_wool": 2,
+            "end_stone": 6,
+            "clay": 5,
+            "pumpkin": 3,
+            "emerald_block": 1,
+            "bricks": 1
+        }
+    },
+    "bot2": {
+        "location": [
+            4283.44,
+            65,
+            1116.85
+        ],
+        "rotation": [
+            180.94,
+            2.56
+        ],
+        "inventory": {
+            "bricks": 7,
+            "sandstone": 2,
+            "emerald_block": 3,
+            "pumpkin": 3,
+            "end_stone": 7,
+            "oak_fence": 5,
+            "purple_wool": 3,
+            "clay": 2
+        }
+    },
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            2
+        ],
+        "background": [
+            "minecraft:glowstone"
+        ],
+        "playground_location": {
+            "name": "swamp",
+            "x": [
+                4282,
+                4286
+            ],
+            "z": [
+                1124,
+                1128
+            ],
+            "y": 64,
+            "bot_range": [
+                [
+                    4283,
+                    4286
+                ],
+                [
+                    1116,
+                    1122
+                ],
+                65
+            ],
+            "center": [
+                4284,
+                64,
+                1126
+            ]
+        },
+        "base_shape": [
+            [
+                2,
+                3,
+                2
+            ]
+        ],
+        "block_type": [
+            "clay",
+            "bricks",
+            "end_stone",
+            "end_stone",
+            "pumpkin",
+            "end_stone",
+            "oak_fence",
+            "bricks",
+            "oak_fence",
+            "emerald_block",
+            "sandstone",
+            "purple_wool"
+        ],
+        "placement_shape": [
+            [
+                1,
+                1,
+                2
+            ],
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                0,
+                2
+            ],
+            [
+                0,
+                0,
+                2
+            ],
+            [
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "block_count": 12,
+        "placement_shape_number": [
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+        ]
+    },
+    "bot_list": [
+        "bot1",
+        "bot2"
+    ],
+    "center_position": [
+        4284,
+        64,
+        1126
+    ]
+}

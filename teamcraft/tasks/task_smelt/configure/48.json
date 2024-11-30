@@ -1,0 +1,290 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot1.chat('/tp @p 7387.94 65 5320.64 53.94 1.83 ');await bot1.chat('/give @p iron_axe 1');await bot1.chat('/give @p iron_axe 1');await bot1.chat('/give @p iron_pickaxe 1');await bot1.chat('/give @p iron_pickaxe 1');await bot2.chat('/tp @p 7389.03 65 5318.17 80.83 -8.91 ');await bot2.chat('/give @p spruce_log 1');await bot2.chat('/give @p iron_pickaxe 1');await bot2.chat('/give @p iron_shovel 1');await bot2.chat('/give @p iron_pickaxe 1');await bot3.chat('/tp @p 7388.94 65 5319.81 178.55 -6.32 ');await bot3.chat('/give @p iron_sword 1');await bot3.chat('/give @p iron_pickaxe 1');await bot3.chat('/give @p iron_pickaxe 1');await bot1.chat('/forceload add 7390 5328');\n                    await bot4.chat('/setblock 7393 66 5325 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 7393 67 5325 -90 90');\n                await bot1.chat('/fill 7390 62 5322 7395 62 5327 minecraft:pink_wool');await bot1.chat('/fill 7390 63 5322 7395 65 5327 minecraft:air');await bot1.chat('/kill @e[type=!player,distance=..30]');await bot1.chat('/kill @e[type=item]');await bot1.chat('/setblock 7394 63 5322 minecraft:cobblestone');await bot1.chat('/setblock 7392 63 5327 minecraft:cobblestone');await bot1.chat('/setblock 7390 63 5327 minecraft:cobblestone');await bot1.chat('/setblock 7392 63 5322 minecraft:spruce_log');await bot1.chat('/setblock 7393 63 5327 minecraft:cobblestone');await bot1.chat('/setblock 7395 63 5326 minecraft:cobblestone');await bot1.chat('/setblock 7390 63 5324 minecraft:spruce_log');await bot1.chat('/setblock 7391 63 5322 minecraft:cobblestone');await bot1.chat('/setblock 7395 63 5325 minecraft:cobblestone');await bot1.chat('/setblock 7395 63 5327 minecraft:spruce_log');await bot1.chat('/setblock 7391 63 5327 minecraft:spruce_log');await bot1.chat('/setblock 7393 63 5326 minecraft:furnace');",
+    "bot1": {
+        "location": [
+            7387.94,
+            65,
+            5320.64
+        ],
+        "rotation": [
+            53.94,
+            1.83
+        ],
+        "inventory": {
+            "iron_axe": 2,
+            "iron_pickaxe": 2
+        }
+    },
+    "bot2": {
+        "location": [
+            7389.03,
+            65,
+            5318.17
+        ],
+        "rotation": [
+            80.83,
+            -8.91
+        ],
+        "inventory": {
+            "spruce_log": 1,
+            "iron_pickaxe": 2,
+            "iron_shovel": 1
+        }
+    },
+    "bot3": {
+        "location": [
+            7388.94,
+            65,
+            5319.81
+        ],
+        "rotation": [
+            178.55,
+            -6.32
+        ],
+        "inventory": {
+            "iron_sword": 1,
+            "iron_pickaxe": 2
+        }
+    },
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 7387 62 5325 minecraft:barrier');\n                    await bot4.chat('/tp @p 7387 63 5325 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 7393 62 5331 minecraft:barrier');\n                    await bot4.chat('/tp @p 7393 63 5331 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 7393 67 5325 -90 90');\n                "
+        ],
+        [
+            ""
+        ]
+    ],
+    "variant": 100048,
+    "actions": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        "stone",
+        4
+    ],
+    "variants_config": {
+        "agent_counts": 3,
+        "playground_location": {
+            "name": "ice_on_water",
+            "x": [
+                7391,
+                7395
+            ],
+            "z": [
+                5323,
+                5327
+            ],
+            "y": 63,
+            "bot_range": [
+                [
+                    7387,
+                    7392
+                ],
+                [
+                    5318,
+                    5321
+                ],
+                65
+            ],
+            "center": [
+                7393,
+                63,
+                5325
+            ],
+            "furance": [
+                [
+                    7393,
+                    63,
+                    5325
+                ],
+                [
+                    7393,
+                    63,
+                    5324
+                ],
+                [
+                    7393,
+                    63,
+                    5326
+                ]
+            ]
+        },
+        "background": [
+            "minecraft:pink_wool"
+        ],
+        "furance_count": 1,
+        "furance_pos": [
+            [
+                7393,
+                63,
+                5326
+            ]
+        ],
+        "fuel": "spruce_log",
+        "goal_type": "item",
+        "goal_item": "stone",
+        "goal_count": 4,
+        "tool_use": [
+            [
+                "iron_axe",
+                "iron_axe",
+                "iron_pickaxe",
+                "iron_pickaxe"
+            ],
+            [
+                "iron_pickaxe",
+                "iron_shovel",
+                "iron_pickaxe"
+            ],
+            [
+                "iron_sword",
+                "iron_pickaxe",
+                "iron_pickaxe"
+            ]
+        ],
+        "placement_shape": [
+            [
+                7390,
+                63,
+                5322
+            ],
+            [
+                7391,
+                63,
+                5322
+            ],
+            [
+                7392,
+                63,
+                5322
+            ],
+            [
+                7393,
+                63,
+                5322
+            ],
+            [
+                7394,
+                63,
+                5322
+            ],
+            [
+                7395,
+                63,
+                5322
+            ],
+            [
+                7395,
+                63,
+                5323
+            ],
+            [
+                7395,
+                63,
+                5324
+            ],
+            [
+                7395,
+                63,
+                5325
+            ],
+            [
+                7395,
+                63,
+                5326
+            ],
+            [
+                7395,
+                63,
+                5327
+            ],
+            [
+                7394,
+                63,
+                5327
+            ],
+            [
+                7393,
+                63,
+                5327
+            ],
+            [
+                7392,
+                63,
+                5327
+            ],
+            [
+                7391,
+                63,
+                5327
+            ],
+            [
+                7390,
+                63,
+                5327
+            ],
+            [
+                7390,
+                63,
+                5326
+            ],
+            [
+                7390,
+                63,
+                5325
+            ],
+            [
+                7390,
+                63,
+                5324
+            ],
+            [
+                7390,
+                63,
+                5323
+            ]
+        ],
+        "inventory": [
+            [],
+            [
+                "spruce_log"
+            ],
+            []
+        ],
+        "placement_shape_all": {
+            "4": "cobblestone",
+            "13": "cobblestone",
+            "15": "cobblestone",
+            "2": "spruce_log",
+            "12": "cobblestone",
+            "9": "cobblestone",
+            "18": "spruce_log",
+            "1": "cobblestone",
+            "8": "cobblestone",
+            "10": "spruce_log",
+            "14": "spruce_log"
+        }
+    },
+    "bot_list": [
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        7393,
+        63,
+        5325
+    ]
+}

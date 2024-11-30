@@ -1,0 +1,50 @@
+[
+  {
+    "uuid": "899ccf99-e41a-3b48-b478-79fb5a961430",
+    "name": "bot3",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "5de77789-baf9-30ea-9aaa-90555cd97647",
+    "name": "bot2",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "2ff745a4-a06c-3fd9-b222-04a12f73c07e",
+    "name": "bot0",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "1022bec8-1e41-4668-8014-708e819ca690",
+    "name": "Bot2",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "0e6c55c0-0373-3d9d-bd19-7bb34e6fff34",
+    "name": "bot4",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "72edec94-555a-4d76-b3cf-6b9a9a1fb08b",
+    "name": "Bot3",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "05f673da-66b5-37e3-b03b-09bbf434403e",
+    "name": "bot1",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "408f9523-2f0e-40fd-a719-90bc07cf4c03",
+    "name": "Bot1",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

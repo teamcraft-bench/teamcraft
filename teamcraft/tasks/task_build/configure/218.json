@@ -1,0 +1,245 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot0.chat('/gamemode survival');\n                    await bot1.chat('/forceload add 4299 214');\n                    await bot4.chat('/setblock 4302 100 211 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 4302 101 211 -90 90');\n                await bot1.chat('/fill 4300 96 209 4304 96 213 minecraft:oak_wood');await bot1.chat('/fill 4299 97 208 4304 98 213 minecraft:air');await bot1.chat('/setblock 4301 98 212 minecraft:emerald_block');await bot1.chat('/setblock 4302 98 211 minecraft:orange_concrete');await bot1.chat('/setblock 4302 97 212 minecraft:gold_ore');await bot1.chat('/setblock 4301 97 212 minecraft:orange_concrete');await bot1.chat('/setblock 4302 97 211 minecraft:emerald_block');await bot1.chat('/setblock 4301 97 211 minecraft:oak_fence');await bot1.chat('/setblock 4302 97 210 minecraft:sandstone');await bot0.chat('/tp @p 4306.89 98 209.95 335.21 7.53 ');await bot0.chat('/give @p gold_ore 6');await bot0.chat('/give @p sandstone 1');await bot0.chat('/give @p oak_fence 1');await bot0.chat('/give @p orange_concrete 2');await bot0.chat('/give @p emerald_block 2');await bot1.chat('/tp @p 4306.79 98 209.36 159.97 -9.12 ');await bot1.chat('/give @p orange_concrete 4');await bot1.chat('/give @p emerald_block 3');await bot1.chat('/give @p sandstone 3');await bot2.chat('/tp @p 4306.98 98 209.52 254.98 3.08 ');await bot2.chat('/give @p emerald_block 9');await bot2.chat('/give @p orange_concrete 1');await bot2.chat('/give @p sandstone 1');await bot2.chat('/give @p oak_fence 3');await bot2.chat('/give @p gold_ore 3');await bot3.chat('/tp @p 4306.3 98 209.14 202.81 -3.18 ');await bot3.chat('/give @p oak_fence 3');await bot3.chat('/give @p emerald_block 2');await bot3.chat('/give @p sandstone 2');",
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 4296 96 211 minecraft:barrier');\n                    await bot4.chat('/tp @p 4296 97 211 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 4302 96 217 minecraft:barrier');\n                    await bot4.chat('/tp @p 4302 97 217 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 4302 101 211 -90 90');\n                "
+        ],
+        [
+            "await bot1.chat('/fill 4299 97 208 4304 98 213 minecraft:air');"
+        ]
+    ],
+    "variant": 100018,
+    "actions": [
+        [],
+        []
+    ],
+    "done_input": [
+        [
+            "emerald_block",
+            4301,
+            98,
+            212
+        ],
+        [
+            "orange_concrete",
+            4302,
+            98,
+            211
+        ],
+        [
+            "gold_ore",
+            4302,
+            97,
+            212
+        ],
+        [
+            "orange_concrete",
+            4301,
+            97,
+            212
+        ],
+        [
+            "emerald_block",
+            4302,
+            97,
+            211
+        ],
+        [
+            "oak_fence",
+            4301,
+            97,
+            211
+        ],
+        [
+            "sandstone",
+            4302,
+            97,
+            210
+        ]
+    ],
+    "bot0": {
+        "location": [
+            4306.89,
+            98,
+            209.95
+        ],
+        "rotation": [
+            335.21,
+            7.53
+        ],
+        "inventory": {
+            "gold_ore": 6,
+            "sandstone": 1,
+            "oak_fence": 1,
+            "orange_concrete": 2,
+            "emerald_block": 2
+        }
+    },
+    "bot1": {
+        "location": [
+            4306.79,
+            98,
+            209.36
+        ],
+        "rotation": [
+            159.97,
+            -9.12
+        ],
+        "inventory": {
+            "orange_concrete": 4,
+            "emerald_block": 3,
+            "sandstone": 3
+        }
+    },
+    "bot2": {
+        "location": [
+            4306.98,
+            98,
+            209.52
+        ],
+        "rotation": [
+            254.98,
+            3.08
+        ],
+        "inventory": {
+            "emerald_block": 9,
+            "orange_concrete": 1,
+            "sandstone": 1,
+            "oak_fence": 3,
+            "gold_ore": 3
+        }
+    },
+    "bot3": {
+        "location": [
+            4306.3,
+            98,
+            209.14
+        ],
+        "rotation": [
+            202.81,
+            -3.18
+        ],
+        "inventory": {
+            "oak_fence": 3,
+            "emerald_block": 2,
+            "sandstone": 2
+        }
+    },
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            4
+        ],
+        "background": [
+            "minecraft:oak_wood"
+        ],
+        "playground_location": {
+            "name": "mountain_half",
+            "x": [
+                4300,
+                4304
+            ],
+            "z": [
+                209,
+                213
+            ],
+            "y": 97,
+            "bot_range": [
+                [
+                    4305,
+                    4307
+                ],
+                [
+                    209,
+                    211
+                ],
+                98
+            ],
+            "center": [
+                4302,
+                97,
+                211
+            ]
+        },
+        "base_shape": [
+            [
+                2,
+                3,
+                2
+            ]
+        ],
+        "block_type": [
+            "emerald_block",
+            "orange_concrete",
+            "gold_ore",
+            "orange_concrete",
+            "emerald_block",
+            "oak_fence",
+            "sandstone"
+        ],
+        "placement_shape": [
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                0,
+                2
+            ],
+            [
+                0,
+                0,
+                2
+            ],
+            [
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                0
+            ]
+        ],
+        "block_count": 7,
+        "placement_shape_number": [
+            10,
+            9,
+            5,
+            4,
+            3,
+            2,
+            1
+        ]
+    },
+    "bot_list": [
+        "bot0",
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        4302,
+        97,
+        211
+    ]
+}

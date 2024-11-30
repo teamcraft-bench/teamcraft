@@ -1,0 +1,219 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot0.chat('/gamemode survival');\n                    await bot1.chat('/forceload add 220 131');\n                    await bot4.chat('/setblock 223 73 128 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 223 74 128 -90 90');\n                await bot1.chat('/fill 221 69 126 225 69 130 minecraft:stone');await bot1.chat('/fill 220 70 125 225 71 130 minecraft:air');await bot1.chat('/setblock 224 71 127 minecraft:purple_wool');await bot1.chat('/setblock 223 71 127 minecraft:pumpkin');await bot1.chat('/setblock 224 70 127 minecraft:stone');await bot1.chat('/setblock 223 70 127 minecraft:coal_ore');await bot1.chat('/setblock 222 70 127 minecraft:orange_concrete');await bot0.chat('/tp @p 228.26 72 126.4 73.42 2.01 ');await bot0.chat('/give @p stone 3');await bot0.chat('/give @p purple_wool 3');await bot0.chat('/give @p pumpkin 1');await bot0.chat('/give @p coal_ore 3');await bot0.chat('/give @p orange_concrete 3');await bot1.chat('/tp @p 227.64 72 127.78 263.05 -7.35 ');await bot1.chat('/give @p coal_ore 5');await bot1.chat('/give @p pumpkin 1');await bot1.chat('/give @p orange_concrete 3');await bot1.chat('/give @p stone 2');await bot1.chat('/give @p purple_wool 1');await bot2.chat('/tp @p 227.89 72 129.33 161.93 -4.83 ');await bot2.chat('/give @p orange_concrete 1');await bot2.chat('/give @p coal_ore 3');await bot2.chat('/give @p stone 2');await bot3.chat('/tp @p 227.37 72 128.09 255.97 3.71 ');await bot3.chat('/give @p purple_wool 2');await bot3.chat('/give @p coal_ore 1');await bot3.chat('/give @p orange_concrete 3');",
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 217 69 128 minecraft:barrier');\n                    await bot4.chat('/tp @p 217 70 128 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 223 69 134 minecraft:barrier');\n                    await bot4.chat('/tp @p 223 70 134 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 223 74 128 -90 90');\n                "
+        ],
+        [
+            "await bot1.chat('/fill 220 70 125 225 71 130 minecraft:air');"
+        ]
+    ],
+    "variant": 100007,
+    "actions": [
+        [],
+        []
+    ],
+    "done_input": [
+        [
+            "purple_wool",
+            224,
+            71,
+            127
+        ],
+        [
+            "pumpkin",
+            223,
+            71,
+            127
+        ],
+        [
+            "stone",
+            224,
+            70,
+            127
+        ],
+        [
+            "coal_ore",
+            223,
+            70,
+            127
+        ],
+        [
+            "orange_concrete",
+            222,
+            70,
+            127
+        ]
+    ],
+    "bot0": {
+        "location": [
+            228.26,
+            72,
+            126.4
+        ],
+        "rotation": [
+            73.42,
+            2.01
+        ],
+        "inventory": {
+            "stone": 3,
+            "purple_wool": 3,
+            "pumpkin": 1,
+            "coal_ore": 3,
+            "orange_concrete": 3
+        }
+    },
+    "bot1": {
+        "location": [
+            227.64,
+            72,
+            127.78
+        ],
+        "rotation": [
+            263.05,
+            -7.35
+        ],
+        "inventory": {
+            "coal_ore": 5,
+            "pumpkin": 1,
+            "orange_concrete": 3,
+            "stone": 2,
+            "purple_wool": 1
+        }
+    },
+    "bot2": {
+        "location": [
+            227.89,
+            72,
+            129.33
+        ],
+        "rotation": [
+            161.93,
+            -4.83
+        ],
+        "inventory": {
+            "orange_concrete": 1,
+            "coal_ore": 3,
+            "stone": 2
+        }
+    },
+    "bot3": {
+        "location": [
+            227.37,
+            72,
+            128.09
+        ],
+        "rotation": [
+            255.97,
+            3.71
+        ],
+        "inventory": {
+            "purple_wool": 2,
+            "coal_ore": 1,
+            "orange_concrete": 3
+        }
+    },
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            4
+        ],
+        "background": [
+            "minecraft:stone"
+        ],
+        "playground_location": {
+            "name": "villege",
+            "x": [
+                221,
+                225
+            ],
+            "z": [
+                126,
+                130
+            ],
+            "y": 70,
+            "bot_range": [
+                [
+                    226,
+                    229
+                ],
+                [
+                    125,
+                    131
+                ],
+                72
+            ],
+            "center": [
+                223,
+                70,
+                128
+            ]
+        },
+        "base_shape": [
+            [
+                3,
+                1,
+                2
+            ]
+        ],
+        "block_type": [
+            "purple_wool",
+            "pumpkin",
+            "stone",
+            "coal_ore",
+            "orange_concrete"
+        ],
+        "placement_shape": [
+            [
+                2,
+                1,
+                0
+            ],
+            [
+                1,
+                1,
+                0
+            ],
+            [
+                2,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "block_count": 5,
+        "placement_shape_number": [
+            5,
+            4,
+            2,
+            1,
+            0
+        ]
+    },
+    "bot_list": [
+        "bot0",
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        223,
+        70,
+        128
+    ]
+}

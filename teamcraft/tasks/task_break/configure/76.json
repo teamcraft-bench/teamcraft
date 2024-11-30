@@ -1,0 +1,219 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot1.chat('/tp @p 11672.27 108 8494.61 39.57 7.85 ');await bot1.chat('/give @p stone_sword 1');await bot2.chat('/tp @p 11671.04 108 8495.01 123.27 5.48 ');await bot2.chat('/give @p stone_pickaxe 1');await bot3.chat('/tp @p 11670.67 108 8495.88 120.92 0.68 ');await bot3.chat('/give @p stone_pickaxe 1');await bot1.chat('/forceload add 11668 8491');\n                    await bot4.chat('/setblock 11671 109 8488 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 11671 110 8488 -90 90');\n                await bot1.chat('/fill 11668 105 8485 11673 105 8490 minecraft:glowstone');await bot1.chat('/fill 11668 106 8485 11673 108 8490 minecraft:air');await bot1.chat('/setblock 11671 106 8489 minecraft:crafting_table');await bot1.chat('/setblock 11672 106 8488 minecraft:birch_log');await bot1.chat('/setblock 11670 106 8488 minecraft:stone');await bot1.chat('/setblock 11669 106 8488 minecraft:oak_log');await bot1.chat('/setblock 11672 106 8487 minecraft:birch_log');await bot1.chat('/setblock 11669 106 8487 minecraft:bookshelf');",
+    "bot1": {
+        "location": [
+            11672.27,
+            108,
+            8494.61
+        ],
+        "rotation": [
+            39.57,
+            7.85
+        ],
+        "inventory": {
+            "stone_sword": 1
+        }
+    },
+    "bot2": {
+        "location": [
+            11671.04,
+            108,
+            8495.01
+        ],
+        "rotation": [
+            123.27,
+            5.48
+        ],
+        "inventory": {
+            "stone_pickaxe": 1
+        }
+    },
+    "bot3": {
+        "location": [
+            11670.67,
+            108,
+            8495.88
+        ],
+        "rotation": [
+            120.92,
+            0.68
+        ],
+        "inventory": {
+            "stone_pickaxe": 1
+        }
+    },
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 11665 105 8488 minecraft:barrier');\n                    await bot4.chat('/tp @p 11665 106 8488 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 11671 105 8494 minecraft:barrier');\n                    await bot4.chat('/tp @p 11671 106 8494 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 11671 110 8488 -90 90');\n                "
+        ],
+        [
+            ""
+        ]
+    ],
+    "variant": 100026,
+    "actions": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        "11669+106+8486",
+        "11669+107+8486",
+        "11669+108+8486",
+        "11669+106+8487",
+        "11669+107+8487",
+        "11669+108+8487",
+        "11669+106+8488",
+        "11669+107+8488",
+        "11669+108+8488",
+        "11669+106+8489",
+        "11669+107+8489",
+        "11669+108+8489",
+        "11670+106+8486",
+        "11670+107+8486",
+        "11670+108+8486",
+        "11670+106+8487",
+        "11670+107+8487",
+        "11670+108+8487",
+        "11670+106+8488",
+        "11670+107+8488",
+        "11670+108+8488",
+        "11670+106+8489",
+        "11670+107+8489",
+        "11670+108+8489",
+        "11671+106+8486",
+        "11671+107+8486",
+        "11671+108+8486",
+        "11671+106+8487",
+        "11671+107+8487",
+        "11671+108+8487",
+        "11671+106+8488",
+        "11671+107+8488",
+        "11671+108+8488",
+        "11671+106+8489",
+        "11671+107+8489",
+        "11671+108+8489",
+        "11672+106+8486",
+        "11672+107+8486",
+        "11672+108+8486",
+        "11672+106+8487",
+        "11672+107+8487",
+        "11672+108+8487",
+        "11672+106+8488",
+        "11672+107+8488",
+        "11672+108+8488",
+        "11672+106+8489",
+        "11672+107+8489",
+        "11672+108+8489"
+    ],
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            3
+        ],
+        "dimension": [
+            3
+        ],
+        "background": [
+            "minecraft:glowstone"
+        ],
+        "playground_location": {
+            "name": "snow_mountain",
+            "x": [
+                11669,
+                11673
+            ],
+            "z": [
+                8486,
+                8490
+            ],
+            "y": 106,
+            "bot_range": [
+                [
+                    11668,
+                    11673
+                ],
+                [
+                    8494,
+                    8496
+                ],
+                108
+            ],
+            "center": [
+                11671,
+                106,
+                8488
+            ]
+        },
+        "tool_use": {
+            "bot1": "stone_sword",
+            "bot2": "stone_pickaxe",
+            "bot3": "stone_pickaxe"
+        },
+        "block_type": [
+            "stone",
+            "birch_log",
+            "oak_log",
+            "bookshelf",
+            "crafting_table",
+            "birch_log"
+        ],
+        "placement_shape": [
+            [
+                2,
+                0,
+                3
+            ],
+            [
+                3,
+                0,
+                2
+            ],
+            [
+                1,
+                0,
+                2
+            ],
+            [
+                0,
+                0,
+                2
+            ],
+            [
+                3,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ]
+        ],
+        "placement_shape_number": [
+            14,
+            11,
+            9,
+            8,
+            7,
+            4
+        ]
+    },
+    "bot_list": [
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        11671,
+        106,
+        8488
+    ]
+}

@@ -1,0 +1,214 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode spectator');\n                    await bot3.chat('/tp @p 10 10 10');\n                    await bot1.chat('/forceload add 14137 10174');\n                    await bot4.chat('/setblock 14140 70 10171 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 14140 71 10171 -90 90');\n                await bot1.chat('/fill 14138 66 10169 14142 66 10173 minecraft:podzol');await bot1.chat('/fill 14137 67 10168 14142 68 10173 minecraft:air');await bot1.chat('/setblock 14142 68 10170 minecraft:emerald_block');await bot1.chat('/setblock 14141 68 10170 minecraft:grass_block');await bot1.chat('/setblock 14139 68 10170 minecraft:birch_log');await bot1.chat('/setblock 14142 67 10170 minecraft:purple_wool');await bot1.chat('/setblock 14141 67 10170 minecraft:end_stone');await bot1.chat('/setblock 14140 67 10170 minecraft:end_stone');await bot1.chat('/setblock 14139 67 10170 minecraft:stone');await bot1.chat('/tp @p 14147.38 69 10168.87 337.4 -6.64 ');await bot1.chat('/give @p purple_wool 2');await bot1.chat('/give @p stone 4');await bot1.chat('/give @p emerald_block 3');await bot1.chat('/give @p birch_log 3');await bot1.chat('/give @p grass_block 1');await bot1.chat('/give @p end_stone 3');await bot2.chat('/tp @p 14146.58 69 10170.57 13.7 -3.52 ');await bot2.chat('/give @p end_stone 3');await bot2.chat('/give @p grass_block 3');await bot2.chat('/give @p birch_log 3');await bot2.chat('/give @p stone 1');await bot2.chat('/give @p purple_wool 3');",
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 14134 66 10171 minecraft:barrier');\n                    await bot4.chat('/tp @p 14134 67 10171 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 14140 66 10177 minecraft:barrier');\n                    await bot4.chat('/tp @p 14140 67 10177 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 14140 71 10171 -90 90');\n                "
+        ],
+        [
+            "await bot1.chat('/fill 14137 67 10168 14142 68 10173 minecraft:air');"
+        ]
+    ],
+    "variant": 100015,
+    "actions": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        [
+            "emerald_block",
+            14142,
+            68,
+            10170
+        ],
+        [
+            "grass_block",
+            14141,
+            68,
+            10170
+        ],
+        [
+            "birch_log",
+            14139,
+            68,
+            10170
+        ],
+        [
+            "purple_wool",
+            14142,
+            67,
+            10170
+        ],
+        [
+            "end_stone",
+            14141,
+            67,
+            10170
+        ],
+        [
+            "end_stone",
+            14140,
+            67,
+            10170
+        ],
+        [
+            "stone",
+            14139,
+            67,
+            10170
+        ]
+    ],
+    "bot1": {
+        "location": [
+            14147.38,
+            69,
+            10168.87
+        ],
+        "rotation": [
+            337.4,
+            -6.64
+        ],
+        "inventory": {
+            "purple_wool": 2,
+            "stone": 4,
+            "emerald_block": 3,
+            "birch_log": 3,
+            "grass_block": 1,
+            "end_stone": 3
+        }
+    },
+    "bot2": {
+        "location": [
+            14146.58,
+            69,
+            10170.57
+        ],
+        "rotation": [
+            13.7,
+            -3.52
+        ],
+        "inventory": {
+            "end_stone": 3,
+            "grass_block": 3,
+            "birch_log": 3,
+            "stone": 1,
+            "purple_wool": 3
+        }
+    },
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            2
+        ],
+        "background": [
+            "minecraft:podzol"
+        ],
+        "playground_location": {
+            "name": "forest",
+            "x": [
+                14138,
+                14142
+            ],
+            "z": [
+                10169,
+                10173
+            ],
+            "y": 67,
+            "bot_range": [
+                [
+                    14145,
+                    14148
+                ],
+                [
+                    10168,
+                    10174
+                ],
+                69
+            ],
+            "center": [
+                14140,
+                67,
+                10171
+            ]
+        },
+        "base_shape": [
+            [
+                4,
+                1,
+                2
+            ]
+        ],
+        "block_type": [
+            "emerald_block",
+            "grass_block",
+            "birch_log",
+            "purple_wool",
+            "end_stone",
+            "end_stone",
+            "stone"
+        ],
+        "placement_shape": [
+            [
+                3,
+                1,
+                0
+            ],
+            [
+                2,
+                1,
+                0
+            ],
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                3,
+                0,
+                0
+            ],
+            [
+                2,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "block_count": 7,
+        "placement_shape_number": [
+            7,
+            6,
+            4,
+            3,
+            2,
+            1,
+            0
+        ]
+    },
+    "bot_list": [
+        "bot1",
+        "bot2"
+    ],
+    "center_position": [
+        14140,
+        67,
+        10171
+    ]
+}

@@ -1,0 +1,285 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode spectator');\n                    await bot3.chat('/tp @p 10 10 10');\n                    await bot1.chat('/forceload add 4299 214');\n                    await bot4.chat('/setblock 4302 100 211 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 4302 101 211 -90 90');\n                await bot1.chat('/fill 4300 96 209 4304 96 213 minecraft:gold_block');await bot1.chat('/fill 4299 97 208 4304 98 213 minecraft:air');await bot1.chat('/setblock 4302 98 212 minecraft:sponge');await bot1.chat('/setblock 4301 98 212 minecraft:bricks');await bot1.chat('/setblock 4302 98 211 minecraft:stone');await bot1.chat('/setblock 4301 98 211 minecraft:oak_fence');await bot1.chat('/setblock 4302 98 210 minecraft:grass_block');await bot1.chat('/setblock 4301 98 210 minecraft:iron_ore');await bot1.chat('/setblock 4302 97 212 minecraft:end_stone');await bot1.chat('/setblock 4301 97 212 minecraft:pumpkin');await bot1.chat('/setblock 4302 97 211 minecraft:oak_planks');await bot1.chat('/setblock 4301 97 211 minecraft:oak_fence');await bot1.chat('/setblock 4302 97 210 minecraft:end_stone');await bot1.chat('/setblock 4301 97 210 minecraft:sponge');await bot1.chat('/tp @p 4305.61 98 209.07 269.01 0.07 ');await bot1.chat('/give @p end_stone 5');await bot1.chat('/give @p sponge 7');await bot1.chat('/give @p oak_planks 3');await bot1.chat('/give @p iron_ore 3');await bot1.chat('/give @p oak_fence 6');await bot1.chat('/give @p bricks 2');await bot1.chat('/give @p grass_block 2');await bot1.chat('/give @p stone 3');await bot2.chat('/tp @p 4306.39 98 209.12 224.6 -8.14 ');await bot2.chat('/give @p pumpkin 5');await bot2.chat('/give @p end_stone 5');await bot2.chat('/give @p oak_fence 2');await bot2.chat('/give @p grass_block 3');await bot2.chat('/give @p bricks 2');await bot2.chat('/give @p stone 1');await bot2.chat('/give @p sponge 1');",
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 4296 96 211 minecraft:barrier');\n                    await bot4.chat('/tp @p 4296 97 211 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 4302 96 217 minecraft:barrier');\n                    await bot4.chat('/tp @p 4302 97 217 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 4302 101 211 -90 90');\n                "
+        ],
+        [
+            "await bot1.chat('/fill 4299 97 208 4304 98 213 minecraft:air');"
+        ]
+    ],
+    "variant": 100035,
+    "actions": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        [
+            "sponge",
+            4302,
+            98,
+            212
+        ],
+        [
+            "bricks",
+            4301,
+            98,
+            212
+        ],
+        [
+            "stone",
+            4302,
+            98,
+            211
+        ],
+        [
+            "oak_fence",
+            4301,
+            98,
+            211
+        ],
+        [
+            "grass_block",
+            4302,
+            98,
+            210
+        ],
+        [
+            "iron_ore",
+            4301,
+            98,
+            210
+        ],
+        [
+            "end_stone",
+            4302,
+            97,
+            212
+        ],
+        [
+            "pumpkin",
+            4301,
+            97,
+            212
+        ],
+        [
+            "oak_planks",
+            4302,
+            97,
+            211
+        ],
+        [
+            "oak_fence",
+            4301,
+            97,
+            211
+        ],
+        [
+            "end_stone",
+            4302,
+            97,
+            210
+        ],
+        [
+            "sponge",
+            4301,
+            97,
+            210
+        ]
+    ],
+    "bot1": {
+        "location": [
+            4305.61,
+            98,
+            209.07
+        ],
+        "rotation": [
+            269.01,
+            0.07
+        ],
+        "inventory": {
+            "end_stone": 5,
+            "sponge": 7,
+            "oak_planks": 3,
+            "iron_ore": 3,
+            "oak_fence": 6,
+            "bricks": 2,
+            "grass_block": 2,
+            "stone": 3
+        }
+    },
+    "bot2": {
+        "location": [
+            4306.39,
+            98,
+            209.12
+        ],
+        "rotation": [
+            224.6,
+            -8.14
+        ],
+        "inventory": {
+            "pumpkin": 5,
+            "end_stone": 5,
+            "oak_fence": 2,
+            "grass_block": 3,
+            "bricks": 2,
+            "stone": 1,
+            "sponge": 1
+        }
+    },
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            2
+        ],
+        "background": [
+            "minecraft:gold_block"
+        ],
+        "playground_location": {
+            "name": "mountain_half",
+            "x": [
+                4300,
+                4304
+            ],
+            "z": [
+                209,
+                213
+            ],
+            "y": 97,
+            "bot_range": [
+                [
+                    4305,
+                    4307
+                ],
+                [
+                    209,
+                    211
+                ],
+                98
+            ],
+            "center": [
+                4302,
+                97,
+                211
+            ]
+        },
+        "base_shape": [
+            [
+                2,
+                3,
+                2
+            ]
+        ],
+        "block_type": [
+            "sponge",
+            "bricks",
+            "stone",
+            "oak_fence",
+            "grass_block",
+            "iron_ore",
+            "end_stone",
+            "pumpkin",
+            "oak_planks",
+            "oak_fence",
+            "end_stone",
+            "sponge"
+        ],
+        "placement_shape": [
+            [
+                1,
+                1,
+                2
+            ],
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                0,
+                2
+            ],
+            [
+                0,
+                0,
+                2
+            ],
+            [
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "block_count": 12,
+        "placement_shape_number": [
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+        ]
+    },
+    "bot_list": [
+        "bot1",
+        "bot2"
+    ],
+    "center_position": [
+        4302,
+        97,
+        211
+    ]
+}

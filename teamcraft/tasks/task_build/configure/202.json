@@ -1,0 +1,230 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot0.chat('/gamemode survival');\n                    await bot1.chat('/forceload add 7390 5328');\n                    await bot4.chat('/setblock 7393 66 5325 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 7393 67 5325 -90 90');\n                await bot1.chat('/fill 7391 62 5323 7395 62 5327 minecraft:gold_block');await bot1.chat('/fill 7390 63 5322 7395 64 5327 minecraft:air');await bot1.chat('/setblock 7393 64 5325 minecraft:iron_ore');await bot1.chat('/setblock 7392 64 5324 minecraft:birch_log');await bot1.chat('/setblock 7393 63 5325 minecraft:sandstone');await bot1.chat('/setblock 7392 63 5325 minecraft:iron_ore');await bot1.chat('/setblock 7393 63 5324 minecraft:stone');await bot1.chat('/setblock 7392 63 5324 minecraft:emerald_block');await bot0.chat('/tp @p 7387.73 65 5320.46 4.31 1.41 ');await bot0.chat('/give @p sandstone 4');await bot0.chat('/give @p birch_log 3');await bot0.chat('/give @p stone 2');await bot0.chat('/give @p iron_ore 6');await bot0.chat('/give @p emerald_block 2');await bot1.chat('/tp @p 7391.49 65 5320.34 16.52 -6.65 ');await bot1.chat('/give @p iron_ore 6');await bot1.chat('/give @p emerald_block 2');await bot1.chat('/give @p stone 3');await bot1.chat('/give @p sandstone 3');await bot2.chat('/tp @p 7387.09 65 5320.31 76.34 2.26 ');await bot2.chat('/give @p stone 1');await bot2.chat('/give @p emerald_block 2');await bot2.chat('/give @p iron_ore 1');await bot3.chat('/tp @p 7387.54 65 5320.91 172.13 2.19 ');await bot3.chat('/give @p emerald_block 1');await bot3.chat('/give @p stone 2');",
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 7387 62 5325 minecraft:barrier');\n                    await bot4.chat('/tp @p 7387 63 5325 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 7393 62 5331 minecraft:barrier');\n                    await bot4.chat('/tp @p 7393 63 5331 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 7393 67 5325 -90 90');\n                "
+        ],
+        [
+            "await bot1.chat('/fill 7390 63 5322 7395 64 5327 minecraft:air');"
+        ]
+    ],
+    "variant": 100002,
+    "actions": [
+        [],
+        []
+    ],
+    "done_input": [
+        [
+            "iron_ore",
+            7393,
+            64,
+            5325
+        ],
+        [
+            "birch_log",
+            7392,
+            64,
+            5324
+        ],
+        [
+            "sandstone",
+            7393,
+            63,
+            5325
+        ],
+        [
+            "iron_ore",
+            7392,
+            63,
+            5325
+        ],
+        [
+            "stone",
+            7393,
+            63,
+            5324
+        ],
+        [
+            "emerald_block",
+            7392,
+            63,
+            5324
+        ]
+    ],
+    "bot0": {
+        "location": [
+            7387.73,
+            65,
+            5320.46
+        ],
+        "rotation": [
+            4.31,
+            1.41
+        ],
+        "inventory": {
+            "sandstone": 4,
+            "birch_log": 3,
+            "stone": 2,
+            "iron_ore": 6,
+            "emerald_block": 2
+        }
+    },
+    "bot1": {
+        "location": [
+            7391.49,
+            65,
+            5320.34
+        ],
+        "rotation": [
+            16.52,
+            -6.65
+        ],
+        "inventory": {
+            "iron_ore": 6,
+            "emerald_block": 2,
+            "stone": 3,
+            "sandstone": 3
+        }
+    },
+    "bot2": {
+        "location": [
+            7387.09,
+            65,
+            5320.31
+        ],
+        "rotation": [
+            76.34,
+            2.26
+        ],
+        "inventory": {
+            "stone": 1,
+            "emerald_block": 2,
+            "iron_ore": 1
+        }
+    },
+    "bot3": {
+        "location": [
+            7387.54,
+            65,
+            5320.91
+        ],
+        "rotation": [
+            172.13,
+            2.19
+        ],
+        "inventory": {
+            "emerald_block": 1,
+            "stone": 2
+        }
+    },
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            4
+        ],
+        "background": [
+            "minecraft:gold_block"
+        ],
+        "playground_location": {
+            "name": "ice_on_water",
+            "x": [
+                7391,
+                7395
+            ],
+            "z": [
+                5323,
+                5327
+            ],
+            "y": 63,
+            "bot_range": [
+                [
+                    7387,
+                    7392
+                ],
+                [
+                    5318,
+                    5321
+                ],
+                65
+            ],
+            "center": [
+                7393,
+                63,
+                5325
+            ]
+        },
+        "base_shape": [
+            [
+                2,
+                2,
+                2
+            ]
+        ],
+        "block_type": [
+            "iron_ore",
+            "birch_log",
+            "sandstone",
+            "iron_ore",
+            "stone",
+            "emerald_block"
+        ],
+        "placement_shape": [
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "block_count": 6,
+        "placement_shape_number": [
+            7,
+            4,
+            3,
+            2,
+            1,
+            0
+        ]
+    },
+    "bot_list": [
+        "bot0",
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        7393,
+        63,
+        5325
+    ]
+}

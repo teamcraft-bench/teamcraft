@@ -1,0 +1,321 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot0.chat('/gamemode survival');\n                    await bot0.chat('/tp @p 227.73 72 126.16 46.86 0.42 ');await bot0.chat('/give @p iron_sword 1');await bot0.chat('/give @p iron_axe 1');await bot0.chat('/give @p iron_pickaxe 1');await bot0.chat('/give @p iron_pickaxe 1');await bot1.chat('/tp @p 227.53 72 127.31 57.29 -9.14 ');await bot1.chat('/give @p charcoal 1');await bot1.chat('/give @p charcoal 1');await bot1.chat('/give @p iron_axe 1');await bot1.chat('/give @p iron_axe 1');await bot1.chat('/give @p iron_pickaxe 1');await bot2.chat('/tp @p 227.12 72 129.04 67.45 -8.34 ');await bot2.chat('/give @p charcoal 1');await bot2.chat('/give @p iron_pickaxe 1');await bot2.chat('/give @p iron_pickaxe 1');await bot2.chat('/give @p iron_pickaxe 1');await bot3.chat('/tp @p 227.09 72 127.65 103.31 6.36 ');await bot3.chat('/give @p charcoal 1');await bot3.chat('/give @p charcoal 1');await bot3.chat('/give @p iron_sword 1');await bot3.chat('/give @p iron_pickaxe 1');await bot3.chat('/give @p iron_pickaxe 1');await bot1.chat('/forceload add 220 131');\n                    await bot4.chat('/setblock 223 73 128 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 223 74 128 -90 90');\n                await bot1.chat('/fill 220 69 125 225 69 130 minecraft:hay_block');await bot1.chat('/fill 220 70 125 225 72 130 minecraft:air');await bot1.chat('/kill @e[type=!player,distance=..30]');await bot1.chat('/kill @e[type=item]');await bot1.chat('/setblock 225 70 127 minecraft:iron_ore');await bot1.chat('/setblock 220 70 127 minecraft:iron_ore');await bot1.chat('/setblock 222 70 125 minecraft:iron_ore');await bot1.chat('/setblock 221 70 125 minecraft:iron_ore');await bot1.chat('/setblock 225 70 129 minecraft:iron_ore');await bot1.chat('/setblock 221 70 130 minecraft:iron_ore');await bot1.chat('/setblock 225 70 125 minecraft:iron_ore');await bot1.chat('/setblock 220 70 125 minecraft:iron_ore');await bot1.chat('/setblock 223 70 129 minecraft:furnace');await bot1.chat('/setblock 223 70 128 minecraft:furnace');",
+    "bot0": {
+        "location": [
+            227.73,
+            72,
+            126.16
+        ],
+        "rotation": [
+            46.86,
+            0.42
+        ],
+        "inventory": {
+            "iron_sword": 1,
+            "iron_axe": 1,
+            "iron_pickaxe": 2
+        }
+    },
+    "bot1": {
+        "location": [
+            227.53,
+            72,
+            127.31
+        ],
+        "rotation": [
+            57.29,
+            -9.14
+        ],
+        "inventory": {
+            "charcoal": 2,
+            "iron_axe": 2,
+            "iron_pickaxe": 1
+        }
+    },
+    "bot2": {
+        "location": [
+            227.12,
+            72,
+            129.04
+        ],
+        "rotation": [
+            67.45,
+            -8.34
+        ],
+        "inventory": {
+            "charcoal": 1,
+            "iron_pickaxe": 3
+        }
+    },
+    "bot3": {
+        "location": [
+            227.09,
+            72,
+            127.65
+        ],
+        "rotation": [
+            103.31,
+            6.36
+        ],
+        "inventory": {
+            "charcoal": 2,
+            "iron_sword": 1,
+            "iron_pickaxe": 2
+        }
+    },
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 217 69 128 minecraft:barrier');\n                    await bot4.chat('/tp @p 217 70 128 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 223 69 134 minecraft:barrier');\n                    await bot4.chat('/tp @p 223 70 134 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 223 74 128 -90 90');\n                "
+        ],
+        [
+            ""
+        ]
+    ],
+    "variant": 100023,
+    "actions": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        "iron_ingot",
+        5
+    ],
+    "variants_config": {
+        "agent_counts": 4,
+        "playground_location": {
+            "name": "villege",
+            "x": [
+                221,
+                225
+            ],
+            "z": [
+                126,
+                130
+            ],
+            "y": 70,
+            "bot_range": [
+                [
+                    226,
+                    229
+                ],
+                [
+                    125,
+                    131
+                ],
+                72
+            ],
+            "center": [
+                223,
+                70,
+                128
+            ],
+            "furance": [
+                [
+                    223,
+                    70,
+                    128
+                ],
+                [
+                    223,
+                    70,
+                    127
+                ],
+                [
+                    223,
+                    70,
+                    129
+                ]
+            ]
+        },
+        "background": [
+            "minecraft:hay_block"
+        ],
+        "furance_count": 2,
+        "furance_pos": [
+            [
+                223,
+                70,
+                129
+            ],
+            [
+                223,
+                70,
+                128
+            ]
+        ],
+        "fuel": "charcoal",
+        "goal_type": "item",
+        "goal_item": "iron_ingot",
+        "goal_count": 5,
+        "tool_use": [
+            [
+                "iron_sword",
+                "iron_axe",
+                "iron_pickaxe",
+                "iron_pickaxe"
+            ],
+            [
+                "iron_axe",
+                "iron_axe",
+                "iron_pickaxe"
+            ],
+            [
+                "iron_pickaxe",
+                "iron_pickaxe",
+                "iron_pickaxe"
+            ],
+            [
+                "iron_sword",
+                "iron_pickaxe",
+                "iron_pickaxe"
+            ]
+        ],
+        "placement_shape": [
+            [
+                220,
+                70,
+                125
+            ],
+            [
+                221,
+                70,
+                125
+            ],
+            [
+                222,
+                70,
+                125
+            ],
+            [
+                223,
+                70,
+                125
+            ],
+            [
+                224,
+                70,
+                125
+            ],
+            [
+                225,
+                70,
+                125
+            ],
+            [
+                225,
+                70,
+                126
+            ],
+            [
+                225,
+                70,
+                127
+            ],
+            [
+                225,
+                70,
+                128
+            ],
+            [
+                225,
+                70,
+                129
+            ],
+            [
+                225,
+                70,
+                130
+            ],
+            [
+                224,
+                70,
+                130
+            ],
+            [
+                223,
+                70,
+                130
+            ],
+            [
+                222,
+                70,
+                130
+            ],
+            [
+                221,
+                70,
+                130
+            ],
+            [
+                220,
+                70,
+                130
+            ],
+            [
+                220,
+                70,
+                129
+            ],
+            [
+                220,
+                70,
+                128
+            ],
+            [
+                220,
+                70,
+                127
+            ],
+            [
+                220,
+                70,
+                126
+            ]
+        ],
+        "inventory": [
+            [],
+            [
+                "charcoal",
+                "charcoal"
+            ],
+            [
+                "charcoal"
+            ],
+            [
+                "charcoal",
+                "charcoal"
+            ]
+        ],
+        "placement_shape_all": {
+            "7": "iron_ore",
+            "18": "iron_ore",
+            "2": "iron_ore",
+            "1": "iron_ore",
+            "9": "iron_ore",
+            "14": "iron_ore",
+            "5": "iron_ore",
+            "0": "iron_ore"
+        }
+    },
+    "bot_list": [
+        "bot0",
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        223,
+        70,
+        128
+    ]
+}

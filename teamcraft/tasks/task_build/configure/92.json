@@ -1,0 +1,268 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode spectator');\n                    await bot3.chat('/tp @p 10 10 10');\n                    await bot1.chat('/forceload add 220 131');\n                    await bot4.chat('/setblock 223 73 128 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 223 74 128 -90 90');\n                await bot1.chat('/fill 221 69 126 225 69 130 minecraft:stone');await bot1.chat('/fill 220 70 125 225 71 130 minecraft:air');await bot1.chat('/setblock 223 71 129 minecraft:coal_ore');await bot1.chat('/setblock 222 71 129 minecraft:bricks');await bot1.chat('/setblock 223 71 128 minecraft:bricks');await bot1.chat('/setblock 222 71 128 minecraft:sea_lantern');await bot1.chat('/setblock 223 71 127 minecraft:stone');await bot1.chat('/setblock 223 70 129 minecraft:stone');await bot1.chat('/setblock 222 70 129 minecraft:iron_ore');await bot1.chat('/setblock 223 70 128 minecraft:orange_concrete');await bot1.chat('/setblock 222 70 128 minecraft:clay');await bot1.chat('/setblock 223 70 127 minecraft:orange_concrete');await bot1.chat('/setblock 222 70 127 minecraft:emerald_block');await bot1.chat('/tp @p 226.21 72 128.95 264.0 6.48 ');await bot1.chat('/give @p stone 4');await bot1.chat('/give @p emerald_block 3');await bot1.chat('/give @p orange_concrete 3');await bot1.chat('/give @p coal_ore 2');await bot1.chat('/give @p bricks 5');await bot2.chat('/tp @p 228.42 72 129.64 139.36 2.87 ');await bot2.chat('/give @p iron_ore 4');await bot2.chat('/give @p orange_concrete 1');await bot2.chat('/give @p clay 3');await bot2.chat('/give @p sea_lantern 2');await bot2.chat('/give @p bricks 4');await bot2.chat('/give @p emerald_block 3');",
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 217 69 128 minecraft:barrier');\n                    await bot4.chat('/tp @p 217 70 128 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 223 69 134 minecraft:barrier');\n                    await bot4.chat('/tp @p 223 70 134 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 223 74 128 -90 90');\n                "
+        ],
+        [
+            "await bot1.chat('/fill 220 70 125 225 71 130 minecraft:air');"
+        ]
+    ],
+    "variant": 100042,
+    "actions": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        [
+            "coal_ore",
+            223,
+            71,
+            129
+        ],
+        [
+            "bricks",
+            222,
+            71,
+            129
+        ],
+        [
+            "bricks",
+            223,
+            71,
+            128
+        ],
+        [
+            "sea_lantern",
+            222,
+            71,
+            128
+        ],
+        [
+            "stone",
+            223,
+            71,
+            127
+        ],
+        [
+            "stone",
+            223,
+            70,
+            129
+        ],
+        [
+            "iron_ore",
+            222,
+            70,
+            129
+        ],
+        [
+            "orange_concrete",
+            223,
+            70,
+            128
+        ],
+        [
+            "clay",
+            222,
+            70,
+            128
+        ],
+        [
+            "orange_concrete",
+            223,
+            70,
+            127
+        ],
+        [
+            "emerald_block",
+            222,
+            70,
+            127
+        ]
+    ],
+    "bot1": {
+        "location": [
+            226.21,
+            72,
+            128.95
+        ],
+        "rotation": [
+            264.0,
+            6.48
+        ],
+        "inventory": {
+            "stone": 4,
+            "emerald_block": 3,
+            "orange_concrete": 3,
+            "coal_ore": 2,
+            "bricks": 5
+        }
+    },
+    "bot2": {
+        "location": [
+            228.42,
+            72,
+            129.64
+        ],
+        "rotation": [
+            139.36,
+            2.87
+        ],
+        "inventory": {
+            "iron_ore": 4,
+            "orange_concrete": 1,
+            "clay": 3,
+            "sea_lantern": 2,
+            "bricks": 4,
+            "emerald_block": 3
+        }
+    },
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            2
+        ],
+        "background": [
+            "minecraft:stone"
+        ],
+        "playground_location": {
+            "name": "villege",
+            "x": [
+                221,
+                225
+            ],
+            "z": [
+                126,
+                130
+            ],
+            "y": 70,
+            "bot_range": [
+                [
+                    226,
+                    229
+                ],
+                [
+                    125,
+                    131
+                ],
+                72
+            ],
+            "center": [
+                223,
+                70,
+                128
+            ]
+        },
+        "base_shape": [
+            [
+                2,
+                3,
+                2
+            ]
+        ],
+        "block_type": [
+            "coal_ore",
+            "bricks",
+            "bricks",
+            "sea_lantern",
+            "stone",
+            "stone",
+            "iron_ore",
+            "orange_concrete",
+            "clay",
+            "orange_concrete",
+            "emerald_block"
+        ],
+        "placement_shape": [
+            [
+                1,
+                1,
+                2
+            ],
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                0
+            ],
+            [
+                1,
+                0,
+                2
+            ],
+            [
+                0,
+                0,
+                2
+            ],
+            [
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "block_count": 11,
+        "placement_shape_number": [
+            11,
+            10,
+            9,
+            8,
+            7,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+        ]
+    },
+    "bot_list": [
+        "bot1",
+        "bot2"
+    ],
+    "center_position": [
+        223,
+        70,
+        128
+    ]
+}

@@ -1,0 +1,231 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot0.chat('/gamemode survival');\n                    await bot1.chat('/forceload add 220 131');\n                    await bot4.chat('/setblock 223 73 128 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 223 74 128 -90 90');\n                await bot1.chat('/fill 221 69 126 225 69 130 minecraft:stone');await bot1.chat('/fill 220 70 125 225 71 130 minecraft:air');await bot1.chat('/setblock 224 71 127 minecraft:sea_lantern');await bot1.chat('/setblock 223 71 127 minecraft:oak_fence');await bot1.chat('/setblock 222 71 127 minecraft:sponge');await bot1.chat('/setblock 224 70 127 minecraft:emerald_block');await bot1.chat('/setblock 223 70 127 minecraft:dirt');await bot1.chat('/setblock 222 70 127 minecraft:bricks');await bot0.chat('/tp @p 227.31 72 129.02 199.79 1.54 ');await bot0.chat('/give @p emerald_block 5');await bot0.chat('/give @p sponge 1');await bot0.chat('/give @p oak_fence 2');await bot0.chat('/give @p dirt 3');await bot0.chat('/give @p bricks 1');await bot0.chat('/give @p sea_lantern 3');await bot1.chat('/tp @p 228.62 72 129.58 328.92 -4.89 ');await bot1.chat('/give @p dirt 4');await bot1.chat('/give @p oak_fence 3');await bot2.chat('/tp @p 227.8 72 128.83 250.66 -0.94 ');await bot2.chat('/give @p bricks 4');await bot2.chat('/give @p sea_lantern 6');await bot2.chat('/give @p emerald_block 2');await bot2.chat('/give @p sponge 3');await bot3.chat('/tp @p 227.9 72 126.0 237.7 1.94 ');await bot3.chat('/give @p emerald_block 2');await bot3.chat('/give @p bricks 1');await bot3.chat('/give @p dirt 3');",
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 217 69 128 minecraft:barrier');\n                    await bot4.chat('/tp @p 217 70 128 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 223 69 134 minecraft:barrier');\n                    await bot4.chat('/tp @p 223 70 134 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 223 74 128 -90 90');\n                "
+        ],
+        [
+            "await bot1.chat('/fill 220 70 125 225 71 130 minecraft:air');"
+        ]
+    ],
+    "variant": 100000,
+    "actions": [
+        [],
+        []
+    ],
+    "done_input": [
+        [
+            "sea_lantern",
+            224,
+            71,
+            127
+        ],
+        [
+            "oak_fence",
+            223,
+            71,
+            127
+        ],
+        [
+            "sponge",
+            222,
+            71,
+            127
+        ],
+        [
+            "emerald_block",
+            224,
+            70,
+            127
+        ],
+        [
+            "dirt",
+            223,
+            70,
+            127
+        ],
+        [
+            "bricks",
+            222,
+            70,
+            127
+        ]
+    ],
+    "bot0": {
+        "location": [
+            227.31,
+            72,
+            129.02
+        ],
+        "rotation": [
+            199.79,
+            1.54
+        ],
+        "inventory": {
+            "emerald_block": 5,
+            "sponge": 1,
+            "oak_fence": 2,
+            "dirt": 3,
+            "bricks": 1,
+            "sea_lantern": 3
+        }
+    },
+    "bot1": {
+        "location": [
+            228.62,
+            72,
+            129.58
+        ],
+        "rotation": [
+            328.92,
+            -4.89
+        ],
+        "inventory": {
+            "dirt": 4,
+            "oak_fence": 3
+        }
+    },
+    "bot2": {
+        "location": [
+            227.8,
+            72,
+            128.83
+        ],
+        "rotation": [
+            250.66,
+            -0.94
+        ],
+        "inventory": {
+            "bricks": 4,
+            "sea_lantern": 6,
+            "emerald_block": 2,
+            "sponge": 3
+        }
+    },
+    "bot3": {
+        "location": [
+            227.9,
+            72,
+            126.0
+        ],
+        "rotation": [
+            237.7,
+            1.94
+        ],
+        "inventory": {
+            "emerald_block": 2,
+            "bricks": 1,
+            "dirt": 3
+        }
+    },
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            4
+        ],
+        "background": [
+            "minecraft:stone"
+        ],
+        "playground_location": {
+            "name": "villege",
+            "x": [
+                221,
+                225
+            ],
+            "z": [
+                126,
+                130
+            ],
+            "y": 70,
+            "bot_range": [
+                [
+                    226,
+                    229
+                ],
+                [
+                    125,
+                    131
+                ],
+                72
+            ],
+            "center": [
+                223,
+                70,
+                128
+            ]
+        },
+        "base_shape": [
+            [
+                3,
+                1,
+                2
+            ]
+        ],
+        "block_type": [
+            "sea_lantern",
+            "oak_fence",
+            "sponge",
+            "emerald_block",
+            "dirt",
+            "bricks"
+        ],
+        "placement_shape": [
+            [
+                2,
+                1,
+                0
+            ],
+            [
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                2,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "block_count": 6,
+        "placement_shape_number": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+        ]
+    },
+    "bot_list": [
+        "bot0",
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        223,
+        70,
+        128
+    ]
+}

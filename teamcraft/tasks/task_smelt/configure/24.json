@@ -1,0 +1,267 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode spectator');\n                    await bot3.chat('/tp @p 10 10 10');\n                    await bot1.chat('/tp @p 11668.32 108 8495.7 358.56 5.81 ');await bot1.chat('/give @p beef 1');await bot1.chat('/give @p iron_axe 1');await bot1.chat('/give @p iron_shovel 1');await bot2.chat('/tp @p 11671.65 108 8494.69 357.56 -3.8 ');await bot2.chat('/give @p birch_planks 1');await bot2.chat('/give @p birch_planks 1');await bot2.chat('/give @p iron_shovel 1');await bot2.chat('/give @p iron_shovel 1');await bot1.chat('/forceload add 11668 8491');\n                    await bot4.chat('/setblock 11671 109 8488 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 11671 110 8488 -90 90');\n                await bot1.chat('/fill 11668 105 8485 11673 105 8490 minecraft:stone');await bot1.chat('/fill 11668 106 8485 11673 108 8490 minecraft:air');await bot1.chat('/kill @e[type=!player,distance=..30]');await bot1.chat('/kill @e[type=item]');await bot1.chat('/summon cow 11668 106 8488 {NoAI:1}');await bot1.chat('/summon cow 11672 106 8490 {NoAI:1}');await bot1.chat('/summon cow 11668 106 8490 {NoAI:1}');await bot1.chat('/setblock 11670 106 8485 minecraft:birch_planks');await bot1.chat('/setblock 11673 106 8486 minecraft:birch_planks');await bot1.chat('/setblock 11671 106 8487 minecraft:furnace');await bot1.chat('/setblock 11671 106 8489 minecraft:furnace');",
+    "bot1": {
+        "location": [
+            11668.32,
+            108,
+            8495.7
+        ],
+        "rotation": [
+            358.56,
+            5.81
+        ],
+        "inventory": {
+            "beef": 1,
+            "iron_axe": 1,
+            "iron_shovel": 1
+        }
+    },
+    "bot2": {
+        "location": [
+            11671.65,
+            108,
+            8494.69
+        ],
+        "rotation": [
+            357.56,
+            -3.8
+        ],
+        "inventory": {
+            "birch_planks": 2,
+            "iron_shovel": 2
+        }
+    },
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 11665 105 8488 minecraft:barrier');\n                    await bot4.chat('/tp @p 11665 106 8488 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 11671 105 8494 minecraft:barrier');\n                    await bot4.chat('/tp @p 11671 106 8494 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 11671 110 8488 -90 90');\n                "
+        ],
+        [
+            ""
+        ]
+    ],
+    "variant": 100024,
+    "actions": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        "cooked_beef",
+        3
+    ],
+    "variants_config": {
+        "agent_counts": 2,
+        "playground_location": {
+            "name": "snow_mountain",
+            "x": [
+                11669,
+                11673
+            ],
+            "z": [
+                8486,
+                8490
+            ],
+            "y": 106,
+            "bot_range": [
+                [
+                    11668,
+                    11673
+                ],
+                [
+                    8494,
+                    8496
+                ],
+                108
+            ],
+            "center": [
+                11671,
+                106,
+                8488
+            ],
+            "furance": [
+                [
+                    11671,
+                    106,
+                    8488
+                ],
+                [
+                    11671,
+                    106,
+                    8487
+                ],
+                [
+                    11671,
+                    106,
+                    8489
+                ]
+            ]
+        },
+        "background": [
+            "minecraft:stone"
+        ],
+        "furance_count": 2,
+        "furance_pos": [
+            [
+                11671,
+                106,
+                8487
+            ],
+            [
+                11671,
+                106,
+                8489
+            ]
+        ],
+        "fuel": "birch_planks",
+        "goal_type": "food",
+        "goal_item": "cooked_beef",
+        "goal_count": 3,
+        "tool_use": [
+            [
+                "iron_axe",
+                "iron_shovel"
+            ],
+            [
+                "iron_shovel",
+                "iron_shovel"
+            ]
+        ],
+        "placement_shape": [
+            [
+                11668,
+                106,
+                8485
+            ],
+            [
+                11669,
+                106,
+                8485
+            ],
+            [
+                11670,
+                106,
+                8485
+            ],
+            [
+                11671,
+                106,
+                8485
+            ],
+            [
+                11672,
+                106,
+                8485
+            ],
+            [
+                11673,
+                106,
+                8485
+            ],
+            [
+                11673,
+                106,
+                8486
+            ],
+            [
+                11673,
+                106,
+                8487
+            ],
+            [
+                11673,
+                106,
+                8488
+            ],
+            [
+                11673,
+                106,
+                8489
+            ],
+            [
+                11673,
+                106,
+                8490
+            ],
+            [
+                11672,
+                106,
+                8490
+            ],
+            [
+                11671,
+                106,
+                8490
+            ],
+            [
+                11670,
+                106,
+                8490
+            ],
+            [
+                11669,
+                106,
+                8490
+            ],
+            [
+                11668,
+                106,
+                8490
+            ],
+            [
+                11668,
+                106,
+                8489
+            ],
+            [
+                11668,
+                106,
+                8488
+            ],
+            [
+                11668,
+                106,
+                8487
+            ],
+            [
+                11668,
+                106,
+                8486
+            ]
+        ],
+        "inventory": [
+            [
+                "beef"
+            ],
+            [
+                "birch_planks",
+                "birch_planks"
+            ]
+        ],
+        "placement_shape_all": {
+            "17": "cow",
+            "11": "cow",
+            "15": "cow",
+            "2": "birch_planks",
+            "6": "birch_planks"
+        }
+    },
+    "bot_list": [
+        "bot1",
+        "bot2"
+    ],
+    "center_position": [
+        11671,
+        106,
+        8488
+    ]
+}

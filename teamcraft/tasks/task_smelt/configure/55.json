@@ -1,0 +1,285 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot1.chat('/tp @p 4283.07 65 1116.82 99.13 -1.56 ');await bot1.chat('/give @p oak_log 1');await bot1.chat('/give @p iron_axe 1');await bot1.chat('/give @p iron_shovel 1');await bot2.chat('/tp @p 4283.68 65 1116.37 243.09 -6.82 ');await bot2.chat('/give @p oak_log 1');await bot2.chat('/give @p iron_axe 1');await bot2.chat('/give @p iron_axe 1');await bot3.chat('/tp @p 4285.15 65 1118.61 173.39 4.2 ');await bot3.chat('/give @p wet_sponge 1');await bot3.chat('/give @p wet_sponge 1');await bot3.chat('/give @p wet_sponge 1');await bot3.chat('/give @p iron_axe 1');await bot3.chat('/give @p iron_shovel 1');await bot1.chat('/forceload add 4281 1129');\n                    await bot4.chat('/setblock 4284 67 1126 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 4284 68 1126 -90 90');\n                await bot1.chat('/fill 4281 63 1123 4286 63 1128 minecraft:grass_block');await bot1.chat('/fill 4281 64 1123 4286 66 1128 minecraft:air');await bot1.chat('/kill @e[type=!player,distance=..30]');await bot1.chat('/kill @e[type=item]');await bot1.chat('/setblock 4283 64 1128 minecraft:wet_sponge');await bot1.chat('/setblock 4281 64 1127 minecraft:oak_log');await bot1.chat('/setblock 4281 64 1128 minecraft:oak_log');await bot1.chat('/setblock 4281 64 1125 minecraft:oak_log');await bot1.chat('/setblock 4284 64 1125 minecraft:furnace');",
+    "bot1": {
+        "location": [
+            4283.07,
+            65,
+            1116.82
+        ],
+        "rotation": [
+            99.13,
+            -1.56
+        ],
+        "inventory": {
+            "oak_log": 1,
+            "iron_axe": 1,
+            "iron_shovel": 1
+        }
+    },
+    "bot2": {
+        "location": [
+            4283.68,
+            65,
+            1116.37
+        ],
+        "rotation": [
+            243.09,
+            -6.82
+        ],
+        "inventory": {
+            "oak_log": 1,
+            "iron_axe": 2
+        }
+    },
+    "bot3": {
+        "location": [
+            4285.15,
+            65,
+            1118.61
+        ],
+        "rotation": [
+            173.39,
+            4.2
+        ],
+        "inventory": {
+            "wet_sponge": 3,
+            "iron_axe": 1,
+            "iron_shovel": 1
+        }
+    },
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 4278 63 1126 minecraft:barrier');\n                    await bot4.chat('/tp @p 4278 64 1126 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 4284 63 1132 minecraft:barrier');\n                    await bot4.chat('/tp @p 4284 64 1132 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 4284 68 1126 -90 90');\n                "
+        ],
+        [
+            ""
+        ]
+    ],
+    "variant": 100005,
+    "actions": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        "sponge",
+        4
+    ],
+    "variants_config": {
+        "agent_counts": 3,
+        "playground_location": {
+            "name": "swamp",
+            "x": [
+                4282,
+                4286
+            ],
+            "z": [
+                1124,
+                1128
+            ],
+            "y": 64,
+            "bot_range": [
+                [
+                    4283,
+                    4286
+                ],
+                [
+                    1116,
+                    1122
+                ],
+                65
+            ],
+            "center": [
+                4284,
+                64,
+                1126
+            ],
+            "furance": [
+                [
+                    4284,
+                    64,
+                    1126
+                ],
+                [
+                    4284,
+                    64,
+                    1125
+                ],
+                [
+                    4284,
+                    64,
+                    1127
+                ]
+            ]
+        },
+        "background": [
+            "minecraft:grass_block"
+        ],
+        "furance_count": 1,
+        "furance_pos": [
+            [
+                4284,
+                64,
+                1125
+            ]
+        ],
+        "fuel": "oak_log",
+        "goal_type": "item",
+        "goal_item": "sponge",
+        "goal_count": 4,
+        "tool_use": [
+            [
+                "iron_axe",
+                "iron_shovel"
+            ],
+            [
+                "iron_axe",
+                "iron_axe"
+            ],
+            [
+                "iron_axe",
+                "iron_shovel"
+            ]
+        ],
+        "placement_shape": [
+            [
+                4281,
+                64,
+                1123
+            ],
+            [
+                4282,
+                64,
+                1123
+            ],
+            [
+                4283,
+                64,
+                1123
+            ],
+            [
+                4284,
+                64,
+                1123
+            ],
+            [
+                4285,
+                64,
+                1123
+            ],
+            [
+                4286,
+                64,
+                1123
+            ],
+            [
+                4286,
+                64,
+                1124
+            ],
+            [
+                4286,
+                64,
+                1125
+            ],
+            [
+                4286,
+                64,
+                1126
+            ],
+            [
+                4286,
+                64,
+                1127
+            ],
+            [
+                4286,
+                64,
+                1128
+            ],
+            [
+                4285,
+                64,
+                1128
+            ],
+            [
+                4284,
+                64,
+                1128
+            ],
+            [
+                4283,
+                64,
+                1128
+            ],
+            [
+                4282,
+                64,
+                1128
+            ],
+            [
+                4281,
+                64,
+                1128
+            ],
+            [
+                4281,
+                64,
+                1127
+            ],
+            [
+                4281,
+                64,
+                1126
+            ],
+            [
+                4281,
+                64,
+                1125
+            ],
+            [
+                4281,
+                64,
+                1124
+            ]
+        ],
+        "inventory": [
+            [
+                "oak_log"
+            ],
+            [
+                "oak_log"
+            ],
+            [
+                "wet_sponge",
+                "wet_sponge",
+                "wet_sponge"
+            ]
+        ],
+        "placement_shape_all": {
+            "13": "wet_sponge",
+            "16": "oak_log",
+            "15": "oak_log",
+            "18": "oak_log"
+        }
+    },
+    "bot_list": [
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        4284,
+        64,
+        1126
+    ]
+}

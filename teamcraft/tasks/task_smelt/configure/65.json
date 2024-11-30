@@ -1,0 +1,287 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot1.chat('/tp @p 7389.42 65 5320.77 136.04 -6.0 ');await bot1.chat('/give @p kelp 1');await bot1.chat('/give @p lava_bucket 1');await bot1.chat('/give @p iron_shovel 1');await bot1.chat('/give @p iron_shovel 1');await bot2.chat('/tp @p 7388.75 65 5320.24 31.25 7.01 ');await bot2.chat('/give @p lava_bucket 1');await bot2.chat('/give @p kelp 1');await bot2.chat('/give @p iron_sword 1');await bot2.chat('/give @p iron_axe 1');await bot3.chat('/tp @p 7387.06 65 5320.54 233.76 0.69 ');await bot3.chat('/give @p kelp 1');await bot3.chat('/give @p lava_bucket 1');await bot3.chat('/give @p iron_sword 1');await bot3.chat('/give @p iron_axe 1');await bot1.chat('/forceload add 7390 5328');\n                    await bot4.chat('/setblock 7393 66 5325 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 7393 67 5325 -90 90');\n                await bot1.chat('/fill 7390 62 5322 7395 62 5327 minecraft:stone');await bot1.chat('/fill 7390 63 5322 7395 65 5327 minecraft:air');await bot1.chat('/kill @e[type=!player,distance=..30]');await bot1.chat('/kill @e[type=item]');await bot1.chat('/setblock 7393 63 5325 minecraft:furnace');await bot1.chat('/setblock 7393 63 5324 minecraft:furnace');",
+    "bot1": {
+        "location": [
+            7389.42,
+            65,
+            5320.77
+        ],
+        "rotation": [
+            136.04,
+            -6.0
+        ],
+        "inventory": {
+            "kelp": 1,
+            "lava_bucket": 1,
+            "iron_shovel": 2
+        }
+    },
+    "bot2": {
+        "location": [
+            7388.75,
+            65,
+            5320.24
+        ],
+        "rotation": [
+            31.25,
+            7.01
+        ],
+        "inventory": {
+            "lava_bucket": 1,
+            "kelp": 1,
+            "iron_sword": 1,
+            "iron_axe": 1
+        }
+    },
+    "bot3": {
+        "location": [
+            7387.06,
+            65,
+            5320.54
+        ],
+        "rotation": [
+            233.76,
+            0.69
+        ],
+        "inventory": {
+            "kelp": 1,
+            "lava_bucket": 1,
+            "iron_sword": 1,
+            "iron_axe": 1
+        }
+    },
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 7387 62 5325 minecraft:barrier');\n                    await bot4.chat('/tp @p 7387 63 5325 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 7393 62 5331 minecraft:barrier');\n                    await bot4.chat('/tp @p 7393 63 5331 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 7393 67 5325 -90 90');\n                "
+        ],
+        [
+            ""
+        ]
+    ],
+    "variant": 100015,
+    "actions": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        "dried_kelp",
+        3
+    ],
+    "variants_config": {
+        "agent_counts": 3,
+        "playground_location": {
+            "name": "ice_on_water",
+            "x": [
+                7391,
+                7395
+            ],
+            "z": [
+                5323,
+                5327
+            ],
+            "y": 63,
+            "bot_range": [
+                [
+                    7387,
+                    7392
+                ],
+                [
+                    5318,
+                    5321
+                ],
+                65
+            ],
+            "center": [
+                7393,
+                63,
+                5325
+            ],
+            "furance": [
+                [
+                    7393,
+                    63,
+                    5325
+                ],
+                [
+                    7393,
+                    63,
+                    5324
+                ],
+                [
+                    7393,
+                    63,
+                    5326
+                ]
+            ]
+        },
+        "background": [
+            "minecraft:stone"
+        ],
+        "furance_count": 2,
+        "furance_pos": [
+            [
+                7393,
+                63,
+                5325
+            ],
+            [
+                7393,
+                63,
+                5324
+            ]
+        ],
+        "fuel": "lava_bucket",
+        "goal_type": "food",
+        "goal_item": "dried_kelp",
+        "goal_count": 3,
+        "tool_use": [
+            [
+                "iron_shovel",
+                "iron_shovel"
+            ],
+            [
+                "iron_sword",
+                "iron_axe"
+            ],
+            [
+                "iron_sword",
+                "iron_axe"
+            ]
+        ],
+        "placement_shape": [
+            [
+                7390,
+                63,
+                5322
+            ],
+            [
+                7391,
+                63,
+                5322
+            ],
+            [
+                7392,
+                63,
+                5322
+            ],
+            [
+                7393,
+                63,
+                5322
+            ],
+            [
+                7394,
+                63,
+                5322
+            ],
+            [
+                7395,
+                63,
+                5322
+            ],
+            [
+                7395,
+                63,
+                5323
+            ],
+            [
+                7395,
+                63,
+                5324
+            ],
+            [
+                7395,
+                63,
+                5325
+            ],
+            [
+                7395,
+                63,
+                5326
+            ],
+            [
+                7395,
+                63,
+                5327
+            ],
+            [
+                7394,
+                63,
+                5327
+            ],
+            [
+                7393,
+                63,
+                5327
+            ],
+            [
+                7392,
+                63,
+                5327
+            ],
+            [
+                7391,
+                63,
+                5327
+            ],
+            [
+                7390,
+                63,
+                5327
+            ],
+            [
+                7390,
+                63,
+                5326
+            ],
+            [
+                7390,
+                63,
+                5325
+            ],
+            [
+                7390,
+                63,
+                5324
+            ],
+            [
+                7390,
+                63,
+                5323
+            ]
+        ],
+        "inventory": [
+            [
+                "kelp",
+                "lava_bucket"
+            ],
+            [
+                "lava_bucket",
+                "kelp"
+            ],
+            [
+                "kelp",
+                "lava_bucket"
+            ]
+        ],
+        "placement_shape_all": {}
+    },
+    "bot_list": [
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        7393,
+        63,
+        5325
+    ]
+}

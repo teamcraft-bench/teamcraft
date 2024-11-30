@@ -1,0 +1,299 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot1.chat('/tp @p 11668.63 108 8494.57 352.19 4.96 ');await bot1.chat('/give @p birch_log 1');await bot1.chat('/give @p iron_shovel 1');await bot1.chat('/give @p iron_axe 1');await bot2.chat('/tp @p 11670.96 108 8494.9 59.78 -2.62 ');await bot2.chat('/give @p iron_sword 1');await bot2.chat('/give @p iron_pickaxe 1');await bot3.chat('/tp @p 11669.0 108 8495.16 274.82 0.9 ');await bot3.chat('/give @p iron_shovel 1');await bot3.chat('/give @p iron_sword 1');await bot1.chat('/forceload add 11668 8491');\n                    await bot4.chat('/setblock 11671 109 8488 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 11671 110 8488 -90 90');\n                await bot1.chat('/fill 11668 105 8485 11673 105 8490 minecraft:gold_block');await bot1.chat('/fill 11668 106 8485 11673 108 8490 minecraft:air');await bot1.chat('/kill @e[type=!player,distance=..30]');await bot1.chat('/kill @e[type=item]');await bot1.chat('/summon sheep 11673 106 8486 {NoAI:1}');await bot1.chat('/setblock 11673 106 8490 minecraft:birch_log');await bot1.chat('/summon sheep 11670 106 8490 {NoAI:1}');await bot1.chat('/summon sheep 11668 106 8485 {NoAI:1}');await bot1.chat('/summon sheep 11671 106 8490 {NoAI:1}');await bot1.chat('/summon sheep 11668 106 8486 {NoAI:1}');await bot1.chat('/setblock 11671 106 8485 minecraft:birch_log');await bot1.chat('/setblock 11668 106 8488 minecraft:birch_log');await bot1.chat('/summon sheep 11668 106 8489 {NoAI:1}');await bot1.chat('/summon sheep 11673 106 8489 {NoAI:1}');await bot1.chat('/setblock 11669 106 8490 minecraft:birch_log');await bot1.chat('/setblock 11673 106 8487 minecraft:birch_log');await bot1.chat('/setblock 11671 106 8488 minecraft:furnace');await bot1.chat('/setblock 11671 106 8487 minecraft:furnace');await bot1.chat('/setblock 11671 106 8489 minecraft:furnace');",
+    "bot1": {
+        "location": [
+            11668.63,
+            108,
+            8494.57
+        ],
+        "rotation": [
+            352.19,
+            4.96
+        ],
+        "inventory": {
+            "birch_log": 1,
+            "iron_shovel": 1,
+            "iron_axe": 1
+        }
+    },
+    "bot2": {
+        "location": [
+            11670.96,
+            108,
+            8494.9
+        ],
+        "rotation": [
+            59.78,
+            -2.62
+        ],
+        "inventory": {
+            "iron_sword": 1,
+            "iron_pickaxe": 1
+        }
+    },
+    "bot3": {
+        "location": [
+            11669.0,
+            108,
+            8495.16
+        ],
+        "rotation": [
+            274.82,
+            0.9
+        ],
+        "inventory": {
+            "iron_shovel": 1,
+            "iron_sword": 1
+        }
+    },
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 11665 105 8488 minecraft:barrier');\n                    await bot4.chat('/tp @p 11665 106 8488 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 11671 105 8494 minecraft:barrier');\n                    await bot4.chat('/tp @p 11671 106 8494 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 11671 110 8488 -90 90');\n                "
+        ],
+        [
+            ""
+        ]
+    ],
+    "variant": 100049,
+    "actions": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        "cooked_mutton",
+        4
+    ],
+    "variants_config": {
+        "agent_counts": 3,
+        "playground_location": {
+            "name": "snow_mountain",
+            "x": [
+                11669,
+                11673
+            ],
+            "z": [
+                8486,
+                8490
+            ],
+            "y": 106,
+            "bot_range": [
+                [
+                    11668,
+                    11673
+                ],
+                [
+                    8494,
+                    8496
+                ],
+                108
+            ],
+            "center": [
+                11671,
+                106,
+                8488
+            ],
+            "furance": [
+                [
+                    11671,
+                    106,
+                    8488
+                ],
+                [
+                    11671,
+                    106,
+                    8487
+                ],
+                [
+                    11671,
+                    106,
+                    8489
+                ]
+            ]
+        },
+        "background": [
+            "minecraft:gold_block"
+        ],
+        "furance_count": 3,
+        "furance_pos": [
+            [
+                11671,
+                106,
+                8488
+            ],
+            [
+                11671,
+                106,
+                8487
+            ],
+            [
+                11671,
+                106,
+                8489
+            ]
+        ],
+        "fuel": "birch_log",
+        "goal_type": "food",
+        "goal_item": "cooked_mutton",
+        "goal_count": 4,
+        "tool_use": [
+            [
+                "iron_shovel",
+                "iron_axe"
+            ],
+            [
+                "iron_sword",
+                "iron_pickaxe"
+            ],
+            [
+                "iron_shovel",
+                "iron_sword"
+            ]
+        ],
+        "placement_shape": [
+            [
+                11668,
+                106,
+                8485
+            ],
+            [
+                11669,
+                106,
+                8485
+            ],
+            [
+                11670,
+                106,
+                8485
+            ],
+            [
+                11671,
+                106,
+                8485
+            ],
+            [
+                11672,
+                106,
+                8485
+            ],
+            [
+                11673,
+                106,
+                8485
+            ],
+            [
+                11673,
+                106,
+                8486
+            ],
+            [
+                11673,
+                106,
+                8487
+            ],
+            [
+                11673,
+                106,
+                8488
+            ],
+            [
+                11673,
+                106,
+                8489
+            ],
+            [
+                11673,
+                106,
+                8490
+            ],
+            [
+                11672,
+                106,
+                8490
+            ],
+            [
+                11671,
+                106,
+                8490
+            ],
+            [
+                11670,
+                106,
+                8490
+            ],
+            [
+                11669,
+                106,
+                8490
+            ],
+            [
+                11668,
+                106,
+                8490
+            ],
+            [
+                11668,
+                106,
+                8489
+            ],
+            [
+                11668,
+                106,
+                8488
+            ],
+            [
+                11668,
+                106,
+                8487
+            ],
+            [
+                11668,
+                106,
+                8486
+            ]
+        ],
+        "inventory": [
+            [
+                "birch_log"
+            ],
+            [],
+            []
+        ],
+        "placement_shape_all": {
+            "6": "sheep",
+            "10": "birch_log",
+            "13": "sheep",
+            "0": "sheep",
+            "12": "sheep",
+            "19": "sheep",
+            "3": "birch_log",
+            "17": "birch_log",
+            "16": "sheep",
+            "9": "sheep",
+            "14": "birch_log",
+            "7": "birch_log"
+        }
+    },
+    "bot_list": [
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        11671,
+        106,
+        8488
+    ]
+}

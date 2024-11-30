@@ -1,0 +1,315 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot0.chat('/gamemode survival');\n                    await bot0.chat('/tp @p 4264.75 75 158.52 57.84 -7.05 ');await bot0.chat('/give @p iron_axe 1');await bot0.chat('/give @p iron_axe 1');await bot0.chat('/give @p iron_pickaxe 1');await bot1.chat('/tp @p 4263.57 75 161.03 181.8 6.24 ');await bot1.chat('/give @p iron_pickaxe 1');await bot1.chat('/give @p iron_pickaxe 1');await bot1.chat('/give @p iron_pickaxe 1');await bot2.chat('/tp @p 4263.11 75 161.46 83.67 7.24 ');await bot2.chat('/give @p coal 1');await bot2.chat('/give @p iron_sword 1');await bot2.chat('/give @p iron_sword 1');await bot2.chat('/give @p iron_pickaxe 1');await bot3.chat('/tp @p 4263.62 75 161.86 311.49 3.36 ');await bot3.chat('/give @p coal 1');await bot3.chat('/give @p gold_ore 1');await bot3.chat('/give @p iron_shovel 1');await bot3.chat('/give @p iron_sword 1');await bot3.chat('/give @p iron_pickaxe 1');await bot1.chat('/forceload add 4258 164');\n                    await bot4.chat('/setblock 4261 77 161 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 4261 78 161 -90 90');\n                await bot1.chat('/fill 4258 73 158 4263 73 163 minecraft:hay_block');await bot1.chat('/fill 4258 74 158 4263 76 163 minecraft:air');await bot1.chat('/kill @e[type=!player,distance=..30]');await bot1.chat('/kill @e[type=item]');await bot1.chat('/setblock 4259 74 158 minecraft:gold_ore');await bot1.chat('/setblock 4263 74 158 minecraft:gold_ore');await bot1.chat('/setblock 4263 74 159 minecraft:coal_ore');await bot1.chat('/setblock 4258 74 162 minecraft:gold_ore');await bot1.chat('/setblock 4263 74 163 minecraft:gold_ore');await bot1.chat('/setblock 4263 74 160 minecraft:coal_ore');await bot1.chat('/setblock 4258 74 159 minecraft:coal_ore');await bot1.chat('/setblock 4258 74 161 minecraft:gold_ore');await bot1.chat('/setblock 4262 74 158 minecraft:gold_ore');await bot1.chat('/setblock 4260 74 163 minecraft:coal_ore');await bot1.chat('/setblock 4262 74 163 minecraft:coal_ore');await bot1.chat('/setblock 4261 74 162 minecraft:furnace');",
+    "bot0": {
+        "location": [
+            4264.75,
+            75,
+            158.52
+        ],
+        "rotation": [
+            57.84,
+            -7.05
+        ],
+        "inventory": {
+            "iron_axe": 2,
+            "iron_pickaxe": 1
+        }
+    },
+    "bot1": {
+        "location": [
+            4263.57,
+            75,
+            161.03
+        ],
+        "rotation": [
+            181.8,
+            6.24
+        ],
+        "inventory": {
+            "iron_pickaxe": 3
+        }
+    },
+    "bot2": {
+        "location": [
+            4263.11,
+            75,
+            161.46
+        ],
+        "rotation": [
+            83.67,
+            7.24
+        ],
+        "inventory": {
+            "coal": 1,
+            "iron_sword": 2,
+            "iron_pickaxe": 1
+        }
+    },
+    "bot3": {
+        "location": [
+            4263.62,
+            75,
+            161.86
+        ],
+        "rotation": [
+            311.49,
+            3.36
+        ],
+        "inventory": {
+            "coal": 1,
+            "gold_ore": 1,
+            "iron_shovel": 1,
+            "iron_sword": 1,
+            "iron_pickaxe": 1
+        }
+    },
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 4255 73 161 minecraft:barrier');\n                    await bot4.chat('/tp @p 4255 74 161 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 4261 73 167 minecraft:barrier');\n                    await bot4.chat('/tp @p 4261 74 167 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 4261 78 161 -90 90');\n                "
+        ],
+        [
+            ""
+        ]
+    ],
+    "variant": 100017,
+    "actions": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        "gold_ingot",
+        5
+    ],
+    "variants_config": {
+        "agent_counts": 4,
+        "playground_location": {
+            "name": "desert_villege",
+            "x": [
+                4259,
+                4263
+            ],
+            "z": [
+                159,
+                163
+            ],
+            "y": 74,
+            "bot_range": [
+                [
+                    4263,
+                    4265
+                ],
+                [
+                    155,
+                    163
+                ],
+                75
+            ],
+            "center": [
+                4261,
+                74,
+                161
+            ],
+            "furance": [
+                [
+                    4261,
+                    74,
+                    161
+                ],
+                [
+                    4261,
+                    74,
+                    160
+                ],
+                [
+                    4261,
+                    74,
+                    162
+                ]
+            ]
+        },
+        "background": [
+            "minecraft:hay_block"
+        ],
+        "furance_count": 1,
+        "furance_pos": [
+            [
+                4261,
+                74,
+                162
+            ]
+        ],
+        "fuel": "coal",
+        "goal_type": "item",
+        "goal_item": "gold_ingot",
+        "goal_count": 5,
+        "tool_use": [
+            [
+                "iron_axe",
+                "iron_axe",
+                "iron_pickaxe"
+            ],
+            [
+                "iron_pickaxe",
+                "iron_pickaxe",
+                "iron_pickaxe"
+            ],
+            [
+                "iron_sword",
+                "iron_sword",
+                "iron_pickaxe"
+            ],
+            [
+                "iron_shovel",
+                "iron_sword",
+                "iron_pickaxe"
+            ]
+        ],
+        "placement_shape": [
+            [
+                4258,
+                74,
+                158
+            ],
+            [
+                4259,
+                74,
+                158
+            ],
+            [
+                4260,
+                74,
+                158
+            ],
+            [
+                4261,
+                74,
+                158
+            ],
+            [
+                4262,
+                74,
+                158
+            ],
+            [
+                4263,
+                74,
+                158
+            ],
+            [
+                4263,
+                74,
+                159
+            ],
+            [
+                4263,
+                74,
+                160
+            ],
+            [
+                4263,
+                74,
+                161
+            ],
+            [
+                4263,
+                74,
+                162
+            ],
+            [
+                4263,
+                74,
+                163
+            ],
+            [
+                4262,
+                74,
+                163
+            ],
+            [
+                4261,
+                74,
+                163
+            ],
+            [
+                4260,
+                74,
+                163
+            ],
+            [
+                4259,
+                74,
+                163
+            ],
+            [
+                4258,
+                74,
+                163
+            ],
+            [
+                4258,
+                74,
+                162
+            ],
+            [
+                4258,
+                74,
+                161
+            ],
+            [
+                4258,
+                74,
+                160
+            ],
+            [
+                4258,
+                74,
+                159
+            ]
+        ],
+        "inventory": [
+            [],
+            [],
+            [
+                "coal"
+            ],
+            [
+                "coal",
+                "gold_ore"
+            ]
+        ],
+        "placement_shape_all": {
+            "1": "gold_ore",
+            "5": "gold_ore",
+            "6": "coal_ore",
+            "16": "gold_ore",
+            "10": "gold_ore",
+            "7": "coal_ore",
+            "19": "coal_ore",
+            "17": "gold_ore",
+            "4": "gold_ore",
+            "13": "coal_ore",
+            "11": "coal_ore"
+        }
+    },
+    "bot_list": [
+        "bot0",
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        4261,
+        74,
+        161
+    ]
+}

@@ -1,0 +1,305 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot0.chat('/gamemode survival');\n                    await bot0.chat('/tp @p 7388.91 65 5320.96 249.83 2.07 ');await bot0.chat('/give @p mutton 1');await bot0.chat('/give @p iron_sword 1');await bot0.chat('/give @p iron_pickaxe 1');await bot1.chat('/tp @p 7387.3 65 5318.28 91.75 2.48 ');await bot1.chat('/give @p oak_log 1');await bot1.chat('/give @p iron_shovel 1');await bot1.chat('/give @p iron_sword 1');await bot2.chat('/tp @p 7390.77 65 5320.91 45.95 -2.53 ');await bot2.chat('/give @p iron_pickaxe 1');await bot2.chat('/give @p iron_sword 1');await bot3.chat('/tp @p 7389.43 65 5318.67 221.94 -0.87 ');await bot3.chat('/give @p iron_axe 1');await bot3.chat('/give @p iron_shovel 1');await bot1.chat('/forceload add 7390 5328');\n                    await bot4.chat('/setblock 7393 66 5325 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 7393 67 5325 -90 90');\n                await bot1.chat('/fill 7390 62 5322 7395 62 5327 minecraft:gold_block');await bot1.chat('/fill 7390 63 5322 7395 65 5327 minecraft:air');await bot1.chat('/kill @e[type=!player,distance=..30]');await bot1.chat('/kill @e[type=item]');await bot1.chat('/setblock 7395 63 5325 minecraft:oak_log');await bot1.chat('/setblock 7391 63 5322 minecraft:oak_log');await bot1.chat('/summon sheep 7391 63 5327 {NoAI:1}');await bot1.chat('/setblock 7392 63 5327 minecraft:oak_log');await bot1.chat('/summon sheep 7395 63 5323 {NoAI:1}');await bot1.chat('/summon sheep 7395 63 5322 {NoAI:1}');await bot1.chat('/summon sheep 7393 63 5322 {NoAI:1}');await bot1.chat('/setblock 7390 63 5322 minecraft:oak_log');await bot1.chat('/setblock 7393 63 5325 minecraft:furnace');",
+    "bot0": {
+        "location": [
+            7388.91,
+            65,
+            5320.96
+        ],
+        "rotation": [
+            249.83,
+            2.07
+        ],
+        "inventory": {
+            "mutton": 1,
+            "iron_sword": 1,
+            "iron_pickaxe": 1
+        }
+    },
+    "bot1": {
+        "location": [
+            7387.3,
+            65,
+            5318.28
+        ],
+        "rotation": [
+            91.75,
+            2.48
+        ],
+        "inventory": {
+            "oak_log": 1,
+            "iron_shovel": 1,
+            "iron_sword": 1
+        }
+    },
+    "bot2": {
+        "location": [
+            7390.77,
+            65,
+            5320.91
+        ],
+        "rotation": [
+            45.95,
+            -2.53
+        ],
+        "inventory": {
+            "iron_pickaxe": 1,
+            "iron_sword": 1
+        }
+    },
+    "bot3": {
+        "location": [
+            7389.43,
+            65,
+            5318.67
+        ],
+        "rotation": [
+            221.94,
+            -0.87
+        ],
+        "inventory": {
+            "iron_axe": 1,
+            "iron_shovel": 1
+        }
+    },
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 7387 62 5325 minecraft:barrier');\n                    await bot4.chat('/tp @p 7387 63 5325 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 7393 62 5331 minecraft:barrier');\n                    await bot4.chat('/tp @p 7393 63 5331 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 7393 67 5325 -90 90');\n                "
+        ],
+        [
+            ""
+        ]
+    ],
+    "variant": 100035,
+    "actions": [
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        "cooked_mutton",
+        4
+    ],
+    "variants_config": {
+        "agent_counts": 4,
+        "playground_location": {
+            "name": "ice_on_water",
+            "x": [
+                7391,
+                7395
+            ],
+            "z": [
+                5323,
+                5327
+            ],
+            "y": 63,
+            "bot_range": [
+                [
+                    7387,
+                    7392
+                ],
+                [
+                    5318,
+                    5321
+                ],
+                65
+            ],
+            "center": [
+                7393,
+                63,
+                5325
+            ],
+            "furance": [
+                [
+                    7393,
+                    63,
+                    5325
+                ],
+                [
+                    7393,
+                    63,
+                    5324
+                ],
+                [
+                    7393,
+                    63,
+                    5326
+                ]
+            ]
+        },
+        "background": [
+            "minecraft:gold_block"
+        ],
+        "furance_count": 1,
+        "furance_pos": [
+            [
+                7393,
+                63,
+                5325
+            ]
+        ],
+        "fuel": "oak_log",
+        "goal_type": "food",
+        "goal_item": "cooked_mutton",
+        "goal_count": 4,
+        "tool_use": [
+            [
+                "iron_sword",
+                "iron_pickaxe"
+            ],
+            [
+                "iron_shovel",
+                "iron_sword"
+            ],
+            [
+                "iron_pickaxe",
+                "iron_sword"
+            ],
+            [
+                "iron_axe",
+                "iron_shovel"
+            ]
+        ],
+        "placement_shape": [
+            [
+                7390,
+                63,
+                5322
+            ],
+            [
+                7391,
+                63,
+                5322
+            ],
+            [
+                7392,
+                63,
+                5322
+            ],
+            [
+                7393,
+                63,
+                5322
+            ],
+            [
+                7394,
+                63,
+                5322
+            ],
+            [
+                7395,
+                63,
+                5322
+            ],
+            [
+                7395,
+                63,
+                5323
+            ],
+            [
+                7395,
+                63,
+                5324
+            ],
+            [
+                7395,
+                63,
+                5325
+            ],
+            [
+                7395,
+                63,
+                5326
+            ],
+            [
+                7395,
+                63,
+                5327
+            ],
+            [
+                7394,
+                63,
+                5327
+            ],
+            [
+                7393,
+                63,
+                5327
+            ],
+            [
+                7392,
+                63,
+                5327
+            ],
+            [
+                7391,
+                63,
+                5327
+            ],
+            [
+                7390,
+                63,
+                5327
+            ],
+            [
+                7390,
+                63,
+                5326
+            ],
+            [
+                7390,
+                63,
+                5325
+            ],
+            [
+                7390,
+                63,
+                5324
+            ],
+            [
+                7390,
+                63,
+                5323
+            ]
+        ],
+        "inventory": [
+            [
+                "mutton"
+            ],
+            [
+                "oak_log"
+            ],
+            [],
+            []
+        ],
+        "placement_shape_all": {
+            "8": "oak_log",
+            "1": "oak_log",
+            "14": "sheep",
+            "13": "oak_log",
+            "6": "sheep",
+            "5": "sheep",
+            "3": "sheep",
+            "0": "oak_log"
+        }
+    },
+    "bot_list": [
+        "bot0",
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        7393,
+        63,
+        5325
+    ]
+}

@@ -1,0 +1,281 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot1.chat('/tp @p 7389.48 65 5318.01 60.07 7.26 ');await bot1.chat('/give @p oak_planks 1');await bot1.chat('/give @p iron_axe 1');await bot1.chat('/give @p iron_pickaxe 1');await bot2.chat('/tp @p 7390.44 65 5320.01 241.21 -2.41 ');await bot2.chat('/give @p porkchop 1');await bot2.chat('/give @p iron_axe 1');await bot2.chat('/give @p iron_axe 1');await bot3.chat('/tp @p 7389.34 65 5318.69 1.07 -5.1 ');await bot3.chat('/give @p oak_planks 1');await bot3.chat('/give @p iron_shovel 1');await bot3.chat('/give @p iron_shovel 1');await bot1.chat('/forceload add 7390 5328');\n                    await bot4.chat('/setblock 7393 66 5325 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 7393 67 5325 -90 90');\n                await bot1.chat('/fill 7390 62 5322 7395 62 5327 minecraft:grass_block');await bot1.chat('/fill 7390 63 5322 7395 65 5327 minecraft:air');await bot1.chat('/kill @e[type=!player,distance=..30]');await bot1.chat('/kill @e[type=item]');await bot1.chat('/summon pig 7395 63 5323 {NoAI:1}');await bot1.chat('/setblock 7395 63 5327 minecraft:oak_planks');await bot1.chat('/setblock 7391 63 5327 minecraft:oak_planks');await bot1.chat('/summon pig 7390 63 5327 {NoAI:1}');await bot1.chat('/summon pig 7395 63 5324 {NoAI:1}');await bot1.chat('/setblock 7393 63 5326 minecraft:furnace');",
+    "bot1": {
+        "location": [
+            7389.48,
+            65,
+            5318.01
+        ],
+        "rotation": [
+            60.07,
+            7.26
+        ],
+        "inventory": {
+            "oak_planks": 1,
+            "iron_axe": 1,
+            "iron_pickaxe": 1
+        }
+    },
+    "bot2": {
+        "location": [
+            7390.44,
+            65,
+            5320.01
+        ],
+        "rotation": [
+            241.21,
+            -2.41
+        ],
+        "inventory": {
+            "porkchop": 1,
+            "iron_axe": 2
+        }
+    },
+    "bot3": {
+        "location": [
+            7389.34,
+            65,
+            5318.69
+        ],
+        "rotation": [
+            1.07,
+            -5.1
+        ],
+        "inventory": {
+            "oak_planks": 1,
+            "iron_shovel": 2
+        }
+    },
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 7387 62 5325 minecraft:barrier');\n                    await bot4.chat('/tp @p 7387 63 5325 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 7393 62 5331 minecraft:barrier');\n                    await bot4.chat('/tp @p 7393 63 5331 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 7393 67 5325 -90 90');\n                "
+        ],
+        [
+            ""
+        ]
+    ],
+    "variant": 100022,
+    "actions": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        "cooked_porkchop",
+        3
+    ],
+    "variants_config": {
+        "agent_counts": 3,
+        "playground_location": {
+            "name": "ice_on_water",
+            "x": [
+                7391,
+                7395
+            ],
+            "z": [
+                5323,
+                5327
+            ],
+            "y": 63,
+            "bot_range": [
+                [
+                    7387,
+                    7392
+                ],
+                [
+                    5318,
+                    5321
+                ],
+                65
+            ],
+            "center": [
+                7393,
+                63,
+                5325
+            ],
+            "furance": [
+                [
+                    7393,
+                    63,
+                    5325
+                ],
+                [
+                    7393,
+                    63,
+                    5324
+                ],
+                [
+                    7393,
+                    63,
+                    5326
+                ]
+            ]
+        },
+        "background": [
+            "minecraft:grass_block"
+        ],
+        "furance_count": 1,
+        "furance_pos": [
+            [
+                7393,
+                63,
+                5326
+            ]
+        ],
+        "fuel": "oak_planks",
+        "goal_type": "food",
+        "goal_item": "cooked_porkchop",
+        "goal_count": 3,
+        "tool_use": [
+            [
+                "iron_axe",
+                "iron_pickaxe"
+            ],
+            [
+                "iron_axe",
+                "iron_axe"
+            ],
+            [
+                "iron_shovel",
+                "iron_shovel"
+            ]
+        ],
+        "placement_shape": [
+            [
+                7390,
+                63,
+                5322
+            ],
+            [
+                7391,
+                63,
+                5322
+            ],
+            [
+                7392,
+                63,
+                5322
+            ],
+            [
+                7393,
+                63,
+                5322
+            ],
+            [
+                7394,
+                63,
+                5322
+            ],
+            [
+                7395,
+                63,
+                5322
+            ],
+            [
+                7395,
+                63,
+                5323
+            ],
+            [
+                7395,
+                63,
+                5324
+            ],
+            [
+                7395,
+                63,
+                5325
+            ],
+            [
+                7395,
+                63,
+                5326
+            ],
+            [
+                7395,
+                63,
+                5327
+            ],
+            [
+                7394,
+                63,
+                5327
+            ],
+            [
+                7393,
+                63,
+                5327
+            ],
+            [
+                7392,
+                63,
+                5327
+            ],
+            [
+                7391,
+                63,
+                5327
+            ],
+            [
+                7390,
+                63,
+                5327
+            ],
+            [
+                7390,
+                63,
+                5326
+            ],
+            [
+                7390,
+                63,
+                5325
+            ],
+            [
+                7390,
+                63,
+                5324
+            ],
+            [
+                7390,
+                63,
+                5323
+            ]
+        ],
+        "inventory": [
+            [
+                "oak_planks"
+            ],
+            [
+                "porkchop"
+            ],
+            [
+                "oak_planks"
+            ]
+        ],
+        "placement_shape_all": {
+            "6": "pig",
+            "10": "oak_planks",
+            "14": "oak_planks",
+            "15": "pig",
+            "7": "pig"
+        }
+    },
+    "bot_list": [
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        7393,
+        63,
+        5325
+    ]
+}

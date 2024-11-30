@@ -1,0 +1,290 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot0.chat('/gamemode survival');\n                    await bot1.chat('/forceload add 220 131');\n                    await bot4.chat('/setblock 223 73 128 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 223 74 128 -90 90');\n                await bot1.chat('/fill 221 69 126 225 69 130 minecraft:stone');await bot1.chat('/fill 220 70 125 225 71 130 minecraft:air');await bot1.chat('/setblock 223 71 129 minecraft:pumpkin');await bot1.chat('/setblock 222 71 129 minecraft:sandstone');await bot1.chat('/setblock 222 71 128 minecraft:end_stone');await bot1.chat('/setblock 222 71 127 minecraft:oak_fence');await bot1.chat('/setblock 223 70 129 minecraft:oak_fence');await bot1.chat('/setblock 222 70 129 minecraft:sandstone');await bot1.chat('/setblock 223 70 128 minecraft:dirt');await bot1.chat('/setblock 222 70 128 minecraft:stone');await bot1.chat('/setblock 223 70 127 minecraft:gold_ore');await bot1.chat('/setblock 222 70 127 minecraft:sea_lantern');await bot0.chat('/tp @p 227.52 72 126.32 262.67 -7.52 ');await bot0.chat('/give @p oak_fence 6');await bot0.chat('/give @p sea_lantern 4');await bot0.chat('/give @p stone 3');await bot0.chat('/give @p end_stone 2');await bot0.chat('/give @p sandstone 4');await bot0.chat('/give @p dirt 3');await bot0.chat('/give @p gold_ore 1');await bot0.chat('/give @p pumpkin 2');await bot1.chat('/tp @p 228.09 72 128.8 144.98 2.64 ');await bot1.chat('/give @p sandstone 4');await bot1.chat('/give @p gold_ore 2');await bot1.chat('/give @p pumpkin 1');await bot1.chat('/give @p end_stone 3');await bot2.chat('/tp @p 226.58 72 130.71 306.3 9.36 ');await bot2.chat('/give @p dirt 3');await bot2.chat('/give @p end_stone 2');await bot2.chat('/give @p pumpkin 3');await bot2.chat('/give @p sandstone 2');await bot2.chat('/give @p oak_fence 1');await bot2.chat('/give @p gold_ore 3');await bot3.chat('/tp @p 228.28 72 126.82 256.44 6.35 ');await bot3.chat('/give @p stone 2');await bot3.chat('/give @p sandstone 1');await bot3.chat('/give @p dirt 1');",
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 217 69 128 minecraft:barrier');\n                    await bot4.chat('/tp @p 217 70 128 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 223 69 134 minecraft:barrier');\n                    await bot4.chat('/tp @p 223 70 134 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 223 74 128 -90 90');\n                "
+        ],
+        [
+            "await bot1.chat('/fill 220 70 125 225 71 130 minecraft:air');"
+        ]
+    ],
+    "variant": 100021,
+    "actions": [
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        [
+            "pumpkin",
+            223,
+            71,
+            129
+        ],
+        [
+            "sandstone",
+            222,
+            71,
+            129
+        ],
+        [
+            "end_stone",
+            222,
+            71,
+            128
+        ],
+        [
+            "oak_fence",
+            222,
+            71,
+            127
+        ],
+        [
+            "oak_fence",
+            223,
+            70,
+            129
+        ],
+        [
+            "sandstone",
+            222,
+            70,
+            129
+        ],
+        [
+            "dirt",
+            223,
+            70,
+            128
+        ],
+        [
+            "stone",
+            222,
+            70,
+            128
+        ],
+        [
+            "gold_ore",
+            223,
+            70,
+            127
+        ],
+        [
+            "sea_lantern",
+            222,
+            70,
+            127
+        ]
+    ],
+    "bot0": {
+        "location": [
+            227.52,
+            72,
+            126.32
+        ],
+        "rotation": [
+            262.67,
+            -7.52
+        ],
+        "inventory": {
+            "oak_fence": 6,
+            "sea_lantern": 4,
+            "stone": 3,
+            "end_stone": 2,
+            "sandstone": 4,
+            "dirt": 3,
+            "gold_ore": 1,
+            "pumpkin": 2
+        }
+    },
+    "bot1": {
+        "location": [
+            228.09,
+            72,
+            128.8
+        ],
+        "rotation": [
+            144.98,
+            2.64
+        ],
+        "inventory": {
+            "sandstone": 4,
+            "gold_ore": 2,
+            "pumpkin": 1,
+            "end_stone": 3
+        }
+    },
+    "bot2": {
+        "location": [
+            226.58,
+            72,
+            130.71
+        ],
+        "rotation": [
+            306.3,
+            9.36
+        ],
+        "inventory": {
+            "dirt": 3,
+            "end_stone": 2,
+            "pumpkin": 3,
+            "sandstone": 2,
+            "oak_fence": 1,
+            "gold_ore": 3
+        }
+    },
+    "bot3": {
+        "location": [
+            228.28,
+            72,
+            126.82
+        ],
+        "rotation": [
+            256.44,
+            6.35
+        ],
+        "inventory": {
+            "stone": 2,
+            "sandstone": 1,
+            "dirt": 1
+        }
+    },
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            4
+        ],
+        "background": [
+            "minecraft:stone"
+        ],
+        "playground_location": {
+            "name": "villege",
+            "x": [
+                221,
+                225
+            ],
+            "z": [
+                126,
+                130
+            ],
+            "y": 70,
+            "bot_range": [
+                [
+                    226,
+                    229
+                ],
+                [
+                    125,
+                    131
+                ],
+                72
+            ],
+            "center": [
+                223,
+                70,
+                128
+            ]
+        },
+        "base_shape": [
+            [
+                2,
+                3,
+                2
+            ]
+        ],
+        "block_type": [
+            "pumpkin",
+            "sandstone",
+            "end_stone",
+            "oak_fence",
+            "oak_fence",
+            "sandstone",
+            "dirt",
+            "stone",
+            "gold_ore",
+            "sea_lantern"
+        ],
+        "placement_shape": [
+            [
+                1,
+                1,
+                2
+            ],
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                0,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                0,
+                2
+            ],
+            [
+                0,
+                0,
+                2
+            ],
+            [
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "block_count": 10,
+        "placement_shape_number": [
+            11,
+            10,
+            8,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+        ]
+    },
+    "bot_list": [
+        "bot0",
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        223,
+        70,
+        128
+    ]
+}

@@ -1,0 +1,308 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot0.chat('/gamemode survival');\n                    await bot0.chat('/tp @p 227.82 72 130.72 42.57 4.95 ');await bot0.chat('/give @p potato 1');await bot0.chat('/give @p potato 1');await bot0.chat('/give @p potato 1');await bot0.chat('/give @p iron_pickaxe 1');await bot0.chat('/give @p iron_pickaxe 1');await bot1.chat('/tp @p 227.82 72 125.63 313.37 3.04 ');await bot1.chat('/give @p coal 1');await bot1.chat('/give @p iron_pickaxe 1');await bot1.chat('/give @p iron_sword 1');await bot2.chat('/tp @p 226.79 72 127.28 329.19 -0.37 ');await bot2.chat('/give @p potato 1');await bot2.chat('/give @p potato 1');await bot2.chat('/give @p iron_shovel 1');await bot2.chat('/give @p iron_sword 1');await bot3.chat('/tp @p 226.72 72 126.23 179.03 4.94 ');await bot3.chat('/give @p coal 1');await bot3.chat('/give @p iron_shovel 1');await bot3.chat('/give @p iron_sword 1');await bot1.chat('/forceload add 220 131');\n                    await bot4.chat('/setblock 223 73 128 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 223 74 128 -90 90');\n                await bot1.chat('/fill 220 69 125 225 69 130 minecraft:oak_wood');await bot1.chat('/fill 220 70 125 225 72 130 minecraft:air');await bot1.chat('/kill @e[type=!player,distance=..30]');await bot1.chat('/kill @e[type=item]');await bot1.chat('/setblock 225 70 129 minecraft:coal_ore');await bot1.chat('/setblock 224 70 130 minecraft:coal_ore');await bot1.chat('/setblock 220 70 127 minecraft:coal_ore');await bot1.chat('/setblock 223 70 128 minecraft:furnace');",
+    "bot0": {
+        "location": [
+            227.82,
+            72,
+            130.72
+        ],
+        "rotation": [
+            42.57,
+            4.95
+        ],
+        "inventory": {
+            "potato": 3,
+            "iron_pickaxe": 2
+        }
+    },
+    "bot1": {
+        "location": [
+            227.82,
+            72,
+            125.63
+        ],
+        "rotation": [
+            313.37,
+            3.04
+        ],
+        "inventory": {
+            "coal": 1,
+            "iron_pickaxe": 1,
+            "iron_sword": 1
+        }
+    },
+    "bot2": {
+        "location": [
+            226.79,
+            72,
+            127.28
+        ],
+        "rotation": [
+            329.19,
+            -0.37
+        ],
+        "inventory": {
+            "potato": 2,
+            "iron_shovel": 1,
+            "iron_sword": 1
+        }
+    },
+    "bot3": {
+        "location": [
+            226.72,
+            72,
+            126.23
+        ],
+        "rotation": [
+            179.03,
+            4.94
+        ],
+        "inventory": {
+            "coal": 1,
+            "iron_shovel": 1,
+            "iron_sword": 1
+        }
+    },
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 217 69 128 minecraft:barrier');\n                    await bot4.chat('/tp @p 217 70 128 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 223 69 134 minecraft:barrier');\n                    await bot4.chat('/tp @p 223 70 134 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 223 74 128 -90 90');\n                "
+        ],
+        [
+            ""
+        ]
+    ],
+    "variant": 100042,
+    "actions": [
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        "baked_potato",
+        5
+    ],
+    "variants_config": {
+        "agent_counts": 4,
+        "playground_location": {
+            "name": "villege",
+            "x": [
+                221,
+                225
+            ],
+            "z": [
+                126,
+                130
+            ],
+            "y": 70,
+            "bot_range": [
+                [
+                    226,
+                    229
+                ],
+                [
+                    125,
+                    131
+                ],
+                72
+            ],
+            "center": [
+                223,
+                70,
+                128
+            ],
+            "furance": [
+                [
+                    223,
+                    70,
+                    128
+                ],
+                [
+                    223,
+                    70,
+                    127
+                ],
+                [
+                    223,
+                    70,
+                    129
+                ]
+            ]
+        },
+        "background": [
+            "minecraft:oak_wood"
+        ],
+        "furance_count": 1,
+        "furance_pos": [
+            [
+                223,
+                70,
+                128
+            ]
+        ],
+        "fuel": "coal",
+        "goal_type": "food",
+        "goal_item": "baked_potato",
+        "goal_count": 5,
+        "tool_use": [
+            [
+                "iron_pickaxe",
+                "iron_pickaxe"
+            ],
+            [
+                "iron_pickaxe",
+                "iron_sword"
+            ],
+            [
+                "iron_shovel",
+                "iron_sword"
+            ],
+            [
+                "iron_shovel",
+                "iron_sword"
+            ]
+        ],
+        "placement_shape": [
+            [
+                220,
+                70,
+                125
+            ],
+            [
+                221,
+                70,
+                125
+            ],
+            [
+                222,
+                70,
+                125
+            ],
+            [
+                223,
+                70,
+                125
+            ],
+            [
+                224,
+                70,
+                125
+            ],
+            [
+                225,
+                70,
+                125
+            ],
+            [
+                225,
+                70,
+                126
+            ],
+            [
+                225,
+                70,
+                127
+            ],
+            [
+                225,
+                70,
+                128
+            ],
+            [
+                225,
+                70,
+                129
+            ],
+            [
+                225,
+                70,
+                130
+            ],
+            [
+                224,
+                70,
+                130
+            ],
+            [
+                223,
+                70,
+                130
+            ],
+            [
+                222,
+                70,
+                130
+            ],
+            [
+                221,
+                70,
+                130
+            ],
+            [
+                220,
+                70,
+                130
+            ],
+            [
+                220,
+                70,
+                129
+            ],
+            [
+                220,
+                70,
+                128
+            ],
+            [
+                220,
+                70,
+                127
+            ],
+            [
+                220,
+                70,
+                126
+            ]
+        ],
+        "inventory": [
+            [
+                "potato",
+                "potato",
+                "potato"
+            ],
+            [
+                "coal"
+            ],
+            [
+                "potato",
+                "potato"
+            ],
+            [
+                "coal"
+            ]
+        ],
+        "placement_shape_all": {
+            "9": "coal_ore",
+            "11": "coal_ore",
+            "18": "coal_ore"
+        }
+    },
+    "bot_list": [
+        "bot0",
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        223,
+        70,
+        128
+    ]
+}

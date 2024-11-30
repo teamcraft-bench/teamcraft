@@ -1,0 +1,228 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode survival');\n                    await bot1.chat('/forceload add 220 131');\n                    await bot4.chat('/setblock 223 73 128 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 223 74 128 -90 90');\n                await bot1.chat('/fill 221 69 126 225 69 130 minecraft:cyan_concrete');await bot1.chat('/fill 220 70 125 225 71 130 minecraft:air');await bot1.chat('/setblock 224 71 127 minecraft:dirt');await bot1.chat('/setblock 223 71 127 minecraft:purple_wool');await bot1.chat('/setblock 222 71 127 minecraft:sandstone');await bot1.chat('/setblock 225 70 127 minecraft:birch_log');await bot1.chat('/setblock 224 70 127 minecraft:dirt');await bot1.chat('/setblock 223 70 127 minecraft:sponge');await bot1.chat('/setblock 222 70 127 minecraft:oak_fence');await bot1.chat('/tp @p 228.58 72 128.43 305.03 -9.23 ');await bot1.chat('/give @p birch_log 4');await bot1.chat('/give @p oak_fence 2');await bot1.chat('/give @p sandstone 5');await bot1.chat('/give @p dirt 1');await bot2.chat('/tp @p 228.72 72 129.95 315.27 9.25 ');await bot2.chat('/give @p dirt 1');await bot2.chat('/give @p purple_wool 2');await bot2.chat('/give @p sandstone 3');await bot2.chat('/give @p oak_fence 3');await bot3.chat('/tp @p 226.26 72 127.37 238.68 -4.72 ');await bot3.chat('/give @p sponge 5');await bot3.chat('/give @p dirt 8');await bot3.chat('/give @p sandstone 3');await bot3.chat('/give @p oak_fence 1');",
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 217 69 128 minecraft:barrier');\n                    await bot4.chat('/tp @p 217 70 128 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 223 69 134 minecraft:barrier');\n                    await bot4.chat('/tp @p 223 70 134 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 223 74 128 -90 90');\n                "
+        ],
+        [
+            "await bot1.chat('/fill 220 70 125 225 71 130 minecraft:air');"
+        ]
+    ],
+    "variant": 100012,
+    "actions": [
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        [
+            "dirt",
+            224,
+            71,
+            127
+        ],
+        [
+            "purple_wool",
+            223,
+            71,
+            127
+        ],
+        [
+            "sandstone",
+            222,
+            71,
+            127
+        ],
+        [
+            "birch_log",
+            225,
+            70,
+            127
+        ],
+        [
+            "dirt",
+            224,
+            70,
+            127
+        ],
+        [
+            "sponge",
+            223,
+            70,
+            127
+        ],
+        [
+            "oak_fence",
+            222,
+            70,
+            127
+        ]
+    ],
+    "bot1": {
+        "location": [
+            228.58,
+            72,
+            128.43
+        ],
+        "rotation": [
+            305.03,
+            -9.23
+        ],
+        "inventory": {
+            "birch_log": 4,
+            "oak_fence": 2,
+            "sandstone": 5,
+            "dirt": 1
+        }
+    },
+    "bot2": {
+        "location": [
+            228.72,
+            72,
+            129.95
+        ],
+        "rotation": [
+            315.27,
+            9.25
+        ],
+        "inventory": {
+            "dirt": 1,
+            "purple_wool": 2,
+            "sandstone": 3,
+            "oak_fence": 3
+        }
+    },
+    "bot3": {
+        "location": [
+            226.26,
+            72,
+            127.37
+        ],
+        "rotation": [
+            238.68,
+            -4.72
+        ],
+        "inventory": {
+            "sponge": 5,
+            "dirt": 8,
+            "sandstone": 3,
+            "oak_fence": 1
+        }
+    },
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            3
+        ],
+        "background": [
+            "minecraft:cyan_concrete"
+        ],
+        "playground_location": {
+            "name": "villege",
+            "x": [
+                221,
+                225
+            ],
+            "z": [
+                126,
+                130
+            ],
+            "y": 70,
+            "bot_range": [
+                [
+                    226,
+                    229
+                ],
+                [
+                    125,
+                    131
+                ],
+                72
+            ],
+            "center": [
+                223,
+                70,
+                128
+            ]
+        },
+        "base_shape": [
+            [
+                4,
+                1,
+                2
+            ]
+        ],
+        "block_type": [
+            "dirt",
+            "purple_wool",
+            "sandstone",
+            "birch_log",
+            "dirt",
+            "sponge",
+            "oak_fence"
+        ],
+        "placement_shape": [
+            [
+                2,
+                1,
+                0
+            ],
+            [
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                3,
+                0,
+                0
+            ],
+            [
+                2,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "block_count": 7,
+        "placement_shape_number": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+        ]
+    },
+    "bot_list": [
+        "bot1",
+        "bot2",
+        "bot3"
+    ],
+    "center_position": [
+        223,
+        70,
+        128
+    ]
+}

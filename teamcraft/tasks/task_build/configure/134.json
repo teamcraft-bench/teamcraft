@@ -1,0 +1,243 @@
+{
+    "command": "\n                    await bot1.chat('hello!!!!!!!!!!!');\n                    await bot1.chat('/gamerule doMobSpawning false');\n                    await bot1.chat('/gamerule randomTickSpeed 0');\n                    \n                    await bot3.chat('/gamemode spectator');\n                    await bot3.chat('/tp @p 10 10 10');\n                    await bot1.chat('/forceload add 7390 5328');\n                    await bot4.chat('/setblock 7393 66 5325 minecraft:barrier');\n                    await bot4.chat('/gamemode spectator');\n                    await bot4.chat('/tp @p 7393 67 5325 -90 90');\n                await bot1.chat('/fill 7391 62 5323 7395 62 5327 minecraft:gold_block');await bot1.chat('/fill 7390 63 5322 7395 64 5327 minecraft:air');await bot1.chat('/setblock 7393 64 5326 minecraft:bookshelf');await bot1.chat('/setblock 7393 64 5325 minecraft:oak_planks');await bot1.chat('/setblock 7392 64 5325 minecraft:birch_log');await bot1.chat('/setblock 7393 63 5326 minecraft:gold_ore');await bot1.chat('/setblock 7392 63 5326 minecraft:pumpkin');await bot1.chat('/setblock 7393 63 5325 minecraft:grass_block');await bot1.chat('/setblock 7392 63 5325 minecraft:grass_block');await bot1.chat('/setblock 7393 63 5324 minecraft:purple_wool');await bot1.chat('/setblock 7392 63 5324 minecraft:sponge');await bot1.chat('/tp @p 7390.09 65 5318.78 81.36 4.65 ');await bot1.chat('/give @p gold_ore 2');await bot1.chat('/give @p sponge 1');await bot1.chat('/give @p grass_block 1');await bot1.chat('/give @p birch_log 5');await bot1.chat('/give @p bookshelf 3');await bot1.chat('/give @p pumpkin 2');await bot2.chat('/tp @p 7390.01 65 5318.94 191.95 -5.68 ');await bot2.chat('/give @p pumpkin 3');await bot2.chat('/give @p purple_wool 4');await bot2.chat('/give @p grass_block 8');await bot2.chat('/give @p oak_planks 2');await bot2.chat('/give @p birch_log 1');await bot2.chat('/give @p bookshelf 1');await bot2.chat('/give @p sponge 3');",
+    "obs_command": [
+        [
+            "\n                    await bot4.chat('/setblock 7387 62 5325 minecraft:barrier');\n                    await bot4.chat('/tp @p 7387 63 5325 -90 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/setblock 7393 62 5331 minecraft:barrier');\n                    await bot4.chat('/tp @p 7393 63 5331 -180 0');\n                "
+        ],
+        [
+            "\n                    await bot4.chat('/tp @p 7393 67 5325 -90 90');\n                "
+        ],
+        [
+            "await bot1.chat('/fill 7390 63 5322 7395 64 5327 minecraft:air');"
+        ]
+    ],
+    "variant": 100034,
+    "actions": [
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "done_input": [
+        [
+            "bookshelf",
+            7393,
+            64,
+            5326
+        ],
+        [
+            "oak_planks",
+            7393,
+            64,
+            5325
+        ],
+        [
+            "birch_log",
+            7392,
+            64,
+            5325
+        ],
+        [
+            "gold_ore",
+            7393,
+            63,
+            5326
+        ],
+        [
+            "pumpkin",
+            7392,
+            63,
+            5326
+        ],
+        [
+            "grass_block",
+            7393,
+            63,
+            5325
+        ],
+        [
+            "grass_block",
+            7392,
+            63,
+            5325
+        ],
+        [
+            "purple_wool",
+            7393,
+            63,
+            5324
+        ],
+        [
+            "sponge",
+            7392,
+            63,
+            5324
+        ]
+    ],
+    "bot1": {
+        "location": [
+            7390.09,
+            65,
+            5318.78
+        ],
+        "rotation": [
+            81.36,
+            4.65
+        ],
+        "inventory": {
+            "gold_ore": 2,
+            "sponge": 1,
+            "grass_block": 1,
+            "birch_log": 5,
+            "bookshelf": 3,
+            "pumpkin": 2
+        }
+    },
+    "bot2": {
+        "location": [
+            7390.01,
+            65,
+            5318.94
+        ],
+        "rotation": [
+            191.95,
+            -5.68
+        ],
+        "inventory": {
+            "pumpkin": 3,
+            "purple_wool": 4,
+            "grass_block": 8,
+            "oak_planks": 2,
+            "birch_log": 1,
+            "bookshelf": 1,
+            "sponge": 3
+        }
+    },
+    "item_spots": {},
+    "variants_config": {
+        "agent_counts": [
+            2
+        ],
+        "background": [
+            "minecraft:gold_block"
+        ],
+        "playground_location": {
+            "name": "ice_on_water",
+            "x": [
+                7391,
+                7395
+            ],
+            "z": [
+                5323,
+                5327
+            ],
+            "y": 63,
+            "bot_range": [
+                [
+                    7387,
+                    7392
+                ],
+                [
+                    5318,
+                    5321
+                ],
+                65
+            ],
+            "center": [
+                7393,
+                63,
+                5325
+            ]
+        },
+        "base_shape": [
+            [
+                2,
+                3,
+                2
+            ]
+        ],
+        "block_type": [
+            "bookshelf",
+            "oak_planks",
+            "birch_log",
+            "gold_ore",
+            "pumpkin",
+            "grass_block",
+            "grass_block",
+            "purple_wool",
+            "sponge"
+        ],
+        "placement_shape": [
+            [
+                1,
+                1,
+                2
+            ],
+            [
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                1,
+                1
+            ],
+            [
+                1,
+                0,
+                2
+            ],
+            [
+                0,
+                0,
+                2
+            ],
+            [
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "block_count": 9,
+        "placement_shape_number": [
+            11,
+            9,
+            8,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+        ]
+    },
+    "bot_list": [
+        "bot1",
+        "bot2"
+    ],
+    "center_position": [
+        7393,
+        63,
+        5325
+    ]
+}
