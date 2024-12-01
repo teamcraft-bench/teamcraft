@@ -232,13 +232,19 @@ cd llava_teamcraft
 
 # Make sure you have git-lfs installed (https://git-lfs.com)
 git lfs install
-git clone https://huggingface.co/datasets/teamcraft/teamcraft_train_data
 
-# Unzip the data
-bash teamcraft_train_data/unzip.sh
+# For centralized data
+git clone https://huggingface.co/datasets/teamcraft/TeamCraft-Data-Cen
+cd TeamCraft-Data-Cen
+mkdir -p ../teamcraft_data && for zip in *.zip; do unzip -qo "$zip" -d ../teamcraft_data; done
+
+# For decentralized data
+git clone https://huggingface.co/datasets/teamcraft/TeamCraft-Data-Dec
+cd TeamCraft-Data-Dec
+mkdir -p ../teamcraft_data && for zip in *.zip; do unzip -qo "$zip" -d ../teamcraft_data; done
 
 # Verify saved on correct path 
-ls -lh ./teamcraft_train_data/10001_1_1.png
+ls -lh ./teamcraft_data/10001_1_1.png
 ```
 
 To train, run [finetune_7b_cen.sh](/llava_teamcraft/scripts/v1_5/finetune_7b_cen.sh) and [finetune_7b_dec.sh](/llava_teamcraft/scripts/v1_5/finetune_7b_dec.sh): 

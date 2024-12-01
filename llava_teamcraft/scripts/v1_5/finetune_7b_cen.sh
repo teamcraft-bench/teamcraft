@@ -2,8 +2,8 @@ deepspeed llava/train/train_mem.py \
     --deepspeed ./scripts/zero3.json \
     --model_name_or_path liuhaotian/llava-v1.6-vicuna-7b \
     --version v1 \
-    --data_path ./teamcraft_train_data/combine_centralized_updated.json \
-    --image_folder ./teamcraft_train_data/ \
+    --data_path ./teamcraft_data/combine_centralized_updated.json \
+    --image_folder ./teamcraft_data/ \
     --vision_tower openai/clip-vit-large-patch14-336 \
     --mm_projector_type mlp2x_gelu \
     --mm_vision_select_layer -2 \
