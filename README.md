@@ -225,23 +225,24 @@ python eval.py \
 
 ## Training
 
-After downloading our [dataset](#downloads), save it under `./llava_teamcraft/teamcraft_train_data/`:
+After downloading our [dataset](#downloads), unzip and save it under `./llava_teamcraft/teamcraft_data/`:
 
 ```bash
 cd llava_teamcraft
+mkdir -p teamcraft_data
 
 # Make sure you have git-lfs installed (https://git-lfs.com)
 git lfs install
 
 # For centralized data
 git clone https://huggingface.co/datasets/teamcraft/TeamCraft-Data-Cen
-cd TeamCraft-Data-Cen
-mkdir -p ../teamcraft_data && for zip in *.zip; do unzip -qo "$zip" -d ../teamcraft_data; done
+mv -f TeamCraft-Data-Cen/10001_1_1.png TeamCraft-Data-Cen/combine_centralized_updated.json teamcraft_data/
+for zip in TeamCraft-Data-Cen/*.zip; do unzip -qo "$zip" -d teamcraft_data; done
 
 # For decentralized data
 git clone https://huggingface.co/datasets/teamcraft/TeamCraft-Data-Dec
-cd TeamCraft-Data-Dec
-mkdir -p ../teamcraft_data && for zip in *.zip; do unzip -qo "$zip" -d ../teamcraft_data; done
+mv -f TeamCraft-Data-Dec/10001_1_1.png TeamCraft-Data-Dec/combine_decentralized_updated.json teamcraft_data/
+for zip in TeamCraft-Data-Dec/*.zip; do unzip -qo "$zip" -d teamcraft_data; done
 
 # Verify saved on correct path 
 ls -lh ./teamcraft_data/10001_1_1.png
