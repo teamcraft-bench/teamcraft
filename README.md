@@ -276,7 +276,9 @@ We host pretrained models and dataset on [Hugging Face](https://huggingface.co/t
 | ----------------------- | :---------------------------------------------------------------------------: |
 | TeamCraft-VLA-7B-Cen    |  [Link](https://huggingface.co/teamcraft/TeamCraft-VLA-7B-Cen)          |
 | TeamCraft-VLA-7B-Dec    |  [Link](https://huggingface.co/teamcraft/TeamCraft-VLA-7B-Dec)          |
-| Training-Dataset        |  [Link](https://huggingface.co/datasets/teamcraft/teamcraft_data)       |
+| TeamCraft-Data-Overview |  [Link](https://huggingface.co/datasets/teamcraft/teamcraft_data)       |
+| TeamCraft-Data-Cen      |  [Link](https://huggingface.co/datasets/teamcraft/TeamCraft-Data-Cen)   |
+| TeamCraft-Data-Dec      |  [Link](https://huggingface.co/datasets/teamcraft/TeamCraft-Data-Dec)   |
 
 
 # Documents
