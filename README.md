@@ -237,12 +237,12 @@ git lfs install
 # For centralized data
 git clone https://huggingface.co/datasets/teamcraft/TeamCraft-Data-Cen
 mv -f TeamCraft-Data-Cen/10001_1_1.png TeamCraft-Data-Cen/combine_centralized_updated.json teamcraft_data/
-for zip in TeamCraft-Data-Cen/*.zip; do unzip -qo "$zip" -d teamcraft_data; done
+for zip in TeamCraft-Data-Cen/*.zip; do echo "Extracting $zip..."; unzip -qo "$zip" -d teamcraft_data; done
 
 # For decentralized data
 git clone https://huggingface.co/datasets/teamcraft/TeamCraft-Data-Dec
 mv -f TeamCraft-Data-Dec/10001_1_1.png TeamCraft-Data-Dec/combine_decentralized_updated.json teamcraft_data/
-for zip in TeamCraft-Data-Dec/*.zip; do unzip -qo "$zip" -d teamcraft_data; done
+for zip in TeamCraft-Data-Dec/*.zip; do echo "Extracting $zip..."; unzip -qo "$zip" -d teamcraft_data; done
 
 # Verify saved on correct path 
 ls -lh ./teamcraft_data/10001_1_1.png
