@@ -4,7 +4,7 @@
 
 [![Python Version](https://img.shields.io/badge/Python-3.9-blue.svg)](https://github.com/teamcraft-bench/teamcraft)
 [![GitHub license](https://img.shields.io/github/license/teamcraft-bench/teamcraft)](https://github.com/teamcraft-bench/teamcraft/blob/main/LICENSE)
-
+[![Datasets](https://img.shields.io/badge/HuggingFace-Datasets-orange.svg)](https://huggingface.co/datasets/teamcraft/teamcraft_data)
 ---
 
 ![](images/pull.png)
