@@ -65,7 +65,7 @@ conda activate teamcraft
 Navigate to the TeamCraft directory and install the packages:
 
 ```bash
-cd TeamCraft/
+cd teamcraft/
 
 python3.9 -m pip install --no-cache-dir -e .
 python3.9 -m pip install --no-cache-dir -e ./llava_teamcraft/
@@ -80,7 +80,7 @@ cd ./teamcraft/env/mineflayer && npm install
 Tested on EC2 with Ubuntu Server 22.04 LTS (HVM). Run the setup script with root privileges:
 
 ```bash
-cd TeamCraft/
+cd teamcraft/
 
 sudo ./setup.sh
 ```
@@ -90,7 +90,7 @@ sudo ./setup.sh
 Build the Docker image:
 
 ```bash
-cd TeamCraft/
+cd teamcraft/
 
 docker build -t teamcraft-image .
 ```
