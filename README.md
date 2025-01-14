@@ -7,7 +7,7 @@
 [![Datasets](https://img.shields.io/badge/HuggingFace-Datasets-orange.svg)](https://huggingface.co/datasets/teamcraft/teamcraft_data)
 ---
 
-![](images/pull.png)
+![](images/teamcraft_main.jpg)
 
 </div>
 
