@@ -13,7 +13,7 @@
 
 ## Release
 
-- [2025/01/30] Adding [support](https://github.com/teamcraft-bench/teamcraft/blob/main/docs/customize_task.md) for new customized tasks and scenes.
+- [2025/01/30] Adding [support](https://github.com/teamcraft-bench/teamcraft/blob/main/docs/customize_task.md) for customizing tasks and scenes.
 - [2025/12/22] Releasing TeamCraft-VLA ([centralized](https://huggingface.co/teamcraft/TeamCraft-VLA-7B-Cen) and [decentralized](https://huggingface.co/teamcraft/TeamCraft-VLA-7B-Dec)) model checkpoints and training [data](https://huggingface.co/datasets/teamcraft/teamcraft_data). 
 
 In this repo, we provide TeamCraft code. This codebase is under [MIT License](LICENSE).
