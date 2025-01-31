@@ -11,7 +11,10 @@
 
 </div>
 
-Complex 3D environments replete with dynamic interactions among multiple agents and objects are essential for the development of embodied intelligent agents. To facilitate research on Multi-Agent (MA) systems, we introduce TeamCraft, a challenging MA benchmark based on the Minecraft game. Instead of the abstract vector inputs commonly provided to agents in MA systems research, TeamCraft provides agents with multi-modal task specifications and observations. Given the three-orthographic-view graph of the environment along with language instructions, the agents must efficiently collaborate to complete assigned tasks. Such multi-modal inputs pose a higher level of difficulty, since agents must generalize across diverse object and background imagery, different numbers of agents, a wide range of tasks, etc. Our planner-generated dataset includes various tasks, such as building construction, smelting, and farming, with a total of 55,000 procedurally-generated demonstrations that feature over 50 objects across a wide variety of scenes.  We test the generalization abilities of several baseline Vision-Language Model (VLM) multi-agent control strategies in centralized and decentralized settings.
+## Release
+
+- [2025/01/30] Adding [support](https://github.com/teamcraft-bench/teamcraft/blob/main/docs/customize_task.md) for new customized tasks and scenes.
+- [2025/12/22] Releasing TeamCraft-VLA ([centralized](https://huggingface.co/teamcraft/TeamCraft-VLA-7B-Cen) and [decentralized](https://huggingface.co/teamcraft/TeamCraft-VLA-7B-Dec)) model checkpoints and training [data](https://huggingface.co/datasets/teamcraft/teamcraft_data). 
 
 In this repo, we provide TeamCraft code. This codebase is under [MIT License](LICENSE).
 
