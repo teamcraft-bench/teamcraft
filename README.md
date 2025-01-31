@@ -287,7 +287,7 @@ For benchmark environment documents, please refer to [environment document](/doc
 
 For task design and available evaluation configure setup, please refer to [task document](/docs/task_doc.md).
 
-For how to desin you own task and configuration, please refer to [customize task document](/docs/customize.md).
+For how to desin you own task and configuration, please refer to [customize task document](/docs/customize_task.md).
 
 
 # System Requirements
