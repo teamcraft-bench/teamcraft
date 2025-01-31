@@ -287,6 +287,8 @@ For benchmark environment documents, please refer to [environment document](/doc
 
 For task design and available evaluation configure setup, please refer to [task document](/docs/task_doc.md).
 
+For how to desin you own task and configuration, please refer to [customize task document](/docs/customize.md).
+
 
 # System Requirements
 
@@ -327,6 +329,7 @@ AWS EC2 Instance:
 - [x] Add task descriptions in the document
 - [x] Add instructions to visualize the game
 - [x] Refactor codebase to lower the requirement on CPU cores
+- [X] Release task customization instructions and code
 - [ ] Enable GPU image rendering 
 - [ ] Release the data generation code
 
