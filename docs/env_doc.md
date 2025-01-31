@@ -39,7 +39,7 @@ Save the above code as `temp.py`, and then run it with `xvfb-run`:
 xvfb-run python temp.py
 ```
 
-If you wish to use GPU in your code, an alternative to skip the `xvfb-run` (which is mutually exclusive with GPU) is to run [xserver.py](xserver.py) in a tmux shell:
+If you wish to use GPU in your code, an alternative to skip the `xvfb-run` (which is mutually exclusive with GPU) is to run [xserver.py](../xserver.py) in a tmux shell:
 
 ```bash
 # start tmux session
