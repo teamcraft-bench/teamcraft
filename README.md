@@ -118,7 +118,7 @@ sudo ./setup.sh
 
 Install [Docker](https://docs.docker.com/engine/install/) and [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) on Ubuntu 22.04.
 
-Run Docker image
+Run [TeamCraft Offical Docker image](https://hub.docker.com/r/teamcraft/teamcraft-image)
 
 ```bash
 docker pull teamcraft/teamcraft-image:latest
