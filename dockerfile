@@ -28,6 +28,7 @@ RUN apt-get install -y \
     tmux \
     unzip \
     curl \
+    pciutils \
     && rm -rf /var/lib/apt/lists/*
 
 # Install pip for Python 3.9
@@ -61,7 +62,7 @@ RUN python3.9 -m pip install --no-cache-dir -e /TeamCraft
 RUN python3.9 -m pip install -e /TeamCraft/llava_teamcraft
 RUN cd /TeamCraft/llava_teamcraft
 RUN python3.9 -m pip install -e "/TeamCraft/llava_teamcraft[train]"
-RUN python3.9 -m pip install flash-attn --no-build-isolation
+RUN python3.9 -m pip install flash-attn==2.7.3 --no-build-isolation
 
 # Install npm packages and copy necessary files for prismarine-viewer
 RUN cd /TeamCraft/teamcraft/env/mineflayer && npm install
@@ -76,7 +77,7 @@ RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2
 RUN aws configure set default.s3.max_concurrent_requests 50
 
 # Set the working directory
-WORKDIR /teamcraft
+WORKDIR /TeamCraft
 
 # Command to keep the container running
 CMD ["tail", "-f", "/dev/null"]
