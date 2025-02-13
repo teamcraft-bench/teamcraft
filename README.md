@@ -78,6 +78,31 @@ pip install flash-attn --no-build-isolation
 cd ./teamcraft/env/mineflayer && npm install
 ```
 
+<details>
+    <summary> Installation on Ubuntu 24.04 </summary>
+
+To install on Ubuntu 24.04, change default system gcc and g++ to version 11 before executing **step c** above.
+
+```bash
+sudo apt update
+sudo apt install gcc-11 g++-11
+
+sudo ln -s -f /usr/bin/gcc-11 /usr/bin/gcc
+sudo ln -s -f /usr/bin/g++-11 /usr/bin/g++
+
+# confirm version
+g++ --version
+gcc --version
+```
+
+To change it back:
+
+```bash
+sudo ln -s -f /usr/bin/gcc-13 /usr/bin/gcc
+sudo ln -s -f /usr/bin/g++-13 /usr/bin/g++
+```
+</details>
+
 ### 2. One-Click Bash Script
 
 Tested on EC2 with Ubuntu Server 22.04 LTS (HVM). Run the setup script with root privileges:
@@ -90,7 +115,18 @@ sudo ./setup.sh
 
 ### 3. Docker
 
-Build the Docker image:
+Install [Docker](https://docs.docker.com/engine/install/) and [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html).
+
+Run Docker image
+
+```bash
+docker pull teamcraft/teamcraft-image:latest
+docker run -d --name teamcraft-container --gpus all --ulimit nofile=1000000:1000000 teamcraft/teamcraft-image:latest
+```
+*Note: Xserver is not needed for if using provided image*
+
+<details>
+    <summary>Build the Docker image</summary>
 
 ```bash
 cd teamcraft/
@@ -98,11 +134,12 @@ cd teamcraft/
 docker build -t teamcraft-image .
 ```
 
-Run the Docker container:
+Run local image:
 
 ```bash
-docker run -d --name teamcraft-container --ulimit nofile=1000000:1000000 teamcraft-image
+docker run -d --name teamcraft-container --gpus all --ulimit nofile=1000000:1000000 teamcraft-image
 ```
+</details>
 
 # Getting Started
 
