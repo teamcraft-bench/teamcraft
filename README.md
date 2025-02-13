@@ -115,7 +115,7 @@ sudo ./setup.sh
 
 ### 3. Docker
 
-Install [Docker](https://docs.docker.com/engine/install/) and [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html).
+Install [Docker](https://docs.docker.com/engine/install/) and [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) on Ubuntu 22.04.
 
 Run Docker image
 
@@ -123,10 +123,12 @@ Run Docker image
 docker pull teamcraft/teamcraft-image:latest
 docker run -d --name teamcraft-container --gpus all --ulimit nofile=1000000:1000000 teamcraft/teamcraft-image:latest
 ```
-*Note: Xserver is not needed for if using provided image*
+*Note:*
+  - *Xserver is not needed for if using provided Docker image*
+  - *Ignore "UserWarning: Subprocess mineflayer failed to start." The mineflayer will restart itself.*
 
 <details>
-    <summary>Build the Docker image</summary>
+    <summary>Build Docker image on local machine</summary>
 
 ```bash
 cd teamcraft/
