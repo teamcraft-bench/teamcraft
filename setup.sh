@@ -84,7 +84,7 @@ pip install --no-cache-dir -e .
 echo "Installing llava_teamcraft"
 pip install --no-cache-dir -e ./llava_teamcraft/
 pip install --no-cache-dir -e ./llava_teamcraft/[train]
-pip install flash-attn --no-build-isolation
+pip install flash-attn==2.7.3 --no-build-isolation
 
 # Install npm packages and copy necessary files for prismarine-viewer
 cd ./teamcraft/env/mineflayer && npm install
