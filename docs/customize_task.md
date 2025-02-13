@@ -37,8 +37,9 @@ To create a custom task, follow these steps:
 
 ## Generating the Configuration File
 
-1. Follow the instructions in [`config_gen.py`](../config_gen.py), sarting from line 170, to generate the configuration file.
-2. Replace the existing `.json` file under `task_xxx/configure` with the new configuration.
+1. Follow the step by step instructions in [`Customize Your Task.ipynb`](../custom_task/Customize%20Your%20Task.ipynb)
+   - Alternatively, you can also follow a complete python file,  [`config_gen.py`](../custom_task/config_gen.py), sarting from line 170, to generate the configuration file.
+3. Replace the existing `.json` file under `task_xxx/configure` with the new configuration.
 
 ## Run
 Once completed, you can import and use your custom class with:
