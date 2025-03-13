@@ -120,7 +120,7 @@ def evaluate(mode, ckpt, tasks, var_low, var_high, mc_port, mineflayer_port, out
         eval_set = {'build':['test','shape','material','scene','agents'],
                     'break':['test','shape','material','scene','agents'],
                     'farm':['test','none','crop','scene','agents'],
-                    'smelt':['test','furnace','goal','scene','agents'],
+                    'smelt':['test','goal','furnace','scene','agents'],
                     }
         
         # aggregate results for full evaluation of a task
