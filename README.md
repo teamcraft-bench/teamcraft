@@ -15,8 +15,8 @@
 
 - [2025/02/13] Publishing TeamCraft [Docker Image](https://hub.docker.com/r/teamcraft/teamcraft-image) on Docker Hub.
 - [2025/01/30] Adding [support](https://github.com/teamcraft-bench/teamcraft/blob/main/docs/customize_task.md) for customizing tasks and scenes.
-- [2025/12/22] Releasing TeamCraft-VLA ([centralized](https://huggingface.co/teamcraft/TeamCraft-VLA-7B-Cen) and [decentralized](https://huggingface.co/teamcraft/TeamCraft-VLA-7B-Dec)) model checkpoints and training [data](https://huggingface.co/datasets/teamcraft/teamcraft_data).
-- [2025/12/06] Publishing the arXiv [paper](https://arxiv.org/abs/2412.05255).  
+- [2024/12/22] Releasing TeamCraft-VLA ([centralized](https://huggingface.co/teamcraft/TeamCraft-VLA-7B-Cen) and [decentralized](https://huggingface.co/teamcraft/TeamCraft-VLA-7B-Dec)) model checkpoints and training [data](https://huggingface.co/datasets/teamcraft/teamcraft_data).
+- [2024/12/06] Publishing the arXiv [paper](https://arxiv.org/abs/2412.05255).  
 
 In this repo, we provide TeamCraft code. This codebase is under [MIT License](LICENSE).
 
