@@ -15,7 +15,8 @@
 
 - [2025/02/13] Publishing TeamCraft [Docker Image](https://hub.docker.com/r/teamcraft/teamcraft-image) on Docker Hub.
 - [2025/01/30] Adding [support](https://github.com/teamcraft-bench/teamcraft/blob/main/docs/customize_task.md) for customizing tasks and scenes.
-- [2025/12/22] Releasing TeamCraft-VLA ([centralized](https://huggingface.co/teamcraft/TeamCraft-VLA-7B-Cen) and [decentralized](https://huggingface.co/teamcraft/TeamCraft-VLA-7B-Dec)) model checkpoints and training [data](https://huggingface.co/datasets/teamcraft/teamcraft_data). 
+- [2025/12/22] Releasing TeamCraft-VLA ([centralized](https://huggingface.co/teamcraft/TeamCraft-VLA-7B-Cen) and [decentralized](https://huggingface.co/teamcraft/TeamCraft-VLA-7B-Dec)) model checkpoints and training [data](https://huggingface.co/datasets/teamcraft/teamcraft_data).
+- [2025/12/06] Publishing the arXiv [paper](https://arxiv.org/abs/2412.05255).  
 
 In this repo, we provide TeamCraft code. This codebase is under [MIT License](LICENSE).
 
@@ -376,4 +377,13 @@ AWS EC2 Instance:
 - [ ] Enable GPU image rendering 
 - [ ] Release the data generation code
 
-
+## Citation
+Please cite the following papers if you use this codebase or our datasets in your work.
+```bibtex
+@article{long2024teamcraft,
+  title={TeamCraft: A Benchmark for Multi-Modal Multi-Agent Systems in Minecraft},
+  author={Long, Qian and Li, Zhi and Gong, Ran and Wu, Ying Nian and Terzopoulos, Demetri and Gao, Xiaofeng},
+  journal={arXiv preprint arXiv:2412.05255},
+  year={2024}
+}
+```
